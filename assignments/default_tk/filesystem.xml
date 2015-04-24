@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="Irydium Solutions">
+		<SOLUTION name="Distilirlenen (buga öwrülip arassalanan suw) H&lt;sub&gt;2&lt;/sub&gt;O" description=" Distilirlenen suw (buga öwrülip arassalanan suw)" volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+		<DIRECTORY name="Berk esasy ">
+			<SOLUTION name="1M NaOH" description="1M Natriniň gidrookisi" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="0.1M NaOH" description="0.1M Natriniň gidrookisi " volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.01" id="8"/>
+				<SPECIES_REF amount="0.01" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="3M NaOH" description="3M Natriniň gidrookisi " volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="8"/>
+				<SPECIES_REF amount="0.3" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="10M NaOH" description="10M Natriniň gidrookisi " volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="8"/>
+				<SPECIES_REF amount="1.0" id="2"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Indikatorlar ">
+			<SOLUTION name="Metil Mämiş" description="Metil Mämişi (indikator) ergini" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0E-4" id="41"/>
+			</SOLUTION>
+			<SOLUTION name="Metil Gyzyl" description="Metil Gyzyl (indikator) ergini" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.5E-4" id="43"/>
+			</SOLUTION>
+			<SOLUTION name="Krezol Gyzyl" description="Krezol Gyzyl (indikator) ergini" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0E-7" id="45"/>
+			</SOLUTION>
+			<SOLUTION name="Fenolftalein" description="Fenolftalein (indikator) ergini" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.6E-4" id="47"/>
+			</SOLUTION>
+			<SOLUTION name="Bromkrezol Ýaşyl" description=" Bromkrezol Ýaşyl (indikator) ergini" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="6.0E-5" id="8"/>
+				<SPECIES_REF amount="6.0E-5" id="50"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Konsentrirlenen erginler">
+			<SOLUTION name="19M NaOH" description="19M Natriniň gidrookisi" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="38.0" id="8"/>
+				<SPECIES_REF amount="38.0" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="11.6M HCl" description="11.6 M Duz kislotasy(turşysy) " volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="23.2" id="7"/>
+				<SPECIES_REF amount="23.2" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="17.8M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="17.8 M Kükürt kislotasy(turşysy)  " volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="35.6" id="29"/>
+				<SPECIES_REF amount="35.6" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="15.4M HNO&lt;sub&gt;3&lt;/sub&gt;" description="15.4 M Azot  kislotasy(turşysy)  " volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="30.8" id="3"/>
+				<SPECIES_REF amount="30.8" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="15M HClO&lt;sub&gt;4&lt;/sub&gt;" description="15 M Hlor kislotasy (turşysy)  " volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="30.0" id="6"/>
+				<SPECIES_REF amount="30.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="14.6M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="14.6 M Fosfor kislotasy (turşysy) " volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="29.2" id="37"/>
+			</SOLUTION>
+			<SOLUTION name="14.8M NH&lt;sub&gt;3&lt;/sub&gt;" description="14.8 M Suwly ammiak" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="29.6" id="33"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Biri-birine bagly esas">
+			<SOLUTION name="1M NCCH&lt;sub&gt;2&lt;/sub&gt;COONa" description="1M Natriniň sianoasetaty" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="15"/>
+			</SOLUTION>
+			<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;" description="1M Natriniň karbonaty" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.2" id="8"/>
+				<SPECIES_REF amount="0.1" id="28"/>
+			</SOLUTION>
+			<SOLUTION name="1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Natriniň fosfaty" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="8"/>
+				<SPECIES_REF amount="0.1" id="40"/>
+			</SOLUTION>
+			<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="1M Natriniň asetaty" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="23"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaHCO&lt;sub&gt;3&lt;/sub&gt;" description="1M Natriniň gidrokarbonaty" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="27"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaOCl" description="1M Natriniň  gipohloriti" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="17"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaOI" description="1M Natriniň gipoýoditi" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="21"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaCN" description="1M Natriniň sianidi" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="25"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaOBr" description="1M Natriniň gipobromiti" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="19"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaF" description="1M Natriniň Ftoridi" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="11"/>
+			</SOLUTION>
+			<SOLUTION name="1M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOONa" description="1M Natriniň dihlorasetaty" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="13"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Güýçli kislotalar(turşylar) ">
+			<SOLUTION name="10M HCl" description="10 M Duz kislotasy(turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="7"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HCl" description="3 M Duz kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="7"/>
+				<SPECIES_REF amount="0.30000000000000004" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HBr" description="10 M Bromowodorod kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="5"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HBr" description="3 M Bromowodorod kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="5"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="3 M Kükürt kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="29"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="1M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="1 M Kükürt kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="29"/>
+				<SPECIES_REF amount="0.1" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="10 M Kükürt kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="29"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HNO&lt;sub&gt;3&lt;/sub&gt;" description="3 M Azot kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="3"/>
+				<SPECIES_REF amount="0.30000000000000004" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HNO&lt;sub&gt;3&lt;/sub&gt;" description="10 M Azot kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="3"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HClO&lt;sub&gt;4&lt;/sub&gt;" description="10 M Hlor kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="6"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HClO&lt;sub&gt;4&lt;/sub&gt;" description="3 M Hlor kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="6"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HI" description="10 M Ýodowodorod  kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="4"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HI" description="3 M Ýodowodorod  kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="4"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="1M HCl" description="1 M Duz kislotasy(turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="0.1M HCl" description="0.1 M Duz kislotasy(turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.01" id="7"/>
+				<SPECIES_REF amount="0.01" id="1"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Güýçsüz kislotalar (turşylar)">
+			<SOLUTION name="1M HF" description="1 M Plawik kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="10"/>
+			</SOLUTION>
+			<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="1 M sirke kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="22"/>
+			</SOLUTION>
+			<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="3 M sirke kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="22"/>
+			</SOLUTION>
+			<SOLUTION name="3M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="3 M siansirke kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="14"/>
+			</SOLUTION>
+			<SOLUTION name="3M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="3 M fosfor kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="37"/>
+			</SOLUTION>
+			<SOLUTION name="1M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1 M fosfor kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="37"/>
+			</SOLUTION>
+			<SOLUTION name="1M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="1 M siansirke kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="14"/>
+			</SOLUTION>
+			<SOLUTION name="3M HOI" description="3 M Ýodnowat kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="20"/>
+			</SOLUTION>
+			<SOLUTION name="1M HOCl" description="1 M Hlornowat kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="16"/>
+			</SOLUTION>
+			<SOLUTION name="3M HOCl" description="3 M Hlornowat kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="16"/>
+			</SOLUTION>
+			<SOLUTION name="1M HOI" description="1 M Ýodnowat kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="20"/>
+			</SOLUTION>
+			<SOLUTION name="1M HOBr" description="1 M Bromnowat kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="18"/>
+			</SOLUTION>
+			<SOLUTION name="3M HF" description="3 M Plawik kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="10"/>
+			</SOLUTION>
+			<SOLUTION name="3M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="3 M dihlorsirke kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="12"/>
+			</SOLUTION>
+			<SOLUTION name="1M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="1 M dihlorsirke kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="12"/>
+			</SOLUTION>
+			<SOLUTION name="1M HCN" description="1 M sian kislotasy(turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="24"/>
+			</SOLUTION>
+			<SOLUTION name="3M HOBr" description="3 M bromnowat  kislotasy (turşysy)" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="18"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Gowşak esasy">
+			<SOLUTION name="3M NH&lt;sub&gt;3&lt;/sub&gt;" description="3 M suwly ammiak" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="33"/>
+			</SOLUTION>
+			<SOLUTION name="0.5M Mg(OH)&lt;sub&gt;2&lt;/sub&gt;" description="0.5 M Magniniň gidrooksidi" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.05" id="51"/>
+			</SOLUTION>
+			<SOLUTION name="1M NH&lt;sub&gt;3&lt;/sub&gt;" description="1 M suwly ammiak" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="33"/>
+			</SOLUTION>
+			<SOLUTION name="1M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N" description="1 M Piridin" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="56"/>
+			</SOLUTION>
+			<SOLUTION name="3M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N" description="3 M Piridin" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="56"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Biri-birine bagly kislotalar (turşylar)">
+			<SOLUTION name="1M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="1 M Ammoniniň hloridi" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="36"/>
+			</SOLUTION>
+			<SOLUTION name="3M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="3 M Ammoniniň hloridi " volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="7"/>
+				<SPECIES_REF amount="0.3" id="36"/>
+			</SOLUTION>
+			<SOLUTION name="1M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl" description="1M Gidrohloridiň piridinasy " volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="55"/>
+			</SOLUTION>
+			<SOLUTION name="3M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl" description="3M Gidrohloridiň piridinasy " volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="7"/>
+				<SPECIES_REF amount="0.3" id="55"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Reaktiwler">
+			<SOLUTION name="AgCl" description="Kümüşiň hloridi" volume="0.0" vessel="SolidBottle">
+				<SPECIES_REF amount="1.2" id="57"/>
+			</SOLUTION>
+		</DIRECTORY>
+	</DIRECTORY>
+</FILESYSTEM>

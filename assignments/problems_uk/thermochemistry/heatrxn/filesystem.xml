@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+	
+		<SOLUTION name="Дистильована H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода" volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+		
+		<DIRECTORY name="Сильні основи">
+		
+			<SOLUTION name="1M NaOH" description="Розчин натрій гідроксиду, 1 моль/л" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="2"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Індикатори">
+		
+			<SOLUTION name="Фенолфталеїн" description="Розчин індикатору фенолфталеїну" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.6E-4" id="47"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Сильні кислоти">
+		
+			<SOLUTION name="1M HCl" description="Хлоридна кислота, 1 моль/л" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="1"/>
+			</SOLUTION>
+			
+			<SOLUTION name="0.5M HCl" description="Хлоридна кислота, 0.5 моль/л" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.05" id="1"/>
+				<SPECIES_REF amount="0.05" id="7"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Тверді речовини">
+		
+			<SOLUTION name="NaOH" description="Кристалічний натрій гідроксид" volume="0.0" vessel="SolidBottle">
+				<SPECIES_REF amount="2.0" id="59"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<FILE href="problem_description.html" description="Опис завдання">Опис завдання</FILE>
+		
+	</DIRECTORY>
+</FILESYSTEM>

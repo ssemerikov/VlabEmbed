@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+	<DIRECTORY name="Вихідні розчини">
+				<SOLUTION name="19M NaOH" description="Натрій гідроксид, розчин 19 моль/л" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="38"/>
+					<SPECIES_REF id="2" amount="38"/>
+				</SOLUTION>
+
+			
+
+				<SOLUTION name="11.6M HCl" description="Хлоридна кислота, розчин 11.6 моль/л" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="23.2"/>
+					<SPECIES_REF id="1" amount="23.2"/>
+				</SOLUTION>
+
+
+
+				<SOLUTION name="17.8M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="Сульфатна кислота, розчин 17.8 моль/л" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="35.6"/>
+					<SPECIES_REF id="1" amount="35.6"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="15.4M HNO&lt;sub&gt;3&lt;/sub&gt;" description="Нітратна кислота, розчин 15.4 моль/л" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="30.8"/>
+					<SPECIES_REF id="1" amount="30.8"/>
+				</SOLUTION>
+
+				<SOLUTION name="15M HClO&lt;sub&gt;4&lt;/sub&gt;" description="Перхлоратна кислота, 15 моль/л" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="30"/>
+					<SPECIES_REF id="1" amount="30"/>
+				</SOLUTION>
+
+				<SOLUTION name="14.6M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="Ортофосфатна кислота, розчин 14.6 моль/л" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="29.2"/>
+				</SOLUTION>
+
+			
+				<SOLUTION name="14.8M NH&lt;sub&gt;3&lt;/sub&gt;" description="Розчин амоніаку 14.8 моль/л" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="29.6"/>
+				</SOLUTION>
+
+			</DIRECTORY>
+
+		<FILE href="dilution2.htm" description="Опис завдання">Опис завдання</FILE>
+
+
+
+
+
+			</DIRECTORY>
+
+
+</FILESYSTEM>

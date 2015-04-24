@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="2.1" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Problem 1 Solutions">
+				<SOLUTION name="0.2M NaOH" description="Approx 0.2M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.02000"/>
+					<SPECIES_REF id="2" amount="0.02000"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="0.05000M KHP" description="0.05000M KHP" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.0125"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="0.08000M KHP" description="0.08000M KHP" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.02"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.10000M KHP" description="0.10000M KHP" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.025"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="Phenolphthalein" description="Phenolphthalein Indicator Solution" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".0000002"/>
+				</SOLUTION>
+		</DIRECTORY>
+
+		<FILE href="problem1.htm" description="Problem 1 Description">Problem 1 Description</FILE>
+
+		<DIRECTORY name="Problem 2 Solutions">
+				<SOLUTION name="0.2M NaOH" description="Approx 0.2M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.02000"/>
+					<SPECIES_REF id="2" amount="0.02000"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="0.2000M KHP" description="0.2000 Molar KHP Solution" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.05"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="0.4000M KHP" description="0.4000 Molar KHP Solution" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.6000M KHP" description="0.6000 Molar KHP Solution" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.15"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="Phenolphthalein" description="Phenolphthalein Indicator Solution" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".0000002"/>
+				</SOLUTION>
+		</DIRECTORY>
+
+		<FILE href="problem2.htm" description="Problem 2 Description">Problem 2 Description</FILE>
+
+		<DIRECTORY name="Problem 3 Solutions">
+				<SOLUTION name="1M NaOH" description="Approx 1M Sodium Hydroxide" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.25625"/>
+					<SPECIES_REF id="2" amount="0.25625"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="0.1M HCl" description="0.1M Molar Hydrochloric Acid" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.028125"/>
+					<SPECIES_REF id="1" amount="0.028125"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.09000M KHP" description="0.09000 Molar KHP Solution" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.0225"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="Phenolphthalein" description="Phenolphthalein Indicator Solution" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".0000002"/>
+				</SOLUTION>
+
+			
+		</DIRECTORY>
+
+		<FILE href="problem3.htm" description="Problem 3 Description">Problem 3 Description</FILE>
+
+
+
+		<DIRECTORY name="Problem 4 Solutions">
+				<SOLUTION name="0.1M NaOH" description="Approx 0.1M Sodium Hydroxide" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.025625"/>
+					<SPECIES_REF id="2" amount="0.025625"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="1M HCl" description="1M Molar Hydrochloric Acid" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.27625"/>
+					<SPECIES_REF id="1" amount="0.27625"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.09000M KHP" description="0.09000 Molar KHP Solution" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.0225"/>
+				</SOLUTION>
+
+				<SOLUTION name="Phenolphthalein" description="Phenolphthalein Indicator Solution" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".0000002"/>
+				</SOLUTION>
+		</DIRECTORY>
+
+		<FILE href="problem4.htm" description="Problem 4 Description">Problem 4 Description</FILE>
+
+
+
+     </DIRECTORY>
+
+</FILESYSTEM>

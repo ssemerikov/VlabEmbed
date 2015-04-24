@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VIRTUALLAB>
+	<TITLE>Solution Concentrations</TITLE>
+ 	<AUTHOR>Jordi Cuadros and Mike Karabinos</AUTHOR>
+	<DESCRIPTION>
+		Making salt solutions at different concentration.
+	</DESCRIPTION>
+	
+	<!-- An arbitrary number of realms can be specified here as the data
+	  providers of the virtual lab.  Each realm must be given a name and also
+	  have a valid driver file.  Other properties are specific to a realm's
+	  implementation, and for more information you should see the realm's 
+	  documentation. -->
+	<REALM name="default" driver="irydium.textRealm.TextRealm"
+		filesystem="molarsoln/filesystem.xml"/>
+	
+	<!-- For now, only one knowledgebase can be present.  The only required
+	  field is the driver property, which should refer to a valid Knowlegdebase
+	  class.  However, similar to a Realm, each Knowledgebase can have it's own
+	  specific properties which should be documented by that Knowledgebase's 
+	  documentation. -->
+	<KNOWLEDGEBASE driver="irydium.textRealm.TextKnowledgebase"
+		species="molarsoln/species.xml" 
+		reactions="molarsoln/reactions.xml"/>
+	
+	<!-- Assuming that all of the realms specified were indeed loaded, this
+	  tag allows you to arbitrarilly mount realm paths into the stockroom
+	  view. -->
+	<STOCKROOM>
+		<MOUNT realm="default" path="/stockroom">Irydium Solutions</MOUNT>
+	</STOCKROOM>
+
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+	
+	<!-- Loads the specified viewers.  The Driver property is required of each
+	  viewer, and should specify a valid Viewer class to load.  A name for the
+	  viewer must also be provided.  One can optionally set the enabled state of
+	  the viewer by using the enabled property with a boolean value
+	  (default==true). In addition, any other xml parameters specified will be
+	  passed into the viewer as well, so each viewer may define additional
+	  behaviour on an individual basis. -->
+	<SOLUTION_VIEWERS>
+		<VIEWER name="Solution Properties"
+			driver="irydium.vlab.viewer.PropertiesPanel"
+			honorSignificantFigures="false"/>
+		<VIEWER name="Species Viewer"
+			driver="irydium.vlab.viewer.SpeciesViewer"
+			aqEnabled="true" sEnabled="true" gEnabled="true" 
+			unitsToggleEnabled="true"/>
+			<!-- Specify whether the user is able to change
+			  the units displayed in the concentration viewer
+                          by clicking on the table header. 
+			  Use parameter : unitsToggleEnabled="true" -->
+			<!-- Specify different units for the concentration
+			  viewer when displaying aqueous species by adding parameter : 
+			  aqUnits="grams" or aqUnits="moles" 
+			  (default is molarity). 
+			  Solids will still be displayed in grams and gases
+			  in atms. -->
+		<VIEWER name="Thermometer"
+			driver="irydium.vlab.viewer.Thermometer"/>
+		<VIEWER name="PH Meter"
+			driver="irydium.vlab.viewer.PhViewer"/>
+	</SOLUTION_VIEWERS>
+	
+	<!-- Specifies the available transfer models for use by the transfer bar.
+	  Each model should provide a valid driver to load as well as a String 
+	  representation of the transfer model.  In addition, each transfer model
+	  supports an optional enabled value (default==true). -->
+	<TRANSFERBAR>
+		<MODEL name="Precise Transfer" 
+			driver="irydium.vlab.transfer.PreciseTransferModel"/>
+		<MODEL name="Significant Figures Transfer"
+			driver="irydium.vlab.transfer.SignificantFiguresTransferModel"/>
+		<MODEL name="Realistic Transfer" 
+			driver="irydium.vlab.transfer.RealisticTransferModel"/>
+	</TRANSFERBAR>
+</VIRTUALLAB>

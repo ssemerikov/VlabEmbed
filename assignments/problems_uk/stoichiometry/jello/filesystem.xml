@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+		<SOLUTION name="Дистильована H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода" 
+		          volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M A"
+		          description="Розчин речовини A 1 моль/л" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="3" amount="0.1"/>
+		</SOLUTION>
+	
+		<SOLUTION name="1M B"
+		          description="Розчин речовини B 1 моль/л" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="4" amount="0.1"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M D"
+		          description="Розчин речовини D 1 моль/л" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="6" amount="0.1"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M F"
+		          description="Розчин речовини F 1 моль/л" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="8" amount="0.1"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M H"
+		          description="Розчин речовини H 1 моль/л" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="10" amount="0.1"/>
+		</SOLUTION>
+
+		<FILE href="jello.htm" description="Опис завдання">Опис завдання</FILE>
+
+
+
+     </DIRECTORY>
+</FILESYSTEM>

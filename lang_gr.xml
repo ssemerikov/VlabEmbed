@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--Translated by...
+	Greek (gr)	Sigalas Michael, Nalbantis Kostas, Tsilogiannis Dimitris
+-->
+
+<LANG_FILE>
+   <TERM en="Load selected solution" gr="Φόρτωση επιλεγμένου διαλύματος" />
+
+   <TERM en="Empty solution test tube" gr="’δειασμα δοκιμαστικού σωλήνα" />
+
+   <TERM en="View inside" gr="Προβολή εσωτερικού" />
+
+   <TERM en="UV-VIS Spectrophotometer" gr="UV-VIS Φωτομετρία" />
+
+   <TERM en="Windows" gr="Παράθυρα" />
+
+   <TERM en="Spectrophotometer" gr="Φωτόμετρο" />
+
+   <TERM en="Virtual Lab" gr="Εικονικό εργαστήριο" />
+
+   <TERM en="Arrange both" gr="Διευθέτηση όλων" />
+
+   <TERM en="Wavelength control knob" gr="Κουμπί ελέγχου μήκους κύματος" />
+
+   <TERM en="Power switch. Zeroing knob" gr="Τροφοδοσία. Μηδενισμός" />
+
+   <TERM en="Blanking knob" gr="Κουμπί αναφοράς" />
+
+   <TERM en="Spectrum graph options" gr="Επιλογές φάσματος" />
+
+   <TERM en="No data" gr="Απουσία δεδομένων" />
+
+   <TERM en="x Axis" gr="’ξονας x" />
+
+   <TERM en="y Axis" gr="’ξονας y" />
+
+   <TERM en="Nanometers" gr="Νανόμετρα" />
+
+   <TERM en="Absorbance" gr="Απορρόφηση" />
+
+   <TERM en="Transmittance" gr="Διαπερατότητα" />
+
+   <TERM en="Color mode" gr="Κατάσταση χρώματος" />
+
+   <TERM en="Colored" gr="Έγχρωμο" />
+
+   <TERM en="Colorless" gr="’χρωμο" />
+
+   <TERM en="Lines" gr="Γραμμές" />
+
+   <TERM en="Points" gr="Σημεία" />
+
+   <TERM en="Yes" gr="Ναι" />
+
+   <TERM en="No" gr="Όχι" />
+
+   <TERM en="No solution is selected" gr="Δεν έχει επιλεγεί διάλυμα" />
+
+   <TERM en="Error" gr="Σφάλματα" />
+
+   <TERM en="Say: " gr="Πείτε: " />
+
+   <TERM en="has entered the room." gr="έχει μπει στο δωμάτιο." />
+
+   <TERM en="have entered the room." gr="έχουν μπει στο δωμάτιο." />
+
+   <TERM en="has left the room." gr="έχει φύγει από το δωμάτιο." />
+
+   <TERM en="Cancel" gr="Ακύρωση" />
+
+   <TERM en="Ok" gr="ΟΚ" />
+
+   <TERM en="Send Instant Message" gr="Αποστολή άμεσου μηνύματος" />
+
+   <TERM en="To whom would you like to send an instant message?" gr="Σε ποιον θέλετε να στείλετε μήνυμα;" />
+
+   <TERM en="User:" gr ="Χρήστης:" />
+
+   <TERM en="Join Channel" gr="Συνδυαστικό κανάλι:" />
+
+   <TERM en="Channel Name:" gr="Όνομα καναλιού:" />
+
+   <TERM en="Members:" gr="Μέλη:" />
+
+   <TERM en="Connecting to chat server..." gr="Σύνδεση με διακομιστή συνομιλίας..." />
+
+   <TERM en="Error in IRC I/O initialization." gr="Σφάλμα στην αρχικοποίηση IRC I/O." />
+
+   <TERM en="User logged out." gr="Ο χρήστης αποσυνδέθηκε." />
+
+   <TERM en="Error message: " gr="Μήνυμα σφάλματος: " />
+
+   <TERM en="Welcome to " gr="Καλώς ήρθατε " />
+
+<!-- The & character is used to indicate the mnemonic for the menu (&amp; is the XML entity for &)-->
+   <TERM en="&amp;Edit" gr="&amp;Επεξεργασία" />
+
+   <TERM en="Undo" gr="Αναίρεση" />
+
+   <TERM en="Redo" gr="Επανάληψη" />
+
+   <TERM en="Redo your last action." gr="Επανάληψη τελευταίας ενέργειας." />
+
+   <TERM en="Undo your last action." gr="Αναίρεση τελευταίας ενέργειας." />
+
+   <TERM en="&amp;Chat" gr="&amp;Συνομιλία" />
+
+   <TERM en="Load Homework..." gr="Φόρτωση πειράματος..." />
+
+   <TERM en="Load a homework problem from the internet." gr="Φόρτωση πειράματος από το internet." />
+
+   <TERM en="About..." gr="Περί..." />
+
+   <TERM en="About the virtual lab." gr="Για το virtual lab." />
+
+   <TERM en="Exit" gr="Έξοδος" />
+
+   <TERM en="Exit the Virtual Laboratory." gr="Έξοδος από το Virtual Laboratory." />
+
+   <TERM en="&amp;File" gr="&amp;Αρχείο" />
+
+   <TERM en="Retrieve" gr="Ανάκτηση" />
+
+   <TERM en="Store" gr="Αποθήκευση" />
+
+   <TERM en="Workbench" gr="Πάγκος" />
+
+   <TERM en="Rename Tab..." gr="Μετονομασία..." />
+
+   <TERM en="Delete Tab" gr="Διαγραφή" />
+
+   <TERM en="New Workbench" gr="Νέος πάγκος" />
+
+   <TERM en="Rename" gr="Μετονομασία" />
+
+   <TERM en="Delete" gr="Διαγραφή" />
+
+   <TERM en="Copy" gr="Αντιγραφή" />
+
+   <TERM en="Store a copy of the current selection in the clipboard." gr="Αποθήκευση αντιγράφου της τρέχουσας επιλογής στο πρόχειρο." />
+
+   <TERM en="Cut" gr="Αποκοπή" />
+
+   <TERM en="Remove your current selection and place it in the clipboard." gr="Αφαίρεση της τρέχουσας επιλογή σας και τοποθέτησή της στο πρόχειρο." />
+
+   <TERM en="Paste" gr="Επικόλληση" />
+
+   <TERM en="Place a copy of the clipboard's contents." gr="Τοποθέτηση αντιγράφου των περιεχομένων του πρόχειρου." />
+
+   <TERM en="Duplicate" gr="Δημιουργία αντιγράφου" />
+
+   <TERM en="Delete your current selection." gr="Διαγραφή της τρέχουσας επιλογή σας." />
+
+   <TERM en="Create a duplicate of the currently selected solution." gr="Δημιουργία αντιγράφου του τρέχοντος επιλεγμένου διαλύματος." />
+
+   <TERM en="Workbench Menu" gr="Μενού πάγκου" />
+
+   <TERM en="Arrange" gr="Διευθέτηση" />
+
+   <TERM en="by Name" gr="κατ' Όνομα" />
+
+   <TERM en="by Type" gr="κατά Τύπο" />
+
+   <TERM en="Auto Arrange" gr="Αυτόματη διευθέτηση" />
+
+   <TERM en="Line Up Components" gr="Ευθυγράμμιση συστατικών" />
+
+   <TERM en="Refresh" gr="Ανανέωση" />
+
+   <TERM en="Component Menu" gr="Μενού συστατικών" />
+
+   <TERM en="Bunsen Burner" gr="Λύχνος Bunsen" />
+
+   <TERM en="Add a bunsen burner to the workbench." gr="Προσθήκη λύχνου bunsen στον πάγκο." />
+
+   <TERM en="Scale" gr="Ζυγός" />
+
+   <TERM en="Add a weighing scale to the workbench." gr="Προσθήκη ζυγού στον πάγκο." />
+
+   <TERM en="Set as Source" gr="Καθορισμός ως πηγή" />
+
+   <TERM en="Specify the currently selected flask as the source of a new transfer." gr="Καθορίζει την τρέχουσα επιλεγμένη φιάλη ως την αφετηρία μιας νέας μεταφοράς." />
+
+   <TERM en="Set as Recipient" gr="Ορισμός ως παραλήπτης" />
+
+   <TERM en="Specify the currently selected flask as the recipient of a new transfer." gr="Καθορίζει την τρέχουσα επιλεγμένη φιάλη ως τον παραλήπτη μιας νέας μεταφοράς." />
+
+   <TERM en="Relabel the currently selected flask." gr="Αλλαγή επτικέτας της τρέχουσας επιλεγμένης φιάλης." />
+
+   <TERM en="Detail View" gr="Προβολή λεπτομερειών" />
+
+   <TERM en="Display the detail view for the currently selected flask." gr="Εμφανίζει λεπτομερείες πληροφορίες για την τρέχουσα επιλεγμένη φιάλη." />
+
+   <TERM en="Thermal Properties..." gr="Θερμικές ιδιότητες..." />
+
+   <TERM en="Display the thermal properties for the currently selected flask." gr="Εμφανίζει τις θερμικές ιδιότητες για την τρέχουσα επιλεγμένη φιάλη." />
+
+   <TERM en="&amp;Help" gr="&amp;Βοήθεια" />
+
+   <TERM en="Contents..." gr="Περιεχόμενα..." />
+
+   <TERM en="&amp;View" gr="&amp;Προβολή" />
+
+   <TERM en="Themes" gr="Θέματα" />
+
+   <TERM en="No Tabs" gr="Χωρίς καρτέλες" />
+
+   <TERM en="&amp;Tools" gr="Ε&amp;ργαλεία" />
+
+   <TERM en="Glassware" gr="Υαλικά" />
+
+   <TERM en="Instruments" gr="Συσκευές" />
+
+   <TERM en="Transfer Bar" gr="Κλίμακα προσθήκης" />
+
+   <TERM en="Viewers" gr="Προβολές" />
+
+   <TERM en="Click to retrieve a solution from the stockroom." gr="Πατήστε για την παραλαβή ενός διαλύματος από το ντουλάπι." />
+
+   <TERM en="Click to add your solution to the stockroom." gr="Πατήστε για να προστεθεί το διάλυμά σας στο ντουλάπι." />
+
+   <TERM en="Click to select new glassware from the drop-down menu." gr="Πατήστε για να επιλέξετε νέο σκεύος από το πτυσσόμενο μενού." />
+
+   <TERM en="Click to select tools from the drop-down menu." gr="Πατήστε για να επιλέξετε εργαλεία από το πτυσσόμενο μενού." />
+
+   <TERM en="Click to remove the currently selected components (solutions) from the workbench." gr="Πατήστε για να αφαιρέσετε τα επιλεγμένα διαλύματα από τον πάγκο." />
+
+   <TERM en="Beakers" gr="Ποτήρια ζέσης" />
+
+   <TERM en="Erlenmeyers" gr="Κωνικές" />
+
+   <TERM en="Graduated Cylinders" gr="Ογκομετρικοί κύλινδροι" />
+
+   <TERM en="Pipets" gr="Σιφώνια" />
+
+   <TERM en="Volumetrics" gr="Ογκομετρικές φιάλες" />
+
+   <TERM en="250mL Beaker" gr="Ποτήρι ζέσης 250mL" />
+
+   <TERM en="600mL Beaker" gr="Ποτήρι ζέσης 600mL" />
+
+   <TERM en="50mL Buret" gr="Προχοΐδα 50mL" />
+
+   <TERM en="10mL Graduated Cylinder" gr="Ογκομετρικός κύλινδος 10mL" />
+
+   <TERM en="25mL Graduated Cylinder" gr="Ογκομετρικός κύλινδος 25mL" />
+
+   <TERM en="50mL Graduated Cylinder" gr="Ογκομετρικός κύλινδος 50mL" />
+
+   <TERM en="100mL Volumetric Flask" gr="Ογκομετρική φιάλη 100mL" />
+
+   <TERM en="250mL Volumetric Flask" gr="Ογκομετρική φιάλη 250mL" />
+
+   <TERM en="500mL Volumetric Flask" gr="Ογκομετρική φιάλη 500mL" />
+
+   <TERM en="1000mL Volumetric Flask" gr="Ογκομετρική φιάλη 1000mL" />
+
+   <TERM en="25mL Pipet" gr="Σιφώνιο 25mL" />
+
+   <TERM en="10mL Pipet" gr="Σιφώνιο 10mL" />
+
+   <TERM en="5mL Pipet" gr="Σιφώνιο 5mL" />
+
+   <TERM en="Disposable Pipet" gr="Σταγονόμετρο" />
+
+   <TERM en="100mL Bottle" gr="Φιάλη 100mL" />
+
+   <TERM en="Solid Bottle" gr="Φιαλίδιο στερεών" />
+
+   <TERM en="2500mL Bottle" gr="Φιάλη 2500mL" />
+
+   <TERM en="250mL Erlenmeyer Flask" gr="Κωνική φιάλη 250mL" />
+
+   <TERM en="500mL Erlenmeyer Flask" gr="Κωνική φιάλη 500mL" />
+
+   <TERM en="3L Carboy" gr="Φιάλη 3L" />
+
+   <TERM en="Weighing Boat" gr="Κάψα ζύγισης" />
+
+   <TERM en="PH Meter" gr="pH-μετρο" />
+
+   <TERM en="Click to change units" gr="Πατήστε για να αλλάξετε μονάδες" />
+
+   <TERM en="Molarity" gr="Molarity" />
+
+   <TERM en="grams" gr="Γραμμάρια" />
+
+   <TERM en="moles" gr="mole" />
+
+<!--Short for gas-->
+   <TERM en="g" gr="g" />
+
+<!--Short for aqueous-->
+   <TERM en="aq" gr="aq" />
+
+<!--Short for solid-->
+   <TERM en="s" gr="s" />
+
+   <TERM en="Aqueous" gr="Υδατικό" />
+
+   <TERM en="Solid" gr="Στερεό" />
+
+   <TERM en="Gas" gr="Αέριο" />
+
+   <TERM en="Species" gr="Είδη" />
+
+   <TERM en="Stockroom Explorer..." gr="Εξερεύνηση ντουλαπιού..." />
+
+   <TERM en="Solution Info..." gr="Πληροφορίες διαλύματος..." />
+
+   <TERM en="Name:" gr="Όνομα:" />
+
+   <TERM en="Volume:" gr="Όγκος:" />
+
+   <TERM en="from " gr="από " />
+
+   <TERM en="to " gr="σε " />
+
+   <TERM en="Un-named" gr="Χωρίς όνομα" />
+
+   <TERM en="Transfer amount (mL): " gr="Μεταφορά ποσότητας (mL): " />
+
+   <TERM en="Pour" gr="Προσθήκη" />
+
+   <TERM en="Withdraw" gr="Αφαίρεση" />
+
+   <TERM en="Transfer amount (g): " gr="Μεταφορά ποσότητας (g): " />
+
+   <TERM en="Invalid amount!" gr="Μη έγκυρη ποσότητα!" />
+
+   <TERM en="A pipet can only precisely transfer it's maximum volume, in this case " gr="Ένα σιφώνιο πλήρωσης μπορεί να μεταφέρει με ακρίβεια το μέγιστο όγκο του, στην προκειμένη περίπτωση " />
+
+   <TERM en="Watch those significant digits! Perhaps you meant " gr="Προσοχή στα σημαντικά ψηφία! Ίσως εννοούσατε " />
+
+   <TERM en="Remove the currently selected components." gr="Αφαίρεση των επιλεγμένων στοιχείων." />
+
+   <TERM en="Remove" gr="Αφαίρεση" />
+
+   <TERM en="Select All" gr="Επιλογή όλων" />
+
+   <TERM en="Select all of the components." gr="Επιλογή όλων των στοιχείων." />
+
+   <TERM en="&amp;Cancel" gr="Α&amp;κύρωση" />
+
+   <TERM en="&amp;Ok" gr="ΟΚ" />
+
+   <TERM en="&amp;Yes" gr="&amp;Σν" />
+
+   <TERM en="&amp;No" gr="Οχι" />
+
+   <TERM en="Connect to Chat Server" gr="Σύνδεση με το διακομιστή συνομιλίας" />
+
+   <TERM en="Enter a nickname:" gr="Εισαγωγή ψευδωνύμου:" />
+
+   <TERM en="Thermal Properties" gr="Θερμικές ιδιότητες" />
+
+   <TERM en="Solution:" gr="Διάλυμα:" />
+
+   <TERM en="Temperature:" gr="Θερμοκρασία:" />
+
+   <TERM en="Set the temperature to:" gr="Ορισμός της θερμοκρασίας σε:" />
+
+   <TERM en="Insulated from surroundings" gr="Απομονωμένο από το περιβάλλον" />
+
+   <TERM en="Relabel Solution" gr="Αλλαγή ετικέτας διαλύματος" />
+
+   <TERM en="to: " gr="σε: " />
+
+   <TERM en="Rename Tab" gr="Καρτέλα μετονομασίας" />
+
+   <TERM en="Load Homework" gr="Φόρτωση πειράματος" />
+
+   <TERM en="Metal" gr="Μέταλλο" />
+
+   <TERM en="Emerald" gr="Σμαραγδί" />
+
+   <TERM en="Neutral" gr="Ουδέτερο" />
+
+   <TERM en="Presentation" gr="Παρουσίαση" />
+
+   <TERM en="Local Problems" gr="Τοπικά προβλήματα" />
+
+   <TERM en="Author:" gr="Συγγραφέας:" />
+
+   <TERM en="Description:" gr="Περιγραφή:" />
+
+   <TERM en="Contains:" gr="Περιέχει:" />
+
+   <TERM en="items" gr="θέματα" />
+
+   <TERM en="item" gr="θέμα" />
+   
+   <TERM en="Folders" gr="Φάκελοι" />
+   
+   <TERM en="Files" gr="Αρχεία" />
+   
+   <TERM en="Foam Cup" gr="Πλαστικό ποτήρι" />
+   
+   <TERM en="TARE" gr="TARE" />
+   
+   <TERM en="Filter - Remove solid" gr="Φίλτρο - Απομάκρυνση ιζήματος" />
+   
+   <TERM en="Filter - Remove liquid" gr="Φίλτρο - Απομάκρυνση υγρού" />
+   
+   <TERM en="Evaporate to dryness" gr="Εξάτμιση μέχρι ξηρού" />
+
+   <TERM en="Remove the solid fraction from this flask." gr="Αφαίρεση του στερεού υπολείμματος από αυτή τη φιάλη." />
+   
+   <TERM en="Remove the liquid fraction from this flask." gr="Αφαίρεση του υγρού υπολείμματος από αυτή τη φιάλη." />
+   
+   <TERM en="Evaporates the solvent of this solution to dryness." gr="Εξάτμιση του διαλύτη μέχρι ξηρού." />
+   
+   <font en="ARIALUNI.TTF" gr="ARIALUNI.TFF"/>
+</LANG_FILE>
+

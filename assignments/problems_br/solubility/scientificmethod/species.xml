@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0"	name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"/>
+
+	<SPECIES id="1"	name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"/>
+
+	<SPECIES id="2"	name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"/>
+
+	<SPECIES id="3"	name="Hg&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="172.0"
+					entropy="84.5"/>
+
+	<SPECIES id="4"	name="SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;"
+					enthalpy="-907.51"
+					entropy="17.0"/>
+
+	<SPECIES id="5"	name="Hg&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;"
+					enthalpy="-743.1"
+					entropy="101"
+					state="s"
+					hue="0"
+					saturation="0"
+					value="10"
+					colorConcentration=".03"
+	                  	molecularWeight="497.24"/>
+
+	<SPECIES id="6"	name="Cu&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="64.77"
+					entropy="-99.6"/>
+
+	<SPECIES id="7"	name="Cl&lt;sup&gt;-1&lt;/sup&gt;"
+					enthalpy="-167.46"
+					entropy="56.5"/>
+
+	<SPECIES id="8"	name="CuCl&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-264.9"
+					entropy="100"
+					state="s"
+	                		molecularWeight="99"/>
+
+	<SPECIES id="9"	name="Hg&lt;sub&gt;2&lt;/sub&gt;Cl&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-264.9"
+					entropy="100"
+					state="s"
+					hue="0"
+					saturation="0"
+					value="50"
+					colorConcentration=".03"
+	                		molecularWeight="472.09"/>
+
+	<SPECIES id="10"	name="Ca&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-542.83"
+					entropy="-53.10000000000002"/>
+
+	<SPECIES id="11"	name="CaSO&lt;sub&gt;4&lt;/sub&gt;"
+					enthalpy="-1434.5"
+					entropy="106.5"
+					state="s"
+					hue="180"
+					saturation="0"
+					value="100"
+					colorConcentration=".03"
+	                 		molecularWeight="120.9"/>
+
+	<SPECIES id="12"	name="NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-205.0"
+					entropy="146.4"/>
+
+	<SPECIES id="13"	name="Co&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-58.2"
+					entropy="-113.0"/>
+
+	<SPECIES id="14"	name="Na&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-240.12"
+					entropy="59.0"/>
+
+	<SPECIES id="15"	name="Mg&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-240.12"
+					entropy="59.0"/>
+
+
+
+</SPECIES_LIST>

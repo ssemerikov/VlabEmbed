@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+   <DIRECTORY name="Irydium Solutions">
+<!--<SOLUTION name="Alcohol" description="Alcohol" volume="0.1">
+         <SPECIES_REF amount="1.7133" id="3" />
+      </SOLUTION>-->
+      <SOLUTION name="Compound A-1" description="Bottle 1 of Compound A" volume="0.1">
+          <SPECIES_REF amount="0.968" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Compound A-2" description="Bottle 2 of Compound A" volume="0.1">
+          <SPECIES_REF amount="0.8966" id="4" />
+      </SOLUTION>
+
+      <FILE href="problem.html" description="Problem Description">Problem Description</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

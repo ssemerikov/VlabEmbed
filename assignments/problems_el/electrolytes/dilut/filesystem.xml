@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="Αντιδραστήρια">
+		<SOLUTION name="Απιονισμένο H&lt;sub&gt;2&lt;/sub&gt;O" description="Απιοντισμένο νερό" volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+		<SOLUTION name="1M HCl" description="1Μ διαλ. Υδροχλωρικού οξέος" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.1" id="3"/>
+			<SPECIES_REF amount="0.1" id="1"/>
+		</SOLUTION>
+		<SOLUTION name="0.01M HCl" description="0.01Μ διαλ. Υδροχλωρικού οξέος" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.0010" id="3"/>
+			<SPECIES_REF amount="0.0010" id="1"/>
+		</SOLUTION>
+		<SOLUTION name="1M NaOH" description="1M διαλ. Υδροξειδίου του Νατρίου" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.1" id="4"/>
+			<SPECIES_REF amount="0.1" id="2"/>
+		</SOLUTION>
+		<SOLUTION name="0.01M NaOH" description="0.01M διαλ. Υδροξειδίου του Νατρίου" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.0010" id="4"/>
+			<SPECIES_REF amount="0.0010" id="2"/>
+		</SOLUTION>
+		<FILE href="problem_description.html" description="Περιγραφή εργαστηρίου">Περιγραφή εργαστηρίου</FILE>
+	</DIRECTORY>
+</FILESYSTEM>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SPECIES_LIST>
+	<SPECIES entropy="69.91"
+			name="H&lt;sub&gt;2&lt;/sub&gt;O"
+			state="l"
+			enthalpy="-285.83"
+			density="1.000"
+			molecularWeight="18.01534"
+			unitActivity="true"
+			id="0"/>
+	<SPECIES entropy="0.0"
+			name="H&lt;sup&gt;+&lt;/sup&gt;"
+			enthalpy="0.0"
+			id="1"/>
+	<SPECIES entropy="-10.75"
+			name="OH&lt;sup&gt;-&lt;/sup&gt;"
+			enthalpy="-229.99"
+			id="2"/>
+	<SPECIES entropy="-162.8"
+			name="AsO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-3&lt;/sup&gt;"
+			state="aq"
+			enthalpy="-888.1"
+			molecularWeight="138.92"
+			id="3"/>
+	<SPECIES entropy="55.24"
+			name="Ag&lt;sub&gt;3&lt;/sub&gt;AsO&lt;sub&gt;4&lt;/sub&gt;"
+			state="s"
+			enthalpy="-696.9"
+			molecularWeight="462.53"
+			density="6.657"
+		 	hue="0"
+		  	saturation="100"
+		 	value="50"
+		  	colorConcentration=".000015"
+			id="4"/>
+	<SPECIES id="5"
+			name="Ag&lt;sup&gt;+&lt;/sup&gt;"
+			enthalpy="105.57"
+			entropy="72.68"
+			molecularWeight="107.9"/>
+	<SPECIES id="6" name="Na&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-240.12"
+					entropy="59.0"
+					molecularWeight="22.99"/>
+	<SPECIES id="7" name="NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-206.85"
+					entropy="146.7"
+					molecularWeight="62"/>
+</SPECIES_LIST>

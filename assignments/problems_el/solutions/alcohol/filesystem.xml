@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+   <DIRECTORY name="Αντιδραστήρια">
+      <SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Απιοντισμένο νερό" volume="3.0" vessel="3lCarboy">
+         <SPECIES_REF id="0" amount="166.525" />
+      </SOLUTION>
+
+      <SOLUTION name="Αλκοόλη 80% vv" description="Αλκοόλη 80% (v/v)" volume="0.2">
+         <SPECIES_REF id="0" amount="2.220328" />
+
+         <SPECIES_REF id="3" amount="2.88578" />
+      </SOLUTION>
+
+      <SOLUTION name="Κρασί" description="Κρασί" volume="0.2">
+         <SPECIES_REF id="0" amount="9.88046" />
+
+         <SPECIES_REF id="4" amount="0.00002" />
+
+         <SPECIES_REF amount="0.3968" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Μπύρα" description="Μπύρα" volume="0.2">
+         <SPECIES_REF id="0" amount="10.324528" />
+
+         <SPECIES_REF id="5" amount="0.00002" />
+
+         <SPECIES_REF amount="0.252506" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Ούζο" description="Ούζο" volume="0.2">
+         <SPECIES_REF id="0" amount="7.993184" />
+         <SPECIES_REF amount="1.010024" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Ρακή" description="Ρακί" volume="0.2">
+         <SPECIES_REF id="0" amount="6.438954" />
+         <SPECIES_REF amount="1.515036" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Ρούμι" description="Ρούμι" volume="0.2">
+         <SPECIES_REF id="0" amount="4.440656" />
+         <SPECIES_REF amount="2.1643368" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Τζιν" description="Τζιν" volume="0.2">
+         <SPECIES_REF id="0" amount="6.660986" />
+         <SPECIES_REF amount="1.4428912" id="3" />
+      </SOLUTION>
+
+
+      <FILE href="Alcohol.html" description="Περιγραφή του προβλήματος">Περιγραφή του προβλήματος</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<INDEX>
+        <PROBLEM definition="StrongAcid.xml">Strong Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="WeakAcid.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="BaseForteAcidoFraco.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="AcidoForteBaseFraca.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="ForcaBase.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="ForcaAcido.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="comquiI.xml">Weak Acid Problems (textbook examples)</PROBLEM>   
+        <PROBLEM definition="comquiII.xml">Weak Acid Problems (textbook examples)</PROBLEM> 
+        <PROBLEM definition="dilui.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="eqquiI.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="eqquiII.xml">Weak Acid Problems (textbook examples)</PROBLEM>    
+
+	</INDEX>

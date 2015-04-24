@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<SPECIES_LIST>
+   <SPECIES
+    id="0"
+    name="H&lt;sub&gt;2&lt;/sub&gt;O"
+    enthalpy="-285.83"
+    entropy="69.91"
+    molecularWeight="18.016"
+    state="l"
+    unitActivity="true" />
+
+   <SPECIES
+    id="1"
+    name="H&lt;sup&gt;+&lt;/sup&gt;"
+    enthalpy="0.0"
+    entropy="0.0"
+    molecularWeight="1.008" />
+
+   <SPECIES
+    id="2"
+    name="OH&lt;sup&gt;-&lt;/sup&gt;"
+    enthalpy="-229.99"
+    entropy="-10.75"
+    molecularWeight="17.008" />
+
+   <SPECIES
+    id="4"
+    name="Mg&lt;sup&gt;+2&lt;/sup&gt;"
+    enthalpy="-466.85"
+    entropy="-138.1"
+    density="0"
+    molecularWeight="24.31" />
+
+   <SPECIES
+    id="8"
+    name="Cl&lt;sup&gt;-&lt;/sup&gt;"
+    enthalpy="-167.16"
+    entropy="56.5"
+    density="3.155"
+    molecularWeight="35.45" />
+
+   <SPECIES
+    id="11"
+    name="SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+    enthalpy="-909.27"
+    entropy="20.1"
+    density="12.61"
+    molecularWeight="96.07" />
+
+   <SPECIES
+    id="14"
+    name="NaCl"
+    enthalpy="-411.15"
+    entropy="72.13"
+    molecularWeight="58.44"
+    density="2.165"
+    state="s" />
+
+   <SPECIES
+    id="15"
+    name="Na&lt;sup&gt;+&lt;/sup&gt;"
+    enthalpy="-240.12"
+    entropy="59.0"
+    density="2.662"
+    molecularWeight="22.99" />
+
+   <SPECIES
+    id="16"
+    name="MgCl&lt;sub&gt;2&lt;/sub&gt;"
+    enthalpy="-641.32"
+    entropy="89.62"
+    molecularWeight="95.22"
+    density="2.316"
+    state="s" />
+
+   <SPECIES
+    id="17"
+    name="Na&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;"
+    enthalpy="-1387.08"
+    entropy="149.58"
+    molecularWeight="142.04"
+    density="2.68"
+    state="s" />
+
+   <SPECIES
+    id="18"
+    name="MgSO&lt;sub&gt;4&lt;/sub&gt;"
+    enthalpy="-1284.9"
+    entropy="91.6"
+    molecularWeight="120.37"
+    density="2.66"
+    state="s" />
+
+   <SPECIES
+    id="19"
+    name="Na&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt; 10H&lt;sub&gt;2&lt;/sub&gt;O"
+    enthalpy="-1445.29"
+    entropy="-50.4"
+    molecularWeight="322.19"
+    density="1.464"
+    state="s" />
+</SPECIES_LIST>
+

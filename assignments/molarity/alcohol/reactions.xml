@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<REACTION>
+		<!-- H+ + OH- <==> H2O  -->
+		<SPECIES_REF coefficient="1.0" id="0"/>
+		<SPECIES_REF coefficient="-1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="2"/>
+	</REACTION>
+
+</REACTIONS>

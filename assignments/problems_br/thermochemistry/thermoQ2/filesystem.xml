@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		
+	
+			<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Água Destilada" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="Reagente X 0.1 M" description="Reagente X 0.1 Molar" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".01"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="Reagente Y 0.2 M" description="Reagente Y 0.2 Molar" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".02"/>
+		</SOLUTION>
+
+		<SOLUTION name="Reagente X 0.2 M" description="Reagente X 0.2 Molar" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".02"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="Reagente Y 0.1 M" description="Reagente Y 0.1 Molar" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".01"/>
+		</SOLUTION>
+
+		<FILE href="camping2.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+
+
+	</DIRECTORY>	
+
+</FILESYSTEM>

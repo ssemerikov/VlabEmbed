@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0"	name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"/>
+
+	<SPECIES id="1"	name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"/>
+
+	<SPECIES id="2"	name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"/>
+
+	<SPECIES id="3"	name="Dye&lt;sub&gt;a&lt;/sub&gt;"
+					enthalpy="0.0"
+					entropy="-100"
+	                hue="0"
+					saturation="100"
+					value="90"
+			 		colorConcentration=".000000001"/>
+
+	<SPECIES id="4"	name="DNA&lt;sub&gt;a&lt;/sub&gt;"
+					enthalpy="0.0"
+					entropy="-50.0"/>
+
+	<SPECIES id="5"	name="Dye&lt;sub&gt;a&lt;/sub&gt;-DNA&lt;sub&gt;a&lt;/sub&gt;"
+					enthalpy="0.0"
+					entropy="650.0"/>
+</SPECIES_LIST>

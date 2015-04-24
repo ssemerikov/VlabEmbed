@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SPECIES_LIST>
+	<SPECIES entropy="69.91"
+			name="H&lt;sub&gt;2&lt;/sub&gt;O"
+			state="l"
+			enthalpy="-285.83"
+			id="0"/>
+	<SPECIES entropy="0.0"
+			name="H&lt;sup&gt;+&lt;/sup&gt;"
+			enthalpy="0.0"
+			id="1"/>
+	<SPECIES entropy="-10.75"
+			name="OH&lt;sup&gt;-&lt;/sup&gt;"
+			enthalpy="-229.99"
+			id="2"/>
+	<SPECIES entropy="56.5"
+			name="Cl&lt;sup&gt;-&lt;/sup&gt;"
+			enthalpy="-167.16"
+			id="3"/>
+	<SPECIES entropy="59.0"
+			name="Na&lt;sup&gt;+&lt;/sup&gt;"
+			enthalpy="-240.12"
+			id="4"/>
+	<SPECIES entropy="178.7"
+			name="CH&lt;sub&gt;3&lt;/sub&gt;COOH"
+			enthalpy="-485.76"
+			id="5"/>
+	<SPECIES entropy="86.79009304852713"
+			name="CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt;"
+			enthalpy="-486.01"
+			id="6"/>
+	<SPECIES entropy="111.42203050810235"
+			name="NH&lt;sub&gt;3&lt;/sub&gt;"
+			enthalpy="-80.29"
+			id="7"/>
+	<SPECIES entropy="113.4"
+			name="NH&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;"
+			enthalpy="-132.51"
+			id="8"/>
+</SPECIES_LIST>

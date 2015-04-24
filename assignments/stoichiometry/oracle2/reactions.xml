@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!--  H&lt;sup&gt;+&lt;/sup&gt; +  OH&lt;sup&gt;-&lt;/sup&gt; ->  H&lt;sub&gt;2&lt;/sub&gt;O -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="-1"/>
+	</REACTION>
+
+	<!-- 1B + 1D -> 1A + 2C -->
+	<REACTION>
+		<SPECIES_REF id="4" coefficient="1"/>
+		<SPECIES_REF id="6" coefficient="1"/>
+		<SPECIES_REF id="3" coefficient="-1"/>
+		<SPECIES_REF id="5" coefficient="-2"/>
+	</REACTION>
+</REACTIONS>

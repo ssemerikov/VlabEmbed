@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<INDEX>
+        <PROBLEM definition="StrongAcid.xml">Strong Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="WeakAcid.xml">Weak Acid Problems (textbook examples)</PROBLEM>
+        <PROBLEM definition="Dilut.xml">Successive Dilutions</PROBLEM>
+        <PROBLEM definition="PrelabAcid.xml">Prelab: Standardization of NaOH</PROBLEM>
+        <PROBLEM definition="Buffer.xml">pKa and concentration ratio of a protein in solution</PROBLEM>
+        <PROBLEM definition="Unknownacid.xml">Unknown acid and base problem</PROBLEM>
+        <PROBLEM definition="Unknownacid.xml">Unknown acid and base problem</PROBLEM>
+        <PROBLEM definition="MkBuffer.xml">Creating a buffer solution</PROBLEM>
+        <PROBLEM definition="Dnadye.xml">DNA - Dye Binding: Equilibrium and buffer solutions</PROBLEM>
+
+	</INDEX>

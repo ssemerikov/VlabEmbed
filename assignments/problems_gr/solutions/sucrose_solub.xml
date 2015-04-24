@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Διαλυτότητα της σακχαρόζης στο νερό</TITLE>
+
+   <AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+
+   <DESCRIPTION>Επίδραση θερμοκρασίας στη διαλυτότητα της σακχαρόζης στο νερό.</DESCRIPTION>
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+   <SOLUTION_VIEWERS>
+      <VIEWER honorSignificantFigures="false" name="Ιδιότητες του διαλύματος" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />
+
+      <!--VIEWER sEnabled="true" aqEnabled="true" name="Ποσοτικά στοιχεία των χημικών ειδών" enabled="true" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" /-->
+
+      <VIEWER name="Θερμόμετρο" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+      <!--VIEWER name="Πεχάμετρο" enabled="true" driver="irydium.vlab.viewer.PhViewer" /-->
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Ακριβής προσθήκη" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <MODEL name="Προσθήκη με σημαντικά ψηφία" enabled="false" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" />
+
+      <MODEL name="Ρεαλιστική προσθήκη" enabled="false" driver="irydium.vlab.transfer.RealisticTransferModel" />
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="sucrose_solub/reactions.xml" species="sucrose_solub/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="molarity" driver="irydium.textRealm.TextRealm" filesystem="sucrose_solub/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="molarity" path="/Αντιδραστήρια">Αντιδραστήρια</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

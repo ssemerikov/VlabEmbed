@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaCl" description="Sodium Chloride" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="8" amount="2.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "KCl" description="Potassium Chloride" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="3" amount="2.1"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaNO&lt;sub&gt;3&lt;/sub&gt;" description="Sodium Nitrate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="10" amount="2.2"/>
+				</SOLUTION>
+
+
+				<SOLUTION name = "CuSO&lt;sub&gt;4&lt;/sub&gt;" description="Copper(II) Sulfate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="20" amount="1.2"/>
+				</SOLUTION>
+
+				<SOLUTION name = "K&lt;sub&gt;2&lt;/sub&gt;Cr&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;" 
+					description="Potassium Dichromate" volume="0.0" vessel="SolidBottle">
+				   <SPECIES_REF id="18" amount=".6"/>
+				</SOLUTION>
+
+				<SOLUTION name = "KClO&lt;sub&gt;3&lt;/sub&gt;" description="Potassium Chlorate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="16" amount="1.2"/>
+				</SOLUTION>
+
+				<SOLUTION name="Ce&lt;sub&gt;2&lt;/sub&gt;(SO&lt;sub&gt;4&lt;/sub&gt;)&lt;sub&gt;3&lt;/sub&gt;" 
+					description="Cerius Sulfate" volume="0.0" vessel="SolidBottle">
+					<SPECIES_REF id="11" amount="0.6"/>
+				</SOLUTION>
+
+				<SOLUTION name = "100 ml Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="100 ml Distilled Water"
+						  volume="0.1">
+					<SPECIES_REF id="0"/>
+				</SOLUTION>
+
+		<FILE href="sol.htm" description="Problem Description"> Problem Description	</FILE>
+   
+	</DIRECTORY>
+</FILESYSTEM>

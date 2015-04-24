@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0"		name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					molecularWeight="18.016"
+					state="l"/>
+
+	<SPECIES id="1"		name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="1.008"/>
+
+	<SPECIES id="2"		name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="3"		name="KCl"
+					enthalpy="-436.75"
+					entropy="82.59"
+					molecularWeight="74.56"
+					density="1.984"
+					state="s"/>
+
+	<SPECIES id="4"		name="K&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-257.51623678712923"
+					entropy="91.22701123467536"
+					molecularWeight="39.10"/>
+
+	<SPECIES id="5"		name="Cl&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-167.58999999999997"
+					entropy="56.5"
+					molecularWeight="35.45"/>
+
+	<SPECIES id="6"		name="KNO&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-511.44666998203246"
+					entropy="52.23873404635833"
+					molecularWeight="101.097"
+					state="s"/>
+
+	<SPECIES id="7"		name="NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-205.0"
+					entropy="146.4"
+					molecularWeight="62.01"/>
+
+	<SPECIES id="8"		name="NaCl"
+					enthalpy="-409.4625737374579"
+					entropy="79.2265509910217"
+					molecularWeight="58.44"
+					density="2.165"
+					state="s"/>
+
+	<SPECIES id="9"		name="Na&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-240.12"
+					entropy="59.0"
+					molecularWeight="22.99"/>
+
+	<SPECIES id="10"	name="NaNO&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-458.35913872806526"
+					entropy="121.36118129963981"
+					molecularWeight="84.997"
+					density="2.261"
+					state="s"/>
+
+	<SPECIES id="11"	name="Ce&lt;sub&gt;2&lt;/sub&gt;(SO&lt;sub&gt;4&lt;/sub&gt;)&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-3056.647441979171"
+					entropy="739.1928564111283"
+					molecularWeight="568.42"
+					density="3.912"
+					state="s"/>
+
+	<SPECIES id="12"	name="Ce&lt;sup&gt;+3&lt;/sup&gt;"
+					enthalpy="-240.12"
+					entropy="59.0"
+					molecularWeight="140.1"/>
+
+	<SPECIES id="13"	name="SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;"
+					enthalpy="-909.27"
+					entropy="20.1"
+					molecularWeight="96.07"/>
+
+	<SPECIES id="14"	name="LiCl"
+					enthalpy="-408.61"
+					entropy="59.33"
+					molecularWeight="42.4"
+					density="2.1"
+					state="s"/>
+
+	<SPECIES id="15"	name="Li&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-278.49"
+					entropy="13.4"
+					molecularWeight="6.941"/>
+
+	<SPECIES id="16"	name="KClO&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-404.0720205836989"
+					entropy="101.03436217616536"
+					molecularWeight="122.55"
+					density="2.3"
+					state="s"/>
+
+	<SPECIES id="17"	name="ClO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-99.20000000000002"
+					entropy="162.3"
+					molecularWeight="83.45"/>
+
+	<SPECIES id="18"	name="K&lt;sub&gt;2&lt;/sub&gt;Cr&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;"
+					enthalpy="-2079.395416501965"
+					entropy="211.11823665401621"
+					molecularWeight="294.18"
+					density="2.676"
+					hue="0"
+					saturation="100"
+					value="85"
+					colorConcentration=".03"
+					state="s"/>
+
+	<SPECIES id="19"	name="Cr&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;"
+					enthalpy="-1490.3"
+					entropy="261.9"
+					hue="49"
+					saturation="87"
+					value="100"
+					colorConcentration=".1"
+					molecularWeight="216"/>
+
+	<SPECIES id="20"	name="CuSO&lt;sub&gt;4&lt;/sub&gt;"
+					enthalpy="-872.6489899998844"
+					entropy="-180.8367605634999"
+					molecularWeight="159.6"
+					density="3.603"
+					state="s"/>
+
+	<SPECIES id="21"	name="Cu&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="64.79999999999995"
+					entropy="-99.6"
+					hue="222"
+					saturation="84"
+					value="100"
+					colorConcentration=".03"
+					molecularWeight="63.55"/>
+
+	
+</SPECIES_LIST>
+

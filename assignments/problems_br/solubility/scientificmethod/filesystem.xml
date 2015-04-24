@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Água Destilada" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Soluções de Íons Conhecidos">
+
+				<SOLUTION name="Hg&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;+2&lt;/sup&gt;" description="Solução de íons Mercúrio (I) 6 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="0.6"/>
+					<SPECIES_REF id="12" amount="1.2"/>
+				</SOLUTION>
+
+				<SOLUTION name="Ca&lt;sup&gt;+2&lt;/sup&gt;" description="Solução de íons Cálcio 4 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.4"/>
+					<SPECIES_REF id="12" amount="0.8"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="Mg&lt;sup&gt;+2&lt;/sup&gt;" description="Solução de íons Magnésio 4 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="15" amount="0.4"/>
+					<SPECIES_REF id="12" amount="0.8"/>
+				</SOLUTION>
+
+				<SOLUTION name="Na&lt;sup&gt;+1&lt;/sup&gt;" description="Solução de íons Sódio 6 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.6"/>
+					<SPECIES_REF id="12" amount="0.6"/>
+				</SOLUTION>
+
+				<SOLUTION name="Cl&lt;sup&gt;-1&lt;/sup&gt;" description="Solução de íons Cloreto 12 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="1.2"/>
+					<SPECIES_REF id="7" amount="1.2"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+
+
+				<SOLUTION name="Amostra A" description="Amostra do tambor A" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.6"/>
+					<SPECIES_REF id="12" amount="0.6"/>
+				</SOLUTION>
+
+				<SOLUTION name="Amostra B" description="Amostra do tambor B" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="15" amount="0.4"/>
+					<SPECIES_REF id="12" amount="0.8"/>
+				</SOLUTION>			
+
+				<SOLUTION name="Amostra C" description="Amostra do tambor C" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="0.6"/>
+					<SPECIES_REF id="12" amount="1.2"/>
+				</SOLUTION>				
+
+				<SOLUTION name="Amostra D" description="Amostra do tambor D" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.6"/>
+					<SPECIES_REF id="12" amount="0.6"/>
+				</SOLUTION>
+
+
+
+
+		<FILE href="scientific.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+
+
+</DIRECTORY>
+
+</FILESYSTEM>

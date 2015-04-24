@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+   <DIRECTORY name="Soluções Irydium">
+<!--<SOLUTION name="Álcool" description="Álcool" volume="0.1">
+         <SPECIES_REF amount="1.7133" id="3" />
+      </SOLUTION>-->
+      <SOLUTION name="Composto A-1" description="Garrafa com o Composto A-1" volume="0.1">
+          <SPECIES_REF amount="0.968" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Composto A-2" description="Garrafa com o Composto A-2" volume="0.1">
+          <SPECIES_REF amount="0.8966" id="4" />
+      </SOLUTION>
+
+      <FILE href="problem.html" description="Informações adicionais">Descrição do Problema</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

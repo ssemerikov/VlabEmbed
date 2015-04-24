@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+		<SOLUTION name="Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" 
+		          volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="Unknown DNA&lt;sub&gt;a&lt;/sub&gt; Solution" 
+		          description="Unknown concentration of DNA solution"
+		          volume="0.05">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="4" amount="0.000000028"/>
+		</SOLUTION>
+
+		<SOLUTION name="1e-6M Dye&lt;sub&gt;a&lt;/sub&gt;" 
+		          description="A micro molar solution of Dye"
+		          volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="3" amount="0.0000001"/>
+		</SOLUTION>
+
+		<FILE href="dnadye2.htm" description="Problem Description">
+			Problem Description
+		</FILE>
+
+
+	</DIRECTORY>
+</FILESYSTEM>

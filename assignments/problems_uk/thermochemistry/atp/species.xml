@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0" name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"
+					molecularWeight="18.016"/>
+
+	<SPECIES id="1" name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="1.008"/>
+
+	<SPECIES id="2" name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="2" name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="3" name="ATP"
+					enthalpy="0"
+					entropy="-200"
+					molecularWeight="507.3"/>
+
+	<SPECIES id="4" name="ATEnzyme"
+					enthalpy="0"
+					entropy="-200"
+					molecularWeight="111"/>
+
+	<SPECIES id="5" name="ADP"
+					enthalpy="-21"
+					entropy="0"
+					molecularWeight="525.36"/>
+
+	<SPECIES id="6" name="H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;"
+					enthalpy="0"
+					entropy="0"
+					molecularWeight="122"/>
+
+       <SPECIES id="7" name="Enzyme"
+                                        enthalpy="0"
+                                        entropy="-200"
+                                        molecularWeight="111"/>
+
+
+</SPECIES_LIST>

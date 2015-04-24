@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="Solução 1" description="Frasco 1" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+	
+				<SOLUTION name="Solução 2" description="Frasco 2" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="2" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="Solução 3" description="Frasco 3" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+
+		<DIRECTORY name="Indicadores">
+
+				<SOLUTION name="Metilorange" description="Solução de Metilorange" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount=".0001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Metila" description="Solução de Vermelho de Metila" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="43" amount=".00015"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Cresol" description="Solução de Vermelho de Cresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="45" amount=".0000001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Fenolftaleína" description="Solução de Fenolftaleína" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".00016"/>
+				</SOLUTION>
+
+				<SOLUTION name="Verde de Bromocresol" description="Solução de Verde de Bromocresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount=".00006"/>
+					<SPECIES_REF id="50" amount=".00006"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+
+		<FILE href="eqquiII.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+
+     </DIRECTORY>
+
+</FILESYSTEM>

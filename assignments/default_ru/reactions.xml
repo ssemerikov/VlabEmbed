@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<REACTION>
+		<!-- H+ + OH- <==> H2O  -->
+		<SPECIES_REF coefficient="1.0" id="0"/>
+		<SPECIES_REF coefficient="-1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="2"/>
+	</REACTION>
+	<REACTION>
+		<!-- HF <==> F-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="11"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="10"/>
+	</REACTION>
+	<REACTION>
+		<!-- Cl2CHCOOH <==> Cl2CHCOO-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="13"/>
+		<SPECIES_REF coefficient="-1.0" id="12"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- NCCH2COOH <==> H+  + NCCH2COO-  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="1.0" id="15"/>
+		<SPECIES_REF coefficient="-1.0" id="14"/>
+	</REACTION>
+	<REACTION>
+		<!-- HOCl <==> H+  + OCl-  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="16"/>
+		<SPECIES_REF coefficient="1.0" id="17"/>
+	</REACTION>
+	<REACTION>
+		<!-- HOBr <==> H+  + OBr-  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="18"/>
+		<SPECIES_REF coefficient="1.0" id="19"/>
+	</REACTION>
+	<REACTION>
+		<!-- HOI <==> H+  + OI-  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="20"/>
+		<SPECIES_REF coefficient="1.0" id="21"/>
+	</REACTION>
+	<REACTION>
+		<!-- CH3COOH <==> CH3COO-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="23"/>
+		<SPECIES_REF coefficient="-1.0" id="22"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- HCN <==> CN-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="25"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="24"/>
+	</REACTION>
+	<REACTION>
+		<!-- H+ + HCO3- <==> H2CO3  -->
+		<SPECIES_REF coefficient="1.0" id="26"/>
+		<SPECIES_REF coefficient="-1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="27"/>
+	</REACTION>
+	<REACTION>
+		<!-- HCO3- <==> CO3-2  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="28"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="27"/>
+	</REACTION>
+	<REACTION>
+		<!-- HSO4- <==> SO4-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="30"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="29"/>
+	</REACTION>
+	<REACTION>
+		<!-- Mg(OH)2 <==> Mg+2  + 2OH-  -->
+		<SPECIES_REF coefficient="1.0" id="35"/>
+		<SPECIES_REF coefficient="-1.0" id="34"/>
+		<SPECIES_REF coefficient="2.0" id="2"/>
+	</REACTION>
+	<REACTION>
+		<!-- NH4+ <==> NH3  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="33"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="36"/>
+	</REACTION>
+	<REACTION>
+		<!-- C6H5NH3+ <==> C6H5NH2  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="31"/>
+		<SPECIES_REF coefficient="-1.0" id="32"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- H3PO4 <==> H2PO4-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="38"/>
+		<SPECIES_REF coefficient="-1.0" id="37"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- H+ + HPO4-2 <==> H2PO4-  -->
+		<SPECIES_REF coefficient="1.0" id="38"/>
+		<SPECIES_REF coefficient="-1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="39"/>
+	</REACTION>
+	<REACTION>
+		<!-- HPO4-2 <==> H+  + PO4-3  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="39"/>
+		<SPECIES_REF coefficient="1.0" id="40"/>
+	</REACTION>
+	<REACTION>
+		<!-- МетиловыйОранжевыйH <==> H+  + МетиловыйОранжевый-  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="1.0" id="42"/>
+		<SPECIES_REF coefficient="-1.0" id="41"/>
+	</REACTION>
+	<REACTION>
+		<!-- МтиловыйКрасныйH <==> H+  + МтиловыйКрасный-  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="1.0" id="44"/>
+		<SPECIES_REF coefficient="-1.0" id="43"/>
+	</REACTION>
+	<REACTION>
+		<!-- КрезоловыйКрасныйH <==> КрезоловыйКрасный-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="46"/>
+		<SPECIES_REF coefficient="-1.0" id="45"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- ФенолфталеинH <==> H+  + Фенолфталеин-  -->
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="1.0" id="48"/>
+		<SPECIES_REF coefficient="-1.0" id="47"/>
+	</REACTION>
+	<REACTION>
+		<!-- БромкрезоловыйЗелёныйH <==> БромкрезоловыйЗелёный-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="50"/>
+		<SPECIES_REF coefficient="-1.0" id="49"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- Mg(OH)2 <==> Mg+2  + 2OH-  -->
+		<SPECIES_REF coefficient="1.0" id="52"/>
+		<SPECIES_REF coefficient="-1.0" id="51"/>
+		<SPECIES_REF coefficient="2.0" id="2"/>
+	</REACTION>
+	<REACTION>
+		<!-- Ca(OH)2 <==> Ca+2  + 2OH-  -->
+		<SPECIES_REF coefficient="1.0" id="54"/>
+		<SPECIES_REF coefficient="-1.0" id="53"/>
+		<SPECIES_REF coefficient="2.0" id="2"/>
+	</REACTION>
+	<REACTION>
+		<!-- C5H5NH+ <==> C5H5N  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="56"/>
+		<SPECIES_REF coefficient="-1.0" id="55"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- AgCl <==> Ag+  + Cl-  -->
+		<SPECIES_REF coefficient="1.0" id="58"/>
+		<SPECIES_REF coefficient="-1.0" id="57"/>
+		<SPECIES_REF coefficient="1.0" id="7"/>
+	</REACTION>
+</REACTIONS>

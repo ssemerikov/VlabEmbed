@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+
+
+
+				<SOLUTION name="0.1M дАМФ" description="Аденін, розчин 0.1 моль/л" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="101" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M дЦМФ" description="Цитозин, розчин 0.1 моль/л" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="102" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M дТМФ" description="Тимін, розчин 0.1 моль/л" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="104" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M дГМФ" description="Гуанін, розчин 0.1 моль/л" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="103" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M Невідома" description="Невідома нуклеїнова основа, розчин 0.1 моль/л" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="111" amount="0.01"/>
+				</SOLUTION>
+
+			<FILE href="dnabind.htm" description="Уявлення про ДНК">Опис завдання</FILE>
+
+	</DIRECTORY>
+
+
+</FILESYSTEM>

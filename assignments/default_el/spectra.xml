@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-7" standalone="yes"?>
+<SPECTRA_LIST>
+  <SPECIES id="49">
+    <BAND wavelength="190" width="130" e="50000"/>
+    <BAND wavelength="270" width="60" e="4000"/>
+    <BAND wavelength="285" width="40" e="4000"/>
+    <BAND wavelength="325" width="100" e="6000"/>
+    <BAND wavelength="360" width="100" e="2000"/>
+    <BAND wavelength="436" width="180" e="19000"/>
+  </SPECIES>  
+  <SPECIES id="50">
+    <BAND wavelength="195" width="100" e="29000"/>
+    <BAND wavelength="225" width="100" e="27000"/>
+    <BAND wavelength="290" width="100" e="3000"/>
+    <BAND wavelength="310" width="80" e="10000"/>
+    <BAND wavelength="400" width="100" e="8000"/>
+    <BAND wavelength="520" width="140" e="3000"/>
+    <BAND wavelength="560" width="120" e="7000"/>
+    <BAND wavelength="617" width="120" e="38000"/>
+  </SPECIES>
+  <SPECIES id="41">
+    <BAND wavelength="200" width="50" e="75000"/>
+    <BAND wavelength="240" width="60" e="5000"/>
+    <BAND wavelength="275" width="80" e="9000"/>
+    <BAND wavelength="320" width="80" e="7000"/>
+    <BAND wavelength="360" width="100" e="2000"/>
+    <BAND wavelength="400" width="120" e="2000"/>
+    <BAND wavelength="460" width="100" e="8000"/>
+    <BAND wavelength="500" width="80" e="37000"/>
+    <BAND wavelength="540" width="80" e="32000"/>
+  </SPECIES>
+  <SPECIES id="42">
+    <BAND wavelength="200" width="50" e="75000"/>
+    <BAND wavelength="240" width="60" e="5000"/>
+    <BAND wavelength="275" width="80" e="9000"/>
+    <BAND wavelength="320" width="80" e="7000"/>
+    <BAND wavelength="360" width="100" e="2000"/>
+    <BAND wavelength="450" width="150" e="28000"/>
+  </SPECIES>
+  <SPECIES id="48">
+    <BAND wavelength="190" width="110" e="40000"/>
+    <BAND wavelength="250" width="60" e="16000"/>
+    <BAND wavelength="295" width="100" e="9000"/>
+    <BAND wavelength="374" width="80" e="3000"/>
+    <BAND wavelength="555" width="80" e="14000"/>
+    <BAND wavelength="515" width="140" e="7000"/>
+  </SPECIES>
+  <SPECIES id="44">
+    <BAND wavelength="410" width="200" e="15000"/>
+  </SPECIES>  
+  <SPECIES id="43">
+    <BAND wavelength="520" width="100" e="25000"/>
+    <BAND wavelength="560" width="100" e="22000"/>
+  </SPECIES>    
+</SPECTRA_LIST>

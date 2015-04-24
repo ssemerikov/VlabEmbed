@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		
+	
+		<DIRECTORY name="Strong Acids">
+			<SOLUTION name="1M HCl" description="1M Hydrochloric Acid" volume=".1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF id="1"   amount=".1"/>
+				<SPECIES_REF id="101" amount=".1"/>
+			</SOLUTION>
+	
+			<SOLUTION name="13M HCl" description="13M Hydrochloric Acid" volume=".1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF id="1"   amount="1.3"/>
+				<SPECIES_REF id="101" amount="1.3"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Strong Bases">
+			<SOLUTION name="1M NaOH" description= "1M Sodium Hydroxide" volume=".1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF id="2" amount=".1"/>
+				<SPECIES_REF id="100" amount=".1"/>
+			</SOLUTION>
+		</DIRECTORY>	
+	
+		<SOLUTION name="1X10&lt;sup&gt;-3&lt;/sup&gt;M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="1e-3M Acetic Acid" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="211" amount=".0001"/>
+		</SOLUTION>
+	
+		<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="1M Acetic Acid" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="211" amount=".1"/>
+		</SOLUTION>
+	
+		<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="3M Acetic Acid" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="211" amount=".3"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="1M Sodium Acetate" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".1"/>		
+			<SPECIES_REF id="210" amount=".1"/>
+		</SOLUTION>
+	
+		<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="3M Sodium Acetate" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".3"/>		
+			<SPECIES_REF id="210" amount=".3"/>
+		</SOLUTION>
+	
+		<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH / CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="1M Acetate Buffer" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".1"/>		
+			<SPECIES_REF id="210" amount=".1"/>
+			<SPECIES_REF id="211" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Phosphoric Acid" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="1"   amount=".1"/>
+			<SPECIES_REF id="202" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="3M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="3M Phosphoric Acid" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="1"   amount=".3"/>
+			<SPECIES_REF id="202" amount=".3"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Sodium Phosphate" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".3"/>
+			<SPECIES_REF id="200" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="3M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="3M Sodium Phosphate" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".9"/>
+			<SPECIES_REF id="200" amount=".3"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;HPO&lt;sub&gt;4&lt;/sub&gt;" description="1M Sodium Hypophosphate" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".2"/>
+			<SPECIES_REF id="201" amount=".1"/>
+		</SOLUTION>
+		
+		<SOLUTION name="1M NaH&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Sodium Hyperphosphate" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".1"/>
+			<SPECIES_REF id="202" amount=".1"/>
+		</SOLUTION>
+	
+		<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;HPO&lt;sub&gt;4&lt;/sub&gt; / 1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Phosphate Buffer" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".5"/>
+			<SPECIES_REF id="201" amount=".1"/>
+			<SPECIES_REF id="202" amount=".1"/>
+		</SOLUTION>
+	</DIRECTORY>
+
+	<DIRECTORY name="thermo">
+		<FILE href="thermo.htm" description="Bonus Homework Description">Problem Description</FILE>
+
+		<SOLUTION name="0.1 M Reagent A" description="0.1 Molar Reagent A" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".01"/>
+		</SOLUTION>
+
+		<SOLUTION name="1 M Reagent A" description="1 Molar Reagent A" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="0.1 M Reagent B" description="0.1 Molar Reagent B" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".01"/>
+		</SOLUTION>
+
+		<SOLUTION name="1 M Reagent B" description="1 Molar Reagent B" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="3 M Reagent A" description="3 Molar Reagent A" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".3"/>
+		</SOLUTION>
+
+		<SOLUTION name="3 M Reagent B" description="3 Molar Reagent B" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".3"/>
+		</SOLUTION>
+			<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+
+	</DIRECTORY>	
+
+</FILESYSTEM>

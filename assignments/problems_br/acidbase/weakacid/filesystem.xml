@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "H&lt;sub&gt;2&lt;/sub&gt;O Destilada" description="Água Destilada"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+
+		
+
+		<DIRECTORY name="Indicadores">
+
+				<SOLUTION name="Metilorange" description="Solução Indicadora de Alaranjado de Metila" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount=".00000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Metila" description="Solução Indicadora de Vermelho de Metila" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="43" amount=".0000001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Cresol" description="Solução Indicadora de Vermelho de Cresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="45" amount=".0000001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Fenolftaleína" description="Solução Indicadora de Fenolftaleína" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".0000002"/>
+				</SOLUTION>
+
+				<SOLUTION name="Verde de Bromocresol" description="Solução Indicadora de Verde de Bromocresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="49" amount=".0000001"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+			
+
+
+		<DIRECTORY name="Ácidos Fracos">
+				<SOLUTION name="HF 1M" description="Ácido Fluorídrico 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HF 3M" description="Ácido Fluorídrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.3"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+			<DIRECTORY name="Bases Fracas">
+
+
+				<SOLUTION name="NH&lt;sub&gt;3&lt;/sub&gt; 1M" description="Amônia 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NH&lt;sub&gt;3&lt;/sub&gt; 3M" description="Amônia 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.3"/>
+				</SOLUTION>
+
+
+			</DIRECTORY>
+
+
+			<FILE href="weakprobs.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+	</DIRECTORY>
+	<DIRECTORY name="homework8">
+
+	
+				<SOLUTION name="Protein" description="Protein Solution" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.000042"/>
+					<SPECIES_REF id="1" amount="0.000042"/>
+					<SPECIES_REF id="41" amount="0.000023"/>
+				</SOLUTION>
+
+				<SOLUTION name="Protein only" description="Protein Only Solution" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount="0.000023"/>
+				</SOLUTION>
+
+
+	</DIRECTORY>
+
+
+</FILESYSTEM>

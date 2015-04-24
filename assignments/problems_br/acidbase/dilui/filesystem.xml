@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Água Destilada" volume="2.1" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+
+		<DIRECTORY name="Soluções">
+				<SOLUTION name="NaOH 1M" description="Hidróxido de Sódio Aproximadamente 1 Molar" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.25625"/>
+					<SPECIES_REF id="2" amount="0.25625"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="HCl 0.1M" description="Ácido Clorídrico 0.1 Molar" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.028125"/>
+					<SPECIES_REF id="1" amount="0.028125"/>
+				</SOLUTION>
+
+				<SOLUTION name="KHP 0.09000M" description="Solução de KHP 0.09000 Molar" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.0225"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="Fenolftaleína" description="Solução Indicadora de Fenolftaleína" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".0000002"/>
+				</SOLUTION>
+
+			
+		</DIRECTORY>
+
+		<FILE href="problem3.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+
+
+
+     </DIRECTORY>
+
+</FILESYSTEM>

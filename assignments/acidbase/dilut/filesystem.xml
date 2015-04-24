@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOH" description="1M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="2" amount="0.1"/>
+				</SOLUTION>
+
+				
+		
+				<SOLUTION name="1M HCl" description="1 Molar Hydrochloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+				<FILE href="dilut.htm" description="Problem Description">Problem Description</FILE>
+
+	</DIRECTORY>
+
+</FILESYSTEM>

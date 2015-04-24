@@ -1,0 +1,455 @@
+<?xml version="1.0" standalone="yes"?>
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "H&lt;sub&gt;2&lt;/sub&gt;O Destilada" description="Água Destilada"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Bases Fortes">
+				<SOLUTION name="NaOH 1M" description="Hidróxido de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="2" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaOH 0,1M" description="Hidróxido de Sódio 0,1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.01"/>
+					<SPECIES_REF id="2" amount="0.01"/>
+				</SOLUTION>
+
+
+
+				<SOLUTION name="NaOH 3M" description="Hidróxido de Sódio 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.3"/>
+					<SPECIES_REF id="2" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaOH 10M" description="Hidróxido de Sódio 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="1.0"/>
+					<SPECIES_REF id="2" amount="1.0"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+
+		
+
+		<DIRECTORY name="Indicadores">
+
+				<SOLUTION name="Alaranjado de Metila" description="Solução de Alaranjado de Metila" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount=".0001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Metila" description="Solução de Vermelho de Metila" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="43" amount=".00015"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Cresol" description="Solução de Vermelho de Cresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="45" amount=".0000001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Fenolftaleína" description="Solução de Fenolftaleína" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".00016"/>
+				</SOLUTION>
+
+				<SOLUTION name="Verde de Bromocresol" description="Solução de Verde de Bromocresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount=".00006"/>
+					<SPECIES_REF id="50" amount=".00006"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Soluções Variadas">
+
+				<SOLUTION name="NaOH 19M" description="Hidróxido de Sódio 19 Molar" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="38"/>
+					<SPECIES_REF id="2" amount="38"/>
+				</SOLUTION>
+
+			
+				<SOLUTION name="HCl 11,6M" description="Ácido Clorídrico 11,6 Molar" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="23.2"/>
+					<SPECIES_REF id="1" amount="23.2"/>
+				</SOLUTION>
+
+
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt; 17,8M " description="Ácido Sulfúrico 17,8 Molar" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="35.6"/>
+					<SPECIES_REF id="1" amount="35.6"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="HNO&lt;sub&gt;3&lt;/sub&gt; 15,4M" description="Ácido Nítrico 15,4 Molar" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="30.8"/>
+					<SPECIES_REF id="1" amount="30.8"/>
+				</SOLUTION>
+
+				<SOLUTION name="HClO&lt;sub&gt;4&lt;/sub&gt; 15M" description="Ácido Perclórico 15 Molar" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="30"/>
+					<SPECIES_REF id="1" amount="30"/>
+				</SOLUTION>
+
+				<SOLUTION name="H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt; 14,6M" description="Ácido Fosfórico 14,6 Molar" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="29.2"/>
+				</SOLUTION>
+
+			
+				<SOLUTION name="NH&lt;sub&gt;3&lt;/sub&gt; 14,8M" description="Amônia 14,8 Molar" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="29.6"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Bases Conjugadas">
+				<SOLUTION name="NaNCCH&lt;sub&gt;2&lt;/sub&gt;COO 1M" description="Cianoacetato de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="15" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="Na&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt; 1M" description="Carbonato de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.2"/>
+					<SPECIES_REF id="28" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt; 1M" description="Fosfato de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.3"/>
+					<SPECIES_REF id="40" amount="0.1"/>
+				</SOLUTION>
+				
+
+				<SOLUTION name="NaCH&lt;sub&gt;3&lt;/sub&gt;COO 1M" description="Acetato de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="23" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaHCO&lt;sub&gt;3&lt;/sub&gt; 1M" description="Hidrogenocarbonato de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="27" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaOCl 1M" description="Hipoclorito de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="17" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaOI 1M" description="Hipoiodito de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="21" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaCN 1M" description="Cianeto de Sódio 1M" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="25" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaOBr 1M" description="Hipobromito de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="19" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaF 1M" description="Fluoreto de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="11" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaCl&lt;sub&gt;2&lt;/sub&gt;CHCOO 1M" description="Dicloroacetato de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="13" amount="0.1"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Ácidos Fortes">
+				<SOLUTION name="HCl 10M" description="Ácido Clorídrico 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="HCl 3M" description="Ácido Clorídrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.30000000000000004"/>
+					<SPECIES_REF id="1" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="HBr 10M" description="Ácido Bromídrico 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="5" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="HBr 3M" description="Ácido Bromídrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="5" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt; 3M" description="Ácido Sulfúrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt; 1M" description="Ácido Sulfúrico 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt; 10M" description="Ácido Sulfúrico 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="1"/>
+					<SPECIES_REF id="1" amount="1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="HNO&lt;sub&gt;3&lt;/sub&gt; 3M" description="Ácido Nítrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="0.30000000000000004"/>
+					<SPECIES_REF id="1" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="HNO&lt;sub&gt;3&lt;/sub&gt; 10M" description="Ácido Nítrico 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="HClO&lt;sub&gt;4&lt;/sub&gt; 10M" description="Ácido Perclórico 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="HClO&lt;sub&gt;4&lt;/sub&gt; 3M" description="Ácido Perclórico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="HI 10M" description="Ácido Iodídrico 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="4" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="HI 3M" description="Ácido Iodídrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="4" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="HCl 1M" description="Ácido Clorídrico 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HCl 0,1M" description="Ácido Clorídrico 0,1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.01"/>
+					<SPECIES_REF id="1" amount="0.01"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Ácidos Fracos">
+				<SOLUTION name="HF 1M" description="Ácido Fluorídrico 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="CH&lt;sub&gt;3&lt;/sub&gt;COOH 1M" description="Ácido Acético 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="22" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="CH&lt;sub&gt;3&lt;/sub&gt;COOH 3M" description="Ácido Acético 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="22" amount="0.3"/>
+				</SOLUTION>
+
+
+
+
+				<SOLUTION name="NCCH&lt;sub&gt;2&lt;/sub&gt;COOH 3M" description="Ácido Cianoacético 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt; 3M" description="Ácido Fosfórico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt; 1M" description="Ácido Fosfórico 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="NCCH&lt;sub&gt;2&lt;/sub&gt;COOH 1M" description="Ácido Cianoacético 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HOI 3M" description="Ácido Hipoiodoso 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="20" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="HOCl 1M" description="Ácido Hipocloroso 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="16" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="HOCl 3M" description="Ácido Hipocloroso 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="16" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="HOI 1M" description="Ácido Hipoiodoso 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="20" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HOBr 1M" description="Ácido Hipobromoso 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="18" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HF 3M" description="Ácido Fluorídrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH 3M" description="Ácido Dicloroacético 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="12" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH 1M" description="Ácido Dicloroacético 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="12" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HCN 1M" description="Ácido Cianídrico 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="24" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HOBr 3M" description="Ácido Hipobromoso 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="18" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+			<DIRECTORY name="Bases Fracas">
+
+
+				<SOLUTION name="NH&lt;sub&gt;3&lt;/sub&gt; 3M" description="Amônia 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="Mg(OH)&lt;sub&gt;2&lt;/sub&gt; 0,5M" description="Hidróxido de Magnésio 0,5 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.05"/>
+				</SOLUTION>
+
+				<SOLUTION name="NH&lt;sub&gt;3&lt;/sub&gt; 1M" description="Amônia 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N 1M" description="Piridina 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="56" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N 3M" description="Piridina 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="56" amount="0.3"/>
+				</SOLUTION>
+
+
+			
+
+
+			</DIRECTORY>
+
+
+			<DIRECTORY name="Ácidos Conjugados">
+
+				<SOLUTION name="NH&lt;sub&gt;4&lt;/sub&gt;Cl 1M" description="Cloreto de Amônia 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="36" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NH&lt;sub&gt;4&lt;/sub&gt;Cl 3M" description="Cloreto de Amônia 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.3"/>
+					<SPECIES_REF id="36" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl 1M" description="Cloreto de Piridíneo 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="55" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl 3M" description="Cloreto de Piridíneo 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.3"/>
+					<SPECIES_REF id="55" amount="0.3"/>
+				</SOLUTION>
+
+			</DIRECTORY>
+
+			<DIRECTORY name ="Sólidos">
+			    <SOLUTION name = "AgCl" description="Cloreto de Prata" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="57" amount="1.2"/>
+				</SOLUTION>
+            </DIRECTORY>	
+					
+
+	</DIRECTORY>
+</FILESYSTEM>

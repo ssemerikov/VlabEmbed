@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!--  H&lt;sup&gt;+&lt;/sup&gt; +  OH&lt;sup&gt;-&lt;/sup&gt; ->  H&lt;sub&gt;2&lt;/sub&gt;O -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="-1"/>
+	</REACTION>
+
+	<!-- A + B -> C -->
+	<REACTION>
+		<SPECIES_REF id="3" coefficient="-1"/>
+		<SPECIES_REF id="4" coefficient="-1"/>
+		<SPECIES_REF id="5" coefficient="1"/>
+	</REACTION>
+
+	<!-- C + D -> E -->
+	<REACTION>
+		<SPECIES_REF id="5" coefficient="-1"/>
+		<SPECIES_REF id="6" coefficient="-1"/>
+		<SPECIES_REF id="7" coefficient="2"/>
+	</REACTION>
+
+	<!-- E + F -> G -->
+	<REACTION>
+		<SPECIES_REF id="7" coefficient="-2"/>
+		<SPECIES_REF id="8" coefficient="-3"/>
+		<SPECIES_REF id="9" coefficient="1"/>
+	</REACTION>
+
+	<!-- G + H -> I -->
+	<REACTION>
+		<SPECIES_REF id="9" coefficient="-4"/>
+		<SPECIES_REF id="10" coefficient="-1"/>
+		<SPECIES_REF id="11" coefficient="1"/>
+	</REACTION>
+
+</REACTIONS>

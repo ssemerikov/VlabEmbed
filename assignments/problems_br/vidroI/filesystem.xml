@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Água Destilada" volume="0.2">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+<!--		<DIRECTORY name="Soluções">
+				<SOLUTION name="HNO&lt;sub&gt;3&lt;/sub&gt; 10M" description="Ácido Nítrico 10 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+		</DIRECTORY> -->
+
+		<FILE href="vidroI.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+
+     </DIRECTORY>
+
+</FILESYSTEM>

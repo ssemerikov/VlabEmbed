@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="Irydium Solutions">
+		<SOLUTION name="Дистиллированная H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистиллированная вода" volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+		<DIRECTORY name="Сильные основания">
+			<SOLUTION name="1M NaOH" description="1M Гидроксид Натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="0.1M NaOH" description="0.1M Гидроксид Натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.01" id="8"/>
+				<SPECIES_REF amount="0.01" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="3M NaOH" description="3M Гидроксид Натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="8"/>
+				<SPECIES_REF amount="0.3" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="10M NaOH" description="10M Гидроксид Натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="8"/>
+				<SPECIES_REF amount="1.0" id="2"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Индикаторы">
+			<SOLUTION name="Метиловый Оранжевый" description="Раствор Метилового Оранжевого (индикатор)" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0E-4" id="41"/>
+			</SOLUTION>
+			<SOLUTION name="Метиловый Красный" description="Раствор Метилового Красного (Индикатор)" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.5E-4" id="43"/>
+			</SOLUTION>
+			<SOLUTION name="Крезоловый Красный" description="Раствор Крезолового Красного (Индикатор)" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0E-7" id="45"/>
+			</SOLUTION>
+			<SOLUTION name="Фенолфталеин" description="Раствор Фенолфталеина (Индикатор)" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.6E-4" id="47"/>
+			</SOLUTION>
+			<SOLUTION name="Бромкрезоловый Зелёный" description="Раствор Бромкрезолового Зелёного (Индикатор)" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="6.0E-5" id="8"/>
+				<SPECIES_REF amount="6.0E-5" id="50"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Концентрированные растворы">
+			<SOLUTION name="19M NaOH" description="19M Гидроксид натрия" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="38.0" id="8"/>
+				<SPECIES_REF amount="38.0" id="2"/>
+			</SOLUTION>
+			<SOLUTION name="11.6M HCl" description="11.6 M Соляная кислота" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="23.2" id="7"/>
+				<SPECIES_REF amount="23.2" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="17.8M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="17.8 M Серная кислота" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="35.6" id="29"/>
+				<SPECIES_REF amount="35.6" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="15.4M HNO&lt;sub&gt;3&lt;/sub&gt;" description="15.4 M Азотная кислота" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="30.8" id="3"/>
+				<SPECIES_REF amount="30.8" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="15M HClO&lt;sub&gt;4&lt;/sub&gt;" description="15 M Хлорная кислота" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="30.0" id="6"/>
+				<SPECIES_REF amount="30.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="14.6M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="14.6 M Фосфорная кислота" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="29.2" id="37"/>
+			</SOLUTION>
+			<SOLUTION name="14.8M NH&lt;sub&gt;3&lt;/sub&gt;" description="14.8 M Аммиак водный" volume="2.0" vessel="2500mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="29.6" id="33"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Сопряжённые основания">
+			<SOLUTION name="1M NCCH&lt;sub&gt;2&lt;/sub&gt;COONa" description="1M Цианоацетат натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="15"/>
+			</SOLUTION>
+			<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;" description="1M Карбонат натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.2" id="8"/>
+				<SPECIES_REF amount="0.1" id="28"/>
+			</SOLUTION>
+			<SOLUTION name="1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Фосфат натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="8"/>
+				<SPECIES_REF amount="0.1" id="40"/>
+			</SOLUTION>
+			<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="1M Ацетат натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="23"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaHCO&lt;sub&gt;3&lt;/sub&gt;" description="1M Гидрокарбонат натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="27"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaOCl" description="1M Гипохлорит натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="17"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaOI" description="1M Гипойодит натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="21"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaCN" description="1M Цианид натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="25"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaOBr" description="1M Гипобромит натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="19"/>
+			</SOLUTION>
+			<SOLUTION name="1M NaF" description="1M Фторид натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="11"/>
+			</SOLUTION>
+			<SOLUTION name="1M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOONa" description="1M Дихлорацетат натрия" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="13"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Сильные кислоты">
+			<SOLUTION name="10M HCl" description="10 M соляная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="7"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HCl" description="3 M Соляная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="7"/>
+				<SPECIES_REF amount="0.30000000000000004" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HBr" description="10 M Бромоводородная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="5"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HBr" description="3 M Бромоводородная кислта" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="5"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="3 M Серная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="29"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="1M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="1 M Серная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="29"/>
+				<SPECIES_REF amount="0.1" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="10 M Серная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="29"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HNO&lt;sub&gt;3&lt;/sub&gt;" description="3 M Азотная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="3"/>
+				<SPECIES_REF amount="0.30000000000000004" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HNO&lt;sub&gt;3&lt;/sub&gt;" description="10 M Азотная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="3"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HClO&lt;sub&gt;4&lt;/sub&gt;" description="10 M Хлорная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="6"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HClO&lt;sub&gt;4&lt;/sub&gt;" description="3 M Хлорная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="6"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="10M HI" description="10 M Йодоводородная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.0" id="4"/>
+				<SPECIES_REF amount="1.0" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="3M HI" description="3 M Йодоводородная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="4"/>
+				<SPECIES_REF amount="0.3" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="1M HCl" description="1 M Соляная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="1"/>
+			</SOLUTION>
+			<SOLUTION name="0.1M HCl" description="0.1 M Соляная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.01" id="7"/>
+				<SPECIES_REF amount="0.01" id="1"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Слабые кислоты">
+			<SOLUTION name="1M HF" description="1 M Плавиковая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="10"/>
+			</SOLUTION>
+			<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="1 M Уксусная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="22"/>
+			</SOLUTION>
+			<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="3 M Уксусная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="22"/>
+			</SOLUTION>
+			<SOLUTION name="3M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="3 M Циануксусная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="14"/>
+			</SOLUTION>
+			<SOLUTION name="3M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="3 M Фосфорная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="37"/>
+			</SOLUTION>
+			<SOLUTION name="1M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1 M Фосфорная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="37"/>
+			</SOLUTION>
+			<SOLUTION name="1M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="1 M Циануксусная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="14"/>
+			</SOLUTION>
+			<SOLUTION name="3M HOI" description="3 M Йодноватистая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="20"/>
+			</SOLUTION>
+			<SOLUTION name="1M HOCl" description="1 M Хлорноватистая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="16"/>
+			</SOLUTION>
+			<SOLUTION name="3M HOCl" description="3 M Хлорноватистая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="16"/>
+			</SOLUTION>
+			<SOLUTION name="1M HOI" description="1 M Йодноватистая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="20"/>
+			</SOLUTION>
+			<SOLUTION name="1M HOBr" description="1 M Бромноватистая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="18"/>
+			</SOLUTION>
+			<SOLUTION name="3M HF" description="3 M Плавиковая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="10"/>
+			</SOLUTION>
+			<SOLUTION name="3M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="3 M Дихлоруксусная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="12"/>
+			</SOLUTION>
+			<SOLUTION name="1M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="1 M Дихлоруксусная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="12"/>
+			</SOLUTION>
+			<SOLUTION name="1M HCN" description="1 M Синильная кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="24"/>
+			</SOLUTION>
+			<SOLUTION name="3M HOBr" description="3 M Бромноватистая кислота" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.30000000000000004" id="18"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Слабые основания">
+			<SOLUTION name="3M NH&lt;sub&gt;3&lt;/sub&gt;" description="3 M Аммиак водный" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="33"/>
+			</SOLUTION>
+			<SOLUTION name="0.5M Mg(OH)&lt;sub&gt;2&lt;/sub&gt;" description="0.5 M Гидроксид магния" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.05" id="51"/>
+			</SOLUTION>
+			<SOLUTION name="1M NH&lt;sub&gt;3&lt;/sub&gt;" description="1 M Аммиак водный" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="33"/>
+			</SOLUTION>
+			<SOLUTION name="1M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N" description="1 M Пиридин" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="56"/>
+			</SOLUTION>
+			<SOLUTION name="3M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N" description="3 M Пиридин" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="56"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Сопряжённые кислоты">
+			<SOLUTION name="1M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="1 M Хлорид аммония" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="36"/>
+			</SOLUTION>
+			<SOLUTION name="3M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="3 M Хлорид аммония" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="7"/>
+				<SPECIES_REF amount="0.3" id="36"/>
+			</SOLUTION>
+			<SOLUTION name="1M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl" description="1M Пиридина гидрохлорид" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="55"/>
+			</SOLUTION>
+			<SOLUTION name="3M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl" description="3M Пиридина гидрохлорид" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.3" id="7"/>
+				<SPECIES_REF amount="0.3" id="55"/>
+			</SOLUTION>
+		</DIRECTORY>
+		<DIRECTORY name="Реактивы">
+			<SOLUTION name="AgCl" description="Хлорид серебра" volume="0.0" vessel="SolidBottle">
+				<SPECIES_REF amount="1.2" id="57"/>
+			</SOLUTION>
+		</DIRECTORY>
+	</DIRECTORY>
+</FILESYSTEM>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Água Destilada" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Soluções de Bases">
+				<SOLUTION name="NaOH 1M" description="Hidróxido de Sódio 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="2" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="NaOH 0,1M" description="Hidróxido de Sódio 0,1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.01"/>
+					<SPECIES_REF id="2" amount="0.01"/>
+				</SOLUTION>
+
+
+
+				<SOLUTION name="NaOH 3M" description="Hidróxido de Sódio 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.3"/>
+					<SPECIES_REF id="2" amount="0.3"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Soluções de Ácidos">
+
+				<SOLUTION name="HCl 1M" description="Ácido Clorídrico 1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="HCl 0,1M" description="Ácido Clorídrico 0,1 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.01"/>
+					<SPECIES_REF id="1" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="HCl 3M" description="Ácido Clorídrico 3 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.30000000000000004"/>
+					<SPECIES_REF id="1" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+
+
+		<DIRECTORY name="Indicadores">
+
+				<SOLUTION name="Metilorange" description="Solução de Metilorange" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount=".0001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Metila" description="Solução de Vermelho de Metila" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="43" amount=".00015"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Cresol" description="Solução de Vermelho de Cresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="45" amount=".0000001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Fenolftaleína" description="Solução de Fenolftaleína" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".00016"/>
+				</SOLUTION>
+
+				<SOLUTION name="Verde de Bromocresol" description="Solução de Verde de Bromocresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount=".00006"/>
+					<SPECIES_REF id="50" amount=".00006"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+
+		<FILE href="eqquiI.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+
+     </DIRECTORY>
+
+</FILESYSTEM>

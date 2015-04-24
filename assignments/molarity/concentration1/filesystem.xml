@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+   <DIRECTORY name="Irydium Solutions">
+      <SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="3.0" vessel="3lCarboy">
+         <SPECIES_REF id="0" amount="166.525" />
+      </SOLUTION>
+
+      <SOLUTION name="Sucrose" description="Sucrose" volume="0.0" vessel="SolidBottle">
+         <SPECIES_REF amount="0.5" id="3" />
+      </SOLUTION>
+
+<!--     <SOLUTION name="1.0M Sucrose" description="1.0M Sucrose solution" volume="0.1">
+         <SPECIES_REF id="0" amount="4.3591" />
+
+         <SPECIES_REF amount="0.1" id="4" />
+      </SOLUTION>-->
+
+      <SOLUTION name="Generic Cola" description="Generic Brand Cola" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+
+         <SPECIES_REF id="4" amount="0.06" />
+         <SPECIES_REF id="5" amount="0.0005" />
+      </SOLUTION>
+
+      <FILE href="problem.html" description="Problem Description">Problem Description</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

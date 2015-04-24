@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0" name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"
+					molecularWeight="18.016"/>
+
+	<SPECIES id="1" name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="1.008"/>
+
+	<SPECIES id="2" name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="3"	name="ACAC"
+					enthalpy="-1.0"
+					entropy="45.0"
+					molecularWeight="87.008"/>
+
+
+	<SPECIES id="4"	name="TG"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="37.008"/>
+
+
+	<SPECIES id="5"	name="ACAC(TG)&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="15.0"
+					entropy="1940000000.388"
+					molecularWeight="161.024"/>
+
+</SPECIES_LIST>

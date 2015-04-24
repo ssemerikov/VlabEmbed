@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOH" description="1M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="2" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="10M NaOH" description="10M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="1.0"/>
+					<SPECIES_REF id="2" amount="1.0"/>
+				</SOLUTION>		
+
+				<SOLUTION name="1M NaCH&lt;sub&gt;3&lt;/sub&gt;COO" description="1M Sodium Acetate" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="23" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="10M HCl" description="10 Molar Hydrochloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+			
+
+				<SOLUTION name="1M HCl" description="1 Molar Hydrochloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+	
+				<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="1 Molar Acetic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="22" amount="0.1"/>
+				</SOLUTION>
+
+
+			<FILE href="mkbuffer.htm" description="Problem Description">Problem Description</FILE>
+
+	</DIRECTORY>
+
+</FILESYSTEM>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+	<DIRECTORY name="Αντιδραστήρια">
+		<SOLUTION name="Απιονισμένο H&lt;sub&gt;2&lt;/sub&gt;O" description="Απιοντισμένο νερό" volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+		<SOLUTION name="0.2M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="0.2 Μ διαλ. οξικού οξέος" volume="2.0" vessel="2500mlBottle">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.4" id="5"/>
+		</SOLUTION>
+		<SOLUTION name="0.2M CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="0.2M διαλ. οξικού νατρίου" volume="2.0" vessel="2500mlBottle">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.4" id="4"/>
+			<SPECIES_REF amount="0.4" id="6"/>
+		</SOLUTION>
+		<SOLUTION name="0.2M NH&lt;sub&gt;3&lt;/sub&gt;" description="0.2M διαλ. αμμωνίας" volume="2.0" vessel="2500mlBottle">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.4" id="7"/>
+		</SOLUTION>
+		<SOLUTION name="0.2M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="0.2M διαλ. χλωριούχου αμμώνιου" volume="2.0" vessel="2500mlBottle">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.4" id="3"/>
+			<SPECIES_REF amount="0.4" id="8"/>
+		</SOLUTION>
+		<SOLUTION name="0.1M HCl" description="0.1Μ διαλ. υδροχλωρικού οξέος" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.01" id="3"/>
+			<SPECIES_REF amount="0.01" id="1"/>
+		</SOLUTION>
+		<SOLUTION name="0.1M NaOH" description="0.1M διαλ. υδροξειδίου του νατρίου" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.01" id="4"/>
+			<SPECIES_REF amount="0.01" id="2"/>
+		</SOLUTION>
+		<FILE href="problem_description.html" description="Περιγραφή εργαστηρίου">Περιγραφή εργαστηρίου</FILE>
+	</DIRECTORY>
+</FILESYSTEM>

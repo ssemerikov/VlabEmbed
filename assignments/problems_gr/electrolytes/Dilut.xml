@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.5.0">
+	<TITLE>Αραίωση και ανάμιξη διαλυμάτων ισχυρών ηλεκτρολυτών</TITLE>
+	<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+	<DESCRIPTION>Αραίωση και ανάμιξη διαλυμάτων ισχυρού οξέος ή βάσης και pH.</DESCRIPTION>
+	<SOLUTION_VIEWERS>
+		<VIEWER honorSignificantFigures="false" name="Ιδιότητες του διαλύματος" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel"/>
+				<VIEWER sEnabled="true" aqEnabled="true" name="Species Viewer" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" unitsToggleEnabled="true"/>
+		<VIEWER name="Θερμόμετρο" enabled="true" driver="irydium.vlab.viewer.Thermometer"/>
+		<VIEWER name="Πεχάμετρο" enabled="true" driver="irydium.vlab.viewer.PhViewer"/>
+	</SOLUTION_VIEWERS>
+	<TRANSFERBAR>
+		<MODEL name="Ακριβής προσθήκη" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel"/>
+		<MODEL name="Προσθήκη με σημαντικά ψηφία" enabled="false" driver="irydium.vlab.transfer.SignificantFiguresTransferModel"/>
+		<MODEL name="Ρεαλιστική προσθήκη" enabled="false" driver="irydium.vlab.transfer.RealisticTransferModel"/>
+	</TRANSFERBAR>
+	<KNOWLEDGEBASE reactions="dilut/reactions.xml" species="dilut/species.xml" driver="irydium.textRealm.TextKnowledgebase"/>
+	<REALM name="dilut" driver="irydium.textRealm.TextRealm" filesystem="dilut/filesystem.xml"/>
+	<STOCKROOM>
+		<MOUNT realm="dilut" path="/Αντιδραστήρια">Αντιδραστήρια</MOUNT>
+	</STOCKROOM>
+</VIRTUALLAB>

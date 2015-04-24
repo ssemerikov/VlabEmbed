@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.5.0">
+	<TITLE>Ογκομέτρηση, Οξυμετρία - Αλκαλιμετρία</TITLE>
+	<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+	<DESCRIPTION>Τιτλοδότηση διαλυμάτων οξέων και βάσεων άγνωστης συγκέντρωσης.</DESCRIPTION>
+	<SOLUTION_VIEWERS>
+		<VIEWER honorSignificantFigures="false" enabled="true" name="Ιδιότητες του διαλύματος" driver="irydium.vlab.viewer.PropertiesPanel"/>
+				<VIEWER sEnabled="true" aqEnabled="true" name="Species Viewer" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" unitsToggleEnabled="true"/>
+		<VIEWER enabled="true" name="Θερμόμετρο" driver="irydium.vlab.viewer.Thermometer"/>
+		<VIEWER enabled="true" name="Πεχάμετρο" driver="irydium.vlab.viewer.PhViewer"/>
+	</SOLUTION_VIEWERS>
+	<TRANSFERBAR>
+		<MODEL enabled="true" name="Ακριβής προσθήκη" driver="irydium.vlab.transfer.PreciseTransferModel"/>
+	</TRANSFERBAR>
+	<KNOWLEDGEBASE reactions="titration/reactions.xml" species="titration/species.xml" driver="irydium.textRealm.TextKnowledgebase"/>
+	<REALM name="titration" driver="irydium.textRealm.TextRealm" filesystem="titration/filesystem.xml"/>
+	<STOCKROOM>
+		<MOUNT realm="titration" path="/Αντιδραστήρια">Αντιδραστήρια</MOUNT>
+	</STOCKROOM>
+</VIRTUALLAB>

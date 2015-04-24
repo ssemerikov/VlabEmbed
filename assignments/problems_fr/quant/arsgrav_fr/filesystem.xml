@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+   <DIRECTORY name="Irydium Solutions">
+      <SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Eau distillée" volume="3.0" vessel="3lCarboy">
+         <SPECIES_REF id="0"/>
+      </SOLUTION>
+
+<!--<SOLUTION name="Alcohol" description="Alcohol" volume="0.1">
+         <SPECIES_REF amount="1.7133" id="3" />
+      </SOLUTION>-->
+      <SOLUTION name="1M AgNO&lt;sub&gt;3&lt;/sub&gt;" description="1M Nitrate d'argent" volume="0.1">
+          <SPECIES_REF id="0"/>
+          <SPECIES_REF amount="0.1" id="5" />
+          <SPECIES_REF amount="0.1" id="7" />
+      </SOLUTION>
+      <SOLUTION name="0.01M Na&lt;sub&gt;3&lt;/sub&gt;AsO&lt;sub&gt;4&lt;/sub&gt;" description="0.01M Arséniate de sodium
+" volume="0.1">
+		  <SPECIES_REF id="0"/>
+          <SPECIES_REF amount="0.003" id="6" />
+          <SPECIES_REF amount="0.001" id="3" />
+      </SOLUTION>
+      <SOLUTION name="Échantillon 1" description="Échantillon de sol contaminé" volume="0.1">
+		  <SPECIES_REF id="0"/>
+          <SPECIES_REF amount="0.0024" id="6" />
+          <SPECIES_REF amount="0.0008" id="3" />
+      </SOLUTION>
+      <SOLUTION name="Échantillon 2" description="Échantillon de sol contaminé" volume="0.1">
+		  <SPECIES_REF id="0"/>
+          <SPECIES_REF amount="0.0015" id="6" />
+          <SPECIES_REF amount="0.0005" id="3" />
+      </SOLUTION>
+
+      <FILE href="problem.html" description="Description de problème">Description de problème</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

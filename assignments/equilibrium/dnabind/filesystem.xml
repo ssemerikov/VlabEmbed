@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+
+
+
+				<SOLUTION name="0.1M dAMP" description="0.1M soluble form of (A)denine." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="101" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M dCMP" description="0.1M soluble form of (C)ytosine." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="102" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M dTMP" description="0.1M soluble form of (T)hymine." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="104" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M dGMP" description="0.1M soluble form of (G)uanine." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="103" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M Unknown" description="0.1M solution of an unkown nucleobase" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="111" amount="0.01"/>
+				</SOLUTION>
+
+			<FILE href="dnabind.htm" description="DNA Handout">Problem Description</FILE>
+
+	</DIRECTORY>
+
+
+</FILESYSTEM>

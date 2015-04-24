@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "AgCl" description="Silver Chloride" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="3" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "PbCO&lt;sub&gt;3&lt;/sub&gt;" description="Lead Carbonate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="6" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "PbCl&lt;sub&gt;2&lt;/sub&gt;" description="Lead Chloride" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="9" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Al(OH)&lt;sub&gt;3&lt;/sub&gt;" description="Aluminum Hydroxide" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="10" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Ag&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;" description="Silver Carbonate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="12" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Ag&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="Silver Sulfate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="13" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Ca&lt;sub&gt;3&lt;/sub&gt;(PO&lt;sub&gt;4&lt;/sub&gt;)&lt;sub&gt;2&lt;/sub&gt;" description="Calcium Phosphate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="15" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "SrSO&lt;sub&gt;4&lt;/sub&gt;" description="Strontium Sulfate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="18" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Sr(IO&lt;sub&gt;3&lt;/sub&gt;)&lt;sub&gt;2&lt;/sub&gt;" description="Strontium Iodate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="20" amount="1.2"/>
+				</SOLUTION>
+
+				<SOLUTION name = "100 ml Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="100 ml Distilled Water"
+						  volume="0.1">
+					<SPECIES_REF id="0"/>
+				</SOLUTION>
+
+		<FILE href="sol2.htm" description="Problem Description"> Problem Description	</FILE>
+ 
+
+	</DIRECTORY>
+</FILESYSTEM>

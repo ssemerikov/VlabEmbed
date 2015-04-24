@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+	
+		<SOLUTION name="Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+		
+		<DIRECTORY name="Strong-bases">
+		
+			<SOLUTION name="1M NaOH" description="1M Sodium Hydroxide" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="8"/>
+				<SPECIES_REF amount="0.1" id="2"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Indicators">
+		
+			<SOLUTION name="Phenolphthalein" description="Phenolphthalein Indicator Solution" volume="0.1" vessel="100mlBottle">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="1.6E-4" id="47"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Strong-acids">
+		
+			<SOLUTION name="1M HCl" description="1 Molar Hydrochloric Acid" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.1" id="7"/>
+				<SPECIES_REF amount="0.1" id="1"/>
+			</SOLUTION>
+			
+			<SOLUTION name="0.5M HCl" description="0.5 M Hydrochloric acid" volume="0.1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF amount="0.05" id="1"/>
+				<SPECIES_REF amount="0.05" id="7"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Solids">
+		
+			<SOLUTION name="NaOH" description="solid sodium hydroxide" volume="0.0" vessel="SolidBottle">
+				<SPECIES_REF amount="2.0" id="59"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<FILE href="problem_description.html" description="Problem Description">Problem Description</FILE>
+		
+	</DIRECTORY>
+</FILESYSTEM>

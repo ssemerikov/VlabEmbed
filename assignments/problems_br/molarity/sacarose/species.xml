@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SPECIES_LIST>
+	<SPECIES entropy="69.91"
+			name="H&lt;sub&gt;2&lt;/sub&gt;O"
+			state="l"
+			enthalpy="-285.83"
+			density="1.000"
+			specificHeat="1.000"
+			molecularWeight="18.01534"
+			unitActivity="true"
+			id="0"/>
+	<SPECIES entropy="0.0"
+			name="H&lt;sup&gt;+&lt;/sup&gt;"
+			enthalpy="0.0"
+			id="1"/>
+	<SPECIES entropy="-10.75"
+			name="OH&lt;sup&gt;-&lt;/sup&gt;"
+			enthalpy="-229.99"
+			id="2"/>
+	<SPECIES entropy="360.2"
+			name="Sacarose"
+			state="s"
+			enthalpy="-2226.1"
+			molecularWeight="342.3"
+			density="1.587"
+			specificHeat="0.2"
+			id="3"/>
+	<SPECIES entropy="372.6"
+			name="Sacarose&lt;sub&gt;(aq)&lt;/sub&gt;"
+			state="aq"
+			enthalpy="-2224.1"
+			molecularWeight="342.3"
+			density="1.594"
+			id="4"/>
+	<SPECIES entropy="0"
+			name="Corante"
+			state="aq"
+			enthalpy="0"
+			molecularWeight="500"
+			hue="0"
+		  	saturation="100"
+		 	value="40"
+		  	colorConcentration=".0000005"
+			id="5"/>			
+</SPECIES_LIST>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<REACTION>
+		<!-- H+ + OH- <==> H2O  -->
+		<SPECIES_REF coefficient="1.0" id="0"/>
+		<SPECIES_REF coefficient="-1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="2"/>
+	</REACTION>
+	<REACTION>
+		<!-- MnO4- + 5Fe2+ + 8H+ <==> Mn2+  + 5Fe3+  + 4H2O  -->
+		<SPECIES_REF coefficient="-1.0" id="5"/>
+		<SPECIES_REF coefficient="-5.0" id="4"/>
+		<SPECIES_REF coefficient="-8.0" id="1"/>
+		<SPECIES_REF coefficient="1.0" id="6"/>
+		<SPECIES_REF coefficient="5.0" id="7"/>
+		<SPECIES_REF coefficient="4.0" id="0"/>
+	</REACTION>
+	<REACTION>
+		<!-- Νa2C2O4 <==> 2Na+  + C2O42-  -->
+		<SPECIES_REF coefficient="-1.0" id="11"/>
+		<SPECIES_REF coefficient="2.0" id="9"/>
+		<SPECIES_REF coefficient="1.0" id="10"/>
+	</REACTION>
+	<REACTION>
+		<!-- 2MnO4- + 5C2O42- + 16H+ <==> 10CO2  + 2Mn2+  + 8H2O  -->
+		<SPECIES_REF coefficient="-2.0" id="5"/>
+		<SPECIES_REF coefficient="-5.0" id="10"/>
+		<SPECIES_REF coefficient="-16.0" id="1"/>
+		<SPECIES_REF coefficient="10.0" id="12"/>
+		<SPECIES_REF coefficient="2.0" id="6"/>
+		<SPECIES_REF coefficient="8.0" id="0"/>
+	</REACTION>
+</REACTIONS>

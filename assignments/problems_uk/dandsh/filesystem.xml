@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Дистильована H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+			    <SOLUTION name = "Етан-1,2-діол" description="Етиленгліколь" volume="0.1">
+				    <SPECIES_REF id="5" amount="1.786"/>
+				</SOLUTION>
+
+			<DIRECTORY name ="Тверді речовини">
+			    <SOLUTION name = "Fe" description="Залізо" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="3" amount="5"/>
+				</SOLUTION>
+			    <SOLUTION name = "Al" description="Алюміній" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="4" amount="5"/>
+				</SOLUTION>
+			    <SOLUTION name = "Невідома речовина 1" description="Невідома тверда речовина" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="6" amount="5"/>
+				</SOLUTION>
+			    <SOLUTION name = "Невідома речовина 2" description="Невідома тверда речовина" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="7" amount="5"/>
+				</SOLUTION>
+
+            </DIRECTORY>	
+					
+
+	</DIRECTORY>
+</FILESYSTEM>

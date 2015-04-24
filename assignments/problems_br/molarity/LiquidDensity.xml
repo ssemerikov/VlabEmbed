@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Densidade de Líquidos</TITLE>
+
+   <AUTHOR>Jordi Cuadros</AUTHOR>
+
+   <DESCRIPTION>Identify a liquid from its density.</DESCRIPTION>
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+   <SOLUTION_VIEWERS>
+<!--<VIEWER honorSignificantFigures="true" name="Propriedades das soluções" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />-->
+<!--<VIEWER sEnabled="true" aqEnabled="true" name="Visualizador de espécies" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" />-->
+      <VIEWER name="Termômetro" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+<!--<VIEWER name="PHmetro" enabled="false" driver="irydium.vlab.viewer.PhViewer" />-->
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Transferência realística" enabled="true" driver="irydium.vlab.transfer.RealisticTransferModel" />
+
+      <MODEL name="Transferência precisa" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <MODEL name="Transferência com valores significativos" enabled="true" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" />
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="liquiddens/reactions.xml" species="liquiddens/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="liquiddens" driver="irydium.textRealm.TextRealm" filesystem="liquiddens/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="liquiddens" path="/Soluções Irydium">Soluções Irydium</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

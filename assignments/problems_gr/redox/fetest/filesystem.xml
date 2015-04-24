@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="Αντιδραστήρια">
+		<SOLUTION name="Απεσταγμένο H&lt;sub&gt;2&lt;/sub&gt;O" description="Απεσταγμένο νερό" volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+		<SOLUTION name="1M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="Θειικό οξύ 1M" volume="0.25">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="1.0" id="8"/>
+			<SPECIES_REF amount="2.0" id="1"/>
+		</SOLUTION>
+		<SOLUTION name="xM KMnO&lt;sub&gt;4&lt;/sub&gt;" description="Υπερμαγγανικό κάλιο" volume="0.2" vessel="250mlVolumetric">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.02" id="3"/>
+			<SPECIES_REF amount="0.02" id="5"/>
+		</SOLUTION>
+		<SOLUTION name="Νa&lt;sub&gt;2&lt;/sub&gt;C&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;4&lt;/sub&gt;" description="Οξαλικό νάτριο" volume="0.0" vessel="SolidBottle">
+			<SPECIES_REF amount="3.0" id="11"/>
+		</SOLUTION>
+		<SOLUTION name="xM FeSO&lt;sub&gt;4&lt;/sub&gt;" description="Θειικός σίδηρος (ΙΙ)" volume="0.2">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF amount="0.12" id="4"/>
+			<SPECIES_REF amount="0.12" id="8"/>
+		</SOLUTION>
+
+		<FILE href="problem_description.html" description="Περιγραφή εργαστηρίου">Περιγραφή εργαστηρίου</FILE>
+		</DIRECTORY>
+</FILESYSTEM>

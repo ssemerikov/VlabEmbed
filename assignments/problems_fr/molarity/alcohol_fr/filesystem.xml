@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+   <DIRECTORY name="Irydium Solutions">
+      <SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Eau distillée" volume="3.0" vessel="3lCarboy">
+         <SPECIES_REF id="0" amount="166.525" />
+      </SOLUTION>
+
+<!--<SOLUTION name="Alcohol" description="Alcohol" volume="0.1">
+         <SPECIES_REF amount="1.7133" id="3" />
+      </SOLUTION>-->
+      <SOLUTION name="1M Alcool" description="1M solution d'alcool" volume="0.1">
+         <SPECIES_REF id="0" amount="5.2268" />
+
+         <SPECIES_REF amount="0.1" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Boisson Alcoolique A" description="Boisson Alcoolique A" volume="0.1">
+         <SPECIES_REF id="0" amount="5.5508" />
+
+         <SPECIES_REF id="5" amount="0.00001" />
+
+         <SPECIES_REF amount="0.25" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Boisson Alcoolique B" description="Boisson Alcoolique B" volume="0.1">
+         <SPECIES_REF id="0" amount="2.8" />
+
+         <SPECIES_REF id="4" amount="0.000002" />
+
+         <SPECIES_REF amount="0.85" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Alcool 70%" description="Alcool 70% (v/v)" volume="0.1">
+         <SPECIES_REF id="0" amount="1.66525" />
+
+         <SPECIES_REF id="3" amount="1.26253" />
+      </SOLUTION>
+
+      <FILE href="problem.html" description="Description de problème">Description de problème</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

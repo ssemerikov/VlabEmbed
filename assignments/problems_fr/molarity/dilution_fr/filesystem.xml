@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+		<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O Distillée" description="Eau distillée" 
+		          volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;12&lt;/sub&gt;O&lt;sub&gt;6&lt;/sub&gt;" 
+		          description="solution de glucose 1 mol/L" volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="3" amount="0.1"/>
+		</SOLUTION>
+	
+		<FILE href="dilution.htm" description="Description de problème">
+			Description de problème
+		</FILE>
+     </DIRECTORY>
+</FILESYSTEM>

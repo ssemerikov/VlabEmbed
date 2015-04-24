@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!--  H<sub>2</sub>O ->  H<sup>+</sup> +  OH<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="2" coefficient="1"/>
+	</REACTION>
+
+	<!--  KCl ->  Cl<sup>-</sup> +  K<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="5" coefficient="1"/>
+		<SPECIES_REF id="4" coefficient="1"/>
+		<SPECIES_REF id="3" coefficient="-1"/>
+	</REACTION>
+
+	<!--  KNO<sub>3</sub> ->  K<sup>+</sup> +  NO<sub>3</sub><sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="4" coefficient="1"/>
+		<SPECIES_REF id="6" coefficient="-1"/>
+		<SPECIES_REF id="7" coefficient="1"/>
+	</REACTION>
+
+	<!--  NaCl ->  Cl<sup>-</sup> +  Na<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="5" coefficient="1"/>
+		<SPECIES_REF id="9" coefficient="1"/>
+		<SPECIES_REF id="8" coefficient="-1"/>
+	</REACTION>
+
+	<!--  NaNO<sub>3</sub> ->  NO<sub>3</sub><sup>-</sup> +  Na<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="7" coefficient="1"/>
+		<SPECIES_REF id="9" coefficient="1"/>
+		<SPECIES_REF id="10" coefficient="-1"/>
+	</REACTION>
+
+	<!--  Ce<sub>2</sub>SO<sub>43</sub> -> 2.0 Ce<sup>+3</sup> + 3.0 SO<sub>4</sub><sup>-2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="11" coefficient="-1"/>
+		<SPECIES_REF id="12" coefficient="2"/>
+		<SPECIES_REF id="13" coefficient="3"/>
+	</REACTION>
+
+	<!--  LiCl ->  Cl<sup>-</sup> +  Li<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="5" coefficient="1"/>
+		<SPECIES_REF id="15" coefficient="1"/>
+		<SPECIES_REF id="14" coefficient="-1"/>
+	</REACTION>
+
+	<!--  KClO<sub>3</sub> ->  ClO<sub>3</sub><sup>-</sup> +  K<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="17" coefficient="1"/>
+		<SPECIES_REF id="4" coefficient="1"/>
+		<SPECIES_REF id="16" coefficient="-1"/>
+	</REACTION>
+
+	<!--  K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> ->  Cr<sub>2</sub>O<sub>7</sub><sup>-</sup> + 2.0 K<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="19" coefficient="1"/>
+		<SPECIES_REF id="18" coefficient="-1"/>
+		<SPECIES_REF id="4" coefficient="2"/>
+	</REACTION>
+
+	<!--  CuSO<sub>4</sub> ->  Cu<sup>+2</sup> +  SO<sub>4</sub><sup>-2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="21" coefficient="1"/>
+		<SPECIES_REF id="20" coefficient="-1"/>
+		<SPECIES_REF id="13" coefficient="1"/>
+	</REACTION>
+
+
+
+
+
+</REACTIONS>

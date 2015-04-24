@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Água Destilada" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+
+
+
+				<SOLUTION name="A 0.1M" description="Forma solúvel da (A)denina 0.1 Molar." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="101" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="C 0.1M" description="Forma solúvel da (C)ytosina 0.1 Molar." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="102" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="T 0.1M" description="Forma solúvel da (T)imina 0.1 Molar." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="104" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="G 0.1M" description="Forma solúvel da (G)uanina 0.1 Molar." volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="103" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="Base Desconhecida 0.1M" description="Solução de uma base sintética desconhecida" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="111" amount="0.01"/>
+				</SOLUTION>
+
+			<FILE href="dnabind5.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+	</DIRECTORY>
+
+
+</FILESYSTEM>

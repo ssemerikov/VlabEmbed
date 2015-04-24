@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "H&lt;sub&gt;2&lt;/sub&gt;O desionizada" description="Agua desionizada"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Soluciones a granel">
+				<SOLUTION name="19M NaOH" description="19M Hidróxido sódico" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="38"/>
+					<SPECIES_REF id="2" amount="38"/>
+				</SOLUTION>
+
+			
+				<SOLUTION name="11.6M HCl" description="11.6M Ácido clorhídrico" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="23.2"/>
+					<SPECIES_REF id="1" amount="23.2"/>
+				</SOLUTION>
+
+				<SOLUTION name="17.8M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="17.8M Ácido sulfúrico" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="35.6"/>
+					<SPECIES_REF id="1" amount="35.6"/>
+				</SOLUTION>
+
+				<SOLUTION name="15.4M HNO&lt;sub&gt;3&lt;/sub&gt;" description="15.4M Ácido nítrico" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="30.8"/>
+					<SPECIES_REF id="1" amount="30.8"/>
+				</SOLUTION>
+
+				<SOLUTION name="15M HClO&lt;sub&gt;4&lt;/sub&gt;" description="15M Ácido perclórico" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="30"/>
+					<SPECIES_REF id="1" amount="30"/>
+				</SOLUTION>
+
+				<SOLUTION name="14.6M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="14.6M Ácido fosfórico" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="29.2"/>
+				</SOLUTION>
+
+			
+				<SOLUTION name="14.8M NH&lt;sub&gt;3&lt;/sub&gt;" description="14.8M Amoníaco" volume="2.0" vessel="2500mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="29.6"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+		<DIRECTORY name="Ácidos fuertes">
+				<SOLUTION name="10M HCl" description="10M Ácido clorhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HCl" description="3M Ácido clorhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.30000000000000004"/>
+					<SPECIES_REF id="1" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M HBr" description="10M Ácido bromhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="5" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HBr" description="3M Ácido bromhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="5" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="3M Ácido sulfúrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="1M Ácido sulfúrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M H&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="10M Ácido sulfúrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="29" amount="1"/>
+					<SPECIES_REF id="1" amount="1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HNO&lt;sub&gt;3&lt;/sub&gt;" description="3M Ácido nítrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="0.30000000000000004"/>
+					<SPECIES_REF id="1" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M HNO&lt;sub&gt;3&lt;/sub&gt;" description="10M Ácido nítrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M HClO&lt;sub&gt;4&lt;/sub&gt;" description="10M Ácido perclórico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HClO&lt;sub&gt;4&lt;/sub&gt;" description="3M Ácido perclórico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="10M HI" description="10M Ácido yodhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="4" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HI" description="3M Ácido yodhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="4" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HCl" description="1M Ácido clorhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M HCl" description="0.1M Ácido clorhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.01"/>
+					<SPECIES_REF id="1" amount="0.01"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+		<DIRECTORY name="Ácidos débiles">
+				<SOLUTION name="1M HF" description="1M Ácido fluorhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="1M Ácido acético" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="22" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="3M Ácido acético" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="22" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="3M Ácido cianoacético" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="3M Ácido fosfórico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Ácido fosfórico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="1M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="1M Ácido cianoacético" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HOI" description="3M Ácido hipoyodoso" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="20" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HOCl" description="1M Ácido hipocloroso" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="16" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="3M HOCl" description="3M Ácido hipocloroso" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="16" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HOI" description="1M Ácido hipoyodoso" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="20" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HOBr" description="1M Ácido hipobromoso" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="18" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HF" description="3M Ácido fluorhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="3M Ácido dicloroacético" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="12" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="1M Ácido dicloroacético" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="12" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HCN" description="1M Ácido cianhídrico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="24" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HOBr" description="3M Ácido hipobromoso" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="18" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Ácidos conjugados">
+
+				<SOLUTION name="1M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="1M Cloruro amónico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="36" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="3M Cloruro amónico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.3"/>
+					<SPECIES_REF id="36" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl" description="1M Cloruro de piridinio" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="55" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NHCl" description="3M Cloruro de piridinio" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.3"/>
+					<SPECIES_REF id="55" amount="0.3"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Bases fuertes">
+				<SOLUTION name="1M NaOH" description="1M Hidróxido sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="2" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M NaOH" description="0.1M Hidróxido sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.01"/>
+					<SPECIES_REF id="2" amount="0.01"/>
+				</SOLUTION>
+
+
+
+				<SOLUTION name="3M NaOH" description="3M Hidróxido sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.3"/>
+					<SPECIES_REF id="2" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M NaOH" description="10M Hidróxido sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="1.0"/>
+					<SPECIES_REF id="2" amount="1.0"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+		<DIRECTORY name="Bases débiles">
+
+				<SOLUTION name="3M NH&lt;sub&gt;3&lt;/sub&gt;" description="3M Amoníaco" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.5M Mg(OH)&lt;sub&gt;2&lt;/sub&gt;" description="0.5M Hidróxido de magnesio" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.05"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NH&lt;sub&gt;3&lt;/sub&gt;" description="1M Amoníaco" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N" description="1M Piridina" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="56" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N" description="3M Piridina" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="56" amount="0.3"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Bases conjugadas">
+				<SOLUTION name="1M NaNCCH&lt;sub&gt;2&lt;/sub&gt;COO" description="1M Cianoacetato sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="15" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;" description="1M Carbonato sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.2"/>
+					<SPECIES_REF id="28" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Fosfato sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.3"/>
+					<SPECIES_REF id="40" amount="0.1"/>
+				</SOLUTION>
+				
+
+				<SOLUTION name="1M NaCH&lt;sub&gt;3&lt;/sub&gt;COO" description="1M Acetato sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="23" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaHCO&lt;sub&gt;3&lt;/sub&gt;" description="1M Bicarbonato sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="27" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOCl" description="1M Hipoclorito sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="17" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOI" description="1M Hipoyodito sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="21" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaCN" description="1M Cianuro sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="25" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOBr" description="1M Hipobromito sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="19" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaF" description="1M Fluoruro sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="11" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaCl&lt;sub&gt;2&lt;/sub&gt;CHCOO" description="1M Dicloroacetato sódico" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="13" amount="0.1"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Indicadores">
+
+				<SOLUTION name="Naranja de metilo" description="Solución de Naranja de metilo" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount=".0001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Rojo de metilo" description="Solución de Rojo de metilo" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="43" amount=".00015"/>
+				</SOLUTION>
+
+				<SOLUTION name="Fenolftaleína" description="Solución de Fenolftaleína" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".00016"/>
+				</SOLUTION>
+
+				<SOLUTION name="Verde de bromocresol" description="Solución de Verde de bromocresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount=".00006"/>
+					<SPECIES_REF id="50" amount=".00006"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name ="Sólidos">
+			    <SOLUTION name = "NaCl" description="Cloruro de sodio" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="59" amount="3.0"/>
+				</SOLUTION>
+        </DIRECTORY>	
+					
+
+	</DIRECTORY>
+</FILESYSTEM>

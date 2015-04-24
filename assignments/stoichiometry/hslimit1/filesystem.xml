@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0" amount="166.525"/>
+
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaCl" description="Sodium Chloride" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="6" amount="2.1"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "AgNO&lt;sub&gt;3&lt;/sub&gt;" description="Silver Nitrate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="7" amount="1.4"/>
+				</SOLUTION>
+
+				<SOLUTION name = "1.00g NaCl" description="1.00 gram sodium chloride dissolved in 100g water"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="6" amount="0.017111567419575633"/>
+				</SOLUTION>
+
+       			<SOLUTION name = "1.00g AgNO&lt;sub&gt;3&lt;/sub&gt;" description="1.00 gram silver nitrate"  volume="0.0">
+				    <SPECIES_REF id="7" amount="0.0058868547"/>
+				</SOLUTION>
+
+					<SOLUTION name = "Solution 1" description="2.00 grams sodium chloride dissolved in water"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="6" amount="0.0342231348"/>
+				</SOLUTION>
+
+				<SOLUTION name = "Solution 2" description="3.00 grams silver nitrate dissolved in water"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="7" amount="0.01766056396067"/>
+				</SOLUTION>
+
+		<FILE href="hslimit1.htm" description="Problem Description"> Problem Description	</FILE>
+   
+	</DIRECTORY>
+</FILESYSTEM>

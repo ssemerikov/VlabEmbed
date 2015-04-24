@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Задача про густину спирту</TITLE>
+
+   <AUTHOR>Жорді Куадрос</AUTHOR>
+
+   <DESCRIPTION>Визначення концентрації за густиною розчину</DESCRIPTION>
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+   <SOLUTION_VIEWERS>
+      <VIEWER honorSignificantFigures="false" name="Властивості речовин/розчинів" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />
+
+      <VIEWER sEnabled="true" aqEnabled="true" name="Перегляд речовин" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" />
+
+      <VIEWER name="Термометр" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+      <VIEWER name="pH-метр" enabled="true" driver="irydium.vlab.viewer.PhViewer" />
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Перенесення точних кількостей" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <MODEL name="Перенесення округлених кількостей" enabled="true" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" />
+
+      <MODEL name="Реалістичне перенесення" enabled="true" driver="irydium.vlab.transfer.RealisticTransferModel" />
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="alcohol/reactions.xml" species="alcohol/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="alcohol" driver="irydium.textRealm.TextRealm" filesystem="alcohol/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="alcohol" path="/Irydium Solutions">Irydium Solutions</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

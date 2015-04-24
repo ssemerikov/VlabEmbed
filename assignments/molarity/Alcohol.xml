@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Alcohol Density Problem</TITLE>
+
+   <AUTHOR>Jordi Cuadros</AUTHOR>
+
+   <DESCRIPTION>Determine the concentration from the density of the solution.</DESCRIPTION>
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+   <SOLUTION_VIEWERS>
+      <VIEWER honorSignificantFigures="false" name="Solution Properties" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />
+
+      <VIEWER sEnabled="true" aqEnabled="true" name="Species Viewer" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" />
+
+      <VIEWER name="Thermometer" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+      <VIEWER name="PH Meter" enabled="true" driver="irydium.vlab.viewer.PhViewer" />
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Precise Transfer" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <MODEL name="Significant Figures Transfer" enabled="true" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" />
+
+      <MODEL name="Realistic Transfer" enabled="true" driver="irydium.vlab.transfer.RealisticTransferModel" />
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="alcohol/reactions.xml" species="alcohol/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="alcohol" driver="irydium.textRealm.TextRealm" filesystem="alcohol/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="alcohol" path="/Irydium Solutions">Irydium Solutions</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

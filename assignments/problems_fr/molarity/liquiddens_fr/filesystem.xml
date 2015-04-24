@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+   <DIRECTORY name="stockroom">
+<!--<SOLUTION name="Alcohol" description="Alcohol" volume="0.1">
+         <SPECIES_REF amount="1.7133" id="3" />
+      </SOLUTION>-->
+      <SOLUTION name="Composé A-1" description="Bouteille 1 du Composé A" volume="0.1">
+          <SPECIES_REF amount="0.968" id="3" />
+      </SOLUTION>
+
+      <SOLUTION name="Composé A-2" description="Bouteille 2 du Composé A" volume="0.1">
+          <SPECIES_REF amount="0.8966" id="4" />
+      </SOLUTION>
+
+      <FILE href="problem.html" description="Description de problème">Description de problème</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

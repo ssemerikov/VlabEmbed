@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!--  H<sup>+</sup> +  OH<sup>-</sup> ->  H<sub>2</sub>O -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HF ->  F<sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="11" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="10" coefficient="-1"/>
+	</REACTION>
+
+	<!--  Cl<sub>2</sub>CHCOOH ->  Cl<sub>2</sub>CHCOO<sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="13" coefficient="1"/>
+		<SPECIES_REF id="12" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  NCCH<sub>2</sub>COOH ->  H<sup>+</sup> +  NCCH<sub>2</sub>COO<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="15" coefficient="1"/>
+		<SPECIES_REF id="14" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HOCl ->  H<sup>+</sup> +  OCl<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="16" coefficient="-1"/>
+		<SPECIES_REF id="17" coefficient="1"/>
+	</REACTION>
+
+	<!--  HOBr ->  H<sup>+</sup> +  OBr<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="18" coefficient="-1"/>
+		<SPECIES_REF id="19" coefficient="1"/>
+	</REACTION>
+
+	<!--  HOI ->  H<sup>+</sup> +  OI<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="20" coefficient="-1"/>
+		<SPECIES_REF id="21" coefficient="1"/>
+	</REACTION>
+
+	<!--  CH<sub>3</sub>COOH ->  CH<sub>3</sub>COO<sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="23" coefficient="1"/>
+		<SPECIES_REF id="22" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  HCN ->  CN<sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="25" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="24" coefficient="-1"/>
+	</REACTION>
+
+	<!--  H<sup>+</sup> +  HCO<sub>3</sub><sup>-</sup> ->  H<sub>2</sub>CO<sub>3</sub> -->
+	<REACTION>
+		<SPECIES_REF id="26" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="27" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HCO<sub>3</sub><sup>-</sup> ->  CO<sub>3</sub><sup>-2</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="28" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="27" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HSO<sub>4</sub><sup>-</sup> ->  SO<sub>4</sub><sup>-2</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="30" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="29" coefficient="-1"/>
+	</REACTION>
+
+
+
+
+
+
+
+	<!--  MgOH<sub>2</sub> ->  Mg<sup>+2</sup> + 2.0 OH<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="35" coefficient="1"/>
+		<SPECIES_REF id="34" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="2"/>
+	</REACTION>
+
+	<!--  NH<sub>4</sub><sup>+</sup> ->  H<sup>+</sup> +  NH<sub>3</sub> -->
+	<REACTION>
+		<SPECIES_REF id="33" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="36" coefficient="-1"/>
+	</REACTION>
+
+	<!--  C<sub>6</sub>H<sub>5</sub>NH<sub>3</sub><sup>+</sup> ->  C<sub>6</sub>H<sub>5</sub>NH<sub>2</sub> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="31" coefficient="1"/>
+		<SPECIES_REF id="32" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+
+	<!--  H<sub>3</sub>PO<sub>4</sub> ->  H<sub>2</sub>PO<sub>4</sub><sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="38" coefficient="1"/>
+		<SPECIES_REF id="37" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  H<sup>+</sup> +  HPO<sub>4</sub><sup>-2</sup> ->  H<sub>2</sub>PO<sub>4</sub><sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="38" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="39" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HPO<sub>4</sub><sup>-2</sup> ->  H<sup>+</sup> +  PO<sub>4</sub><sup>-3</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="39" coefficient="-1"/>
+		<SPECIES_REF id="40" coefficient="1"/>
+	</REACTION>
+
+	<!--  MethylOrangeH ->  H<sup>+</sup> +  MethylOrange<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="42" coefficient="1"/>
+		<SPECIES_REF id="41" coefficient="-1"/>
+	</REACTION>
+
+	<!--  MethylRedH ->  H<sup>+</sup> +  MethylRed<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="44" coefficient="1"/>
+		<SPECIES_REF id="43" coefficient="-1"/>
+	</REACTION>
+
+
+	<!--  CresolRedH ->  CresolRed<sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="46" coefficient="1"/>
+		<SPECIES_REF id="45" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  PhenolphthaleinH ->  H<sup>+</sup> +  Phenolphthalein<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="48" coefficient="1"/>
+		<SPECIES_REF id="47" coefficient="-1"/>
+	</REACTION>
+
+	<!--  BromocresolGreenH ->  BromocresolGreen<sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="50" coefficient="1"/>
+		<SPECIES_REF id="49" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  MgOH<sub>2</sub> ->  Mg<sup>+2</sup> + 2.0 OH<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="52" coefficient="1"/>
+		<SPECIES_REF id="51" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="2"/>
+	</REACTION>
+
+	<!--  CaOH<sub>2</sub> ->  Ca<sup>+2</sup> + 2.0 OH<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="54" coefficient="1"/>
+		<SPECIES_REF id="53" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="2"/>
+	</REACTION>
+
+	<!--  C<sub>5</sub>H<sub>5</sub>NH<sup>+</sup> ->  C<sub>5</sub>H<sub>5</sub>N +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="56" coefficient="1"/>
+		<SPECIES_REF id="55" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  AgCl ->  Ag<sup>+</sup> +  Cl<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="58" coefficient="1"/>
+		<SPECIES_REF id="57" coefficient="-1"/>
+		<SPECIES_REF id="7" coefficient="1"/>
+	</REACTION>
+
+	<!--  NaCl ->  Na<sup>+</sup> +  Cl<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="8" coefficient="1"/>
+		<SPECIES_REF id="59" coefficient="-1"/>
+		<SPECIES_REF id="7" coefficient="1"/>
+	</REACTION>
+
+	<!--  KMnO4 ->  K<sup>+</sup> +  MnO4<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="63" coefficient="1"/>
+		<SPECIES_REF id="60" coefficient="-1"/>
+		<SPECIES_REF id="62" coefficient="1"/>
+	</REACTION>
+
+	<!-- Mohr's salt -->
+	<REACTION>
+		<SPECIES_REF id="36" coefficient="2"/>
+		<SPECIES_REF id="61" coefficient="-1"/>
+		<SPECIES_REF id="30" coefficient="2"/>
+		<SPECIES_REF id="64" coefficient="1"/>
+		<SPECIES_REF id="66" coefficient="6"/>
+	</REACTION>
+
+	<REACTION>
+		<SPECIES_REF id="62" coefficient="-1"/>
+		<SPECIES_REF id="64" coefficient="-5"/>
+		<SPECIES_REF id="1" coefficient="-8"/>
+		<SPECIES_REF id="67" coefficient="1"/>
+		<SPECIES_REF id="65" coefficient="5"/>
+		<SPECIES_REF id="66" coefficient="4"/>
+	</REACTION>
+	
+</REACTIONS>

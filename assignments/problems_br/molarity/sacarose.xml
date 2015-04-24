@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Preparo de Solução de Sacarose</TITLE>
+
+   <AUTHOR>Jordi Cuadros and Tim Palucka</AUTHOR>
+
+   <DESCRIPTION>Obtendo uma solução de sacarose.</DESCRIPTION>
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+   <SOLUTION_VIEWERS>
+      <VIEWER honorSignificantFigures="false" name="Propriedades das soluções" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />
+
+      <VIEWER sEnabled="true" aqEnabled="true" name="Visualizador de espécies" enabled="true" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" />
+
+      <VIEWER name="Termômetro" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+      <VIEWER name="PHmetro" enabled="true" driver="irydium.vlab.viewer.PhViewer" />
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Transferência precisa" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <MODEL name="Transferência com valores significativos" enabled="true" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" />
+
+      <MODEL name="Transferência realística" enabled="true" driver="irydium.vlab.transfer.RealisticTransferModel" />
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="sacarose/reactions.xml" species="sacarose/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="sacarose" driver="irydium.textRealm.TextRealm" filesystem="sacarose/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="sacarose" path="/Soluções Irydium">Soluções Irydium</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

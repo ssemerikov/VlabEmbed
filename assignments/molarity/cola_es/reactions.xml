@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<REACTION>
+		<!-- H+ + OH- <==> H2O  -->
+		<SPECIES_REF coefficient="1.0" id="0"/>
+		<SPECIES_REF coefficient="-1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="2"/>
+	</REACTION>
+	
+	<REACTION>
+		<!-- Sucrose(s) <==> Sucrose(aq)  -->
+		<SPECIES_REF coefficient="1.0" id="4"/>
+		<SPECIES_REF coefficient="-1.0" id="3"/>
+	</REACTION>
+
+	<!--  H<sub>3</sub>PO<sub>4</sub> ->  H<sub>2</sub>PO<sub>4</sub><sup>-</sup> +  H<sup>+</sup> -->
+	<REACTION>
+		<SPECIES_REF id="38" coefficient="1"/>
+		<SPECIES_REF id="37" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  H<sup>+</sup> +  HPO<sub>4</sub><sup>-2</sup> ->  H<sub>2</sub>PO<sub>4</sub><sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="38" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="39" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HPO<sub>4</sub><sup>-2</sup> ->  H<sup>+</sup> +  PO<sub>4</sub><sup>-3</sup> -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="39" coefficient="-1"/>
+		<SPECIES_REF id="40" coefficient="1"/>
+	</REACTION>	
+</REACTIONS>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Cola de calidad</TITLE>
+
+   <AUTHOR>Jordi Cuadros</AUTHOR>
+
+   <DESCRIPTION>Se han detectado tres muestras defectuosas de un refresco de cola. ¿Podrías identificar cuáles? </DESCRIPTION>
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+   <SOLUTION_VIEWERS>
+      <VIEWER honorSignificantFigures="false" name="Solution Properties" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />
+
+      <VIEWER sEnabled="true" aqEnabled="true" name="Species Viewer" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" />
+
+      <VIEWER name="Thermometer" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+      <VIEWER name="PH Meter" enabled="true" driver="irydium.vlab.viewer.PhViewer" />
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Precise Transfer" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <MODEL name="Significant Figures Transfer" enabled="true" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" />
+
+      <MODEL name="Realistic Transfer" enabled="true" driver="irydium.vlab.transfer.RealisticTransferModel" />
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="cola_es/reactions.xml" species="cola_es/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="concentration1" driver="irydium.textRealm.TextRealm" filesystem="cola_es/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="concentration1" path="/Irydium Solutions">Productos Irydium</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<REACTION>
+		<!-- H+ + OH- <==> H2O  -->
+		<SPECIES_REF coefficient="1.0" id="0"/>
+		<SPECIES_REF coefficient="-1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="2"/>
+	</REACTION>
+	<REACTION>
+		<!-- CH3COOH <==> CH3COO-  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="6"/>
+		<SPECIES_REF coefficient="-1.0" id="5"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+	</REACTION>
+	<REACTION>
+		<!-- NH4+ <==> NH3  + H+  -->
+		<SPECIES_REF coefficient="1.0" id="7"/>
+		<SPECIES_REF coefficient="1.0" id="1"/>
+		<SPECIES_REF coefficient="-1.0" id="8"/>
+	</REACTION>
+</REACTIONS>

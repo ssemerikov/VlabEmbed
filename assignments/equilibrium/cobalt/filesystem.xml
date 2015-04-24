@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+	
+		<FILE href="cobalt.htm" description="Cobalt Lab Handout">Problem Description</FILE>
+
+	    <DIRECTORY name="Cobalt(II) Chloride Exp Solutions">
+		<SOLUTION name="1M CoCl&lt;sub&gt;2&lt;/sub&gt;" description="1 Molar Cobalt(II) Chloride Solution" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="224" amount=".1"/>
+			<SPECIES_REF id="101" amount=".2"/>
+		</SOLUTION>
+
+		<SOLUTION name="12M HCl" description="12 Molar Hydrochloric Acid" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="1" amount="1.2"/>			
+			<SPECIES_REF id="101" amount="1.2"/>
+		</SOLUTION>
+
+	
+		<SOLUTION name="6M AgNO&lt;sub&gt;3&lt;/sub&gt;" description="6 Molar Silver Nitrate" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="232" amount=".6"/>
+			<SPECIES_REF id="233" amount=".6"/>
+		</SOLUTION>
+
+
+
+	    </DIRECTORY>	
+
+	</DIRECTORY>
+</FILESYSTEM>

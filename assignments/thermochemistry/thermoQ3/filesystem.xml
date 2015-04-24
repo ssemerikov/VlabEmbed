@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		
+	
+			<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="0.1 M Reagent X" description="0.1 Molar Reagent X" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".01"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="0.2 M Reagent Y" description="0.2 Molar Reagent Y" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".02"/>
+		</SOLUTION>
+
+		<SOLUTION name="0.2 M Reagent X" description="0.2 Molar Reagent X" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".02"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="0.1 M Reagent Y" description="0.1 Molar Reagent Y" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".01"/>
+		</SOLUTION>
+		<SOLUTION name="1 M Reagent X" description="1 Molar Reagent X" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".1"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="1 M Reagent Y" description="1 Molar Reagent Y" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".1"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="3 M Reagent X" description="3 Molar Reagent X" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".3"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="3 M Reagent Y" description="3 Molar Reagent Y" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".3"/>
+		</SOLUTION>
+
+		<FILE href="camping3.htm" description="Camping Problem 3 Description">Problem Description</FILE>
+
+
+
+	</DIRECTORY>	
+
+</FILESYSTEM>

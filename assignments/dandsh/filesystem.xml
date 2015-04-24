@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+			    <SOLUTION name = "Ethylene glycol" description="Ethylene glycol" volume="0.1">
+				    <SPECIES_REF id="5" amount="1.786"/>
+				</SOLUTION>
+
+			<DIRECTORY name ="Solids">
+			    <SOLUTION name = "Fe" description="Fe" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="3" amount="5"/>
+				</SOLUTION>
+			    <SOLUTION name = "Al" description="Al" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="4" amount="5"/>
+				</SOLUTION>
+			    <SOLUTION name = "Unknown solid 1" description="Unknown solid" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="6" amount="5"/>
+				</SOLUTION>
+			    <SOLUTION name = "Unknown solid 2" description="Unknown solid" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="7" amount="5"/>
+				</SOLUTION>
+
+            </DIRECTORY>	
+					
+
+	</DIRECTORY>
+</FILESYSTEM>

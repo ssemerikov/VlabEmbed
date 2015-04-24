@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0" name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"
+					molecularWeight="18.016"/>
+
+	<SPECIES id="1" name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="1.008"/>
+
+	<SPECIES id="2" name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="3" name="NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-205.0"
+					entropy="146.4"
+					molecularWeight="62.01"/>
+
+	<SPECIES id="4" name="I&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-55.19"
+					entropy="111.3"
+					molecularWeight="126.9"/>
+
+	<SPECIES id="5" name="Br&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-121.55"
+					entropy="82.4"
+					molecularWeight="79.90"/>
+
+	<SPECIES id="6" name="ClO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-129.33"
+					entropy="182.0"
+					molecularWeight="99.45"/>
+
+	<SPECIES id="7" name="Cl&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-167.16"
+					entropy="56.5"
+					molecularWeight="35.45"/>
+
+	<SPECIES id="8" name="Na&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-240.12"
+					entropy="59.0"
+					molecularWeight="22.99"/>
+
+	<SPECIES id="9" name="ClO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-103.97"
+					entropy="162.3"
+					molecularWeight="83.45"/>
+
+	<SPECIES id="10" name="HF"
+					enthalpy="-320.08"
+					entropy="88.7"
+					molecularWeight="20.008"/>
+
+	<SPECIES id="11" name="F&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-332.08"
+					entropy="-12.437604874789841"
+					molecularWeight="19.00"/>
+
+	<SPECIES id="12" name="Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH"
+					enthalpy="-619.1"
+					entropy="160.64269874686065"
+					molecularWeight="128.936"/>
+
+	<SPECIES id="13" name="Cl&lt;sub&gt;2&lt;/sub&gt;CHCOO&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-622.3"
+					entropy="125.0"
+					molecularWeight="127.928"/>
+
+	<SPECIES id="14" name="NCCH&lt;sub&gt;2&lt;/sub&gt;COOH"
+					enthalpy="-54.2"
+					entropy="276.04235418317654"
+					molecularWeight="85.064"/>
+
+	<SPECIES id="15" name="NCCH&lt;sub&gt;2&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-56.2"
+					entropy="222.0"
+					molecularWeight="84.056"/>
+
+	<SPECIES id="16" name="HOCl"
+					enthalpy="-120.9"
+					entropy="139.73132118751613"
+					molecularWeight="52.458"/>
+
+	<SPECIES id="17" name="OCl&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-107.1"
+					entropy="42.0"
+					molecularWeight="51.45"/>
+
+	<SPECIES id="18" name="HOBr"
+					enthalpy="-112.42"
+					entropy="144.34603038591086"
+					molecularWeight="96.908"/>
+
+	<SPECIES id="19" name="OBr&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-93.63"
+					entropy="42.0"
+					molecularWeight="95.90"/>
+
+	<SPECIES id="20" name="HOI"
+					enthalpy="-130.4"
+					entropy="168.51298635759844"
+					molecularWeight="143.908"/>
+
+	<SPECIES id="21" name="OI&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-107.4"
+					entropy="42.0"
+					molecularWeight="142.9"/>
+
+	<SPECIES id="22" name="CH&lt;sub&gt;3&lt;/sub&gt;COOH"
+					enthalpy="-485.76"
+					entropy="178.7"
+					molecularWeight="60.052"/>
+
+	<SPECIES id="23" name="CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-486.01"
+					entropy="86.79009304852713"
+					molecularWeight="59.044"/>
+
+	<SPECIES id="24" name="HCN"
+					enthalpy="107.1"
+					entropy="124.7"
+					molecularWeight="27.028"/>
+
+	<SPECIES id="25" name="CN&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="150.6"
+					entropy="94.3212804273552"
+					molecularWeight="26.02"/>
+
+	<SPECIES id="26" name="H&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-669.65"
+					entropy="187.4"
+					molecularWeight="62.026"/>
+
+	<SPECIES id="27" name="HCO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-691.99"
+					entropy="-9.130028584898714"
+					molecularWeight="61.018"/>
+
+	<SPECIES id="28" name="CO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;"
+					enthalpy="-677.14"
+					entropy="-156.8741463912882"
+					molecularWeight="60.01"/>
+
+	<SPECIES id="29" name="HSO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-885.75"
+					entropy="126.86"
+					molecularWeight="97.078"/>
+
+	<SPECIES id="30" name="SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;2-&lt;/sup&gt;"
+					enthalpy="-907.51"
+					entropy="17.15"
+					molecularWeight="96.07"/>
+
+	<SPECIES id="31" name="C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="31.299999999999997"
+					entropy="-192.11783197722377"
+					molecularWeight="93.126"/>
+
+	<SPECIES id="32" name="C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="63.2"
+					entropy="92.0"
+					molecularWeight="94.134"/>
+
+	<SPECIES id="33" name="NH&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-80.29"
+					entropy="111.42203050810235"
+					molecularWeight="17.034"/>
+
+
+	<SPECIES id="34" name="Mg(OH)&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-924.54"
+					state="s"
+	               		molecularWeight="58.3"  
+					entropy="63.18"/>
+
+
+	<SPECIES id="35" name="Mg&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-466.85"
+					entropy="-128.7070741292725"
+					molecularWeight="24.305"/>
+
+	
+	<SPECIES id="36" name="NH&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-132.51"
+					entropy="113.4"
+					molecularWeight="18.042"/>
+
+	<SPECIES id="37" name="H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;"
+					enthalpy="-1288.34"
+					entropy="158.19999999999982"
+					molecularWeight="97.994"/>
+
+	<SPECIES id="38" name="H&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-1296.29"
+					entropy="90.87604282938487"
+					molecularWeight="96.986"/>
+
+
+	<SPECIES id="39" name="HPO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;"
+					enthalpy="-1292.14"
+					entropy="-33.15335540626731"
+					molecularWeight="95.978"/>
+
+	<SPECIES id="40" name="PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-3&lt;/sup&gt;"
+					enthalpy="-1277.4"
+					entropy="-226.04278471190318"
+					molecularWeight="94.97"/>
+
+	<SPECIES id="41" name="NaranjaDeMetiloH"
+					enthalpy="-229.99"
+					entropy="144.0"
+			 		hue="360"
+					saturation="100"
+					value="90"
+			 		colorConcentration=".00001"
+					molecularWeight="327.34"/>
+
+	<SPECIES id="42" name="NaranjaDeMetilo&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-232.99"
+					entropy="65.01640899362991"
+				 	hue="62"
+				  	saturation="100"
+				 	value="100"
+				  	colorConcentration=".000015"
+					molecularWeight="327.34"/>
+
+	<SPECIES id="43" name="RojoDeMetiloH"
+					enthalpy="-229.99"
+					entropy="144.0"
+			 		hue="360"
+					saturation="100"
+					value="90"
+			 		colorConcentration=".00002"
+					molecularWeight="291.29"/>
+
+
+	<SPECIES id="44" name="RojoDeMetilo&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-232.99"
+					entropy="45.50335035130863"
+				 	hue="62"
+				  	saturation="100"
+				 	value="100"
+				  	colorConcentration=".00003"
+					molecularWeight="291.29"/>
+
+
+	<SPECIES id="45" name="RojoDeCresolH"
+					enthalpy="-229.99"
+					entropy="144.0"
+					hue="62"
+				  	saturation="100"
+				 	value="100"
+				  	colorConcentration=".0000000015"
+					molecularWeight="404.42"/>
+
+
+	<SPECIES id="46" name="RojoDeCresol&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-232.99"
+					entropy="-26.87908002817133"
+					hue="360"
+					saturation="100"
+					value="90"
+			 		colorConcentration=".000000001"
+					molecularWeight="404.42"/>
+
+	<SPECIES id="47" name="FenolftaleΞ½naH"
+					enthalpy="-229.99"
+					entropy="144.0"
+					molecularWeight="318.33"/>
+
+
+	<SPECIES id="48" name="FenolftaleΞ½na&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-232.99"
+					entropy="-58.14250539834609"
+				        hue="320"
+				  	saturation="100"
+				 	value="84"
+				  	colorConcentration=".00008"
+            				molecularWeight="318.33"/>
+
+	<SPECIES id="49" name="VerdeDeBromocresolH"
+					enthalpy="-229.99"
+					entropy="144.0"
+					hue="64"
+				  	saturation="100"
+				 	value="100"
+				  	colorConcentration=".00005"
+					molecularWeight="720.02"/>
+
+	<SPECIES id="50" name="VerdeDeBromocresol&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-232.99"
+					entropy="41.95706717590055"
+					hue="223"
+				  	saturation="90"
+				 	value="95"
+				  	colorConcentration=".00002"
+					molecularWeight="720.02"/>
+
+	<SPECIES id="51" name="Mg(OH)&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-924.54"
+					entropy="63.480304810939856"
+					state="s"
+					hue="180"
+					saturation="0"
+					value="100"
+					colorConcentration=".03"
+	                  	molecularWeight="58.32"/>
+
+	<SPECIES id="52" name="Mg&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-466.85"
+					entropy="-138.1"
+					molecularWeight="24.305"/>
+
+	<SPECIES id="53" name="Ca(OH)&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-986.09"
+					entropy="83.39"
+					state="s"
+					hue="180"
+					saturation="0"
+					value="100"
+					colorConcentration=".03"
+	                  	molecularWeight="58.32"/>
+
+	<SPECIES id="54" name="Ca&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-542.83"
+					entropy="-53.1"
+					molecularWeight="40.08"/>
+
+
+	<SPECIES id="55" name="C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="31.3"
+					entropy="92.0"
+					molecularWeight="80.108"/>
+
+	<SPECIES id="56" name="C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N"
+					enthalpy="59.5"
+					entropy="85.88064574580255"
+					molecularWeight="79.1"/>
+
+	<SPECIES id="57" name="AgCl"
+	                enthalpy="-127.03"
+	                entropy="96.11"
+				    state="s"
+				    hue="180"
+				    saturation="0"
+				    value="85"
+				    colorConcentration=".03"
+		                molecularWeight="143.32"
+					density="5.56"/>
+
+	<SPECIES id="58" name="Ag&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="105.57"
+					entropy="72.68"
+					molecularWeight="107.9"/>
+
+	<SPECIES id="59" name="NaCl"
+	                enthalpy="-411.2"
+	                entropy="72.1"
+				    state="s"
+				    molecularWeight="58.44"
+					density="2.165"/>
+
+</SPECIES_LIST>

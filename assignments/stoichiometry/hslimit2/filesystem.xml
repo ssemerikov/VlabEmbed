@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0" amount="166.525"/>
+
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaCl" description="Sodium Chloride" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="6" amount="2.1"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "AgNO&lt;sub&gt;3&lt;/sub&gt;" description="Silver Nitrate" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="7" amount="1.4"/>
+				</SOLUTION>
+
+				<SOLUTION name = "Solution 3" description="Unknown silver nitrate dissolved in water"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="7" amount="0.0161888503"/>
+				</SOLUTION>
+
+
+
+				<SOLUTION name = "Solution 4" description="Unknown sodium chloride dissolved in water"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="6" amount="0.0752908"/>
+				</SOLUTION>
+
+
+
+		<FILE href="hslimit2.htm" description="Problem Description"> Problem Description</FILE>
+   
+	</DIRECTORY>
+</FILESYSTEM>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0" name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"
+					molecularWeight="18.016"/>
+
+	<SPECIES id="1" name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="1.008"/>
+
+	<SPECIES id="2" name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="3" name="brown"
+					enthalpy="0"
+					entropy="0"
+					state="aq"
+					molecularWeight="62.07"
+					density="1.1088"
+					waterReplacement="3.11"
+					specificHeat="0.57"/>
+
+	<SPECIES id="3" name="Brown" 
+	                entropy="-1000"
+	                hue="60"
+			    saturation="55"
+			    value="45"
+			    colorConcentration=".0000001"/>
+	
+	<SPECIES id="4" name="White" 
+	                entropy="-1000"/>
+
+	<SPECIES id="5" name="Muddy" 
+	                entropy="1000"
+	                hue="35"
+			    saturation="60"
+			    value="71"
+			    colorConcentration=".0000005"/>
+
+</SPECIES_LIST>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Agua destilada" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+	
+		<SOLUTION name="CoCl&lt;sub&gt;2&lt;/sub&gt; 1.0M " description="Cloruro de cobalto(II) 1.0M" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="224" amount=".1"/>
+			<SPECIES_REF id="101" amount=".2"/>
+		</SOLUTION>
+
+		<SOLUTION name="HCl 12.0M" description="Ácido clorhídrico 12.0M" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="1" amount="1.2"/>			
+			<SPECIES_REF id="101" amount="1.2"/>
+		</SOLUTION>
+
+	
+		<SOLUTION name="AgNO&lt;sub&gt;3&lt;/sub&gt; 6.0M" description="Nitrato de plata 6.0M" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="232" amount=".6"/>
+			<SPECIES_REF id="233" amount=".6"/>
+		</SOLUTION>
+
+		<FILE href="cobalt.htm" description="Descripción del problema">Descripción del problema</FILE>
+
+	</DIRECTORY>
+</FILESYSTEM>

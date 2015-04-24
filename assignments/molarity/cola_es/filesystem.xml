@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FILESYSTEM>
+   <DIRECTORY name="Irydium Solutions">
+      <SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Agua destilada" volume="3.0" vessel="3lCarboy">
+         <SPECIES_REF id="0" amount="166.525" />
+      </SOLUTION>
+
+      <!--SOLUTION name="Sucrose" description="Sucrose" volume="0.0" vessel="SolidBottle">
+         <SPECIES_REF amount="0.5" id="3" />
+      </SOLUTION-->
+
+<!--     <SOLUTION name="1.0M Sucrose" description="1.0M Sucrose solution" volume="0.1">
+         <SPECIES_REF id="0" amount="4.3591" />
+
+         <SPECIES_REF amount="0.1" id="4" />
+      </SOLUTION>-->
+
+      <SOLUTION name="Cola 1" description="Cola, muestra 1" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.08" />
+         <SPECIES_REF id="5" amount="0.00052" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.0001" />
+      </SOLUTION>
+      <SOLUTION name="Cola 2" description="Cola, muestra 2" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.079" />
+         <SPECIES_REF id="5" amount="0.00047" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.00011" />
+      </SOLUTION>
+	  <SOLUTION name="Cola 3" description="Cola, muestra 3" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.081" />
+         <SPECIES_REF id="5" amount="0.00051" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.00012" />
+      </SOLUTION>
+      <SOLUTION name="Cola 4" description="Cola, muestra 4" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.082" />
+         <SPECIES_REF id="5" amount="0.00048" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.00011" />
+      </SOLUTION>
+      <SOLUTION name="Cola 5" description="Cola, muestra 5" volume="0.1">
+         <SPECIES_REF id="0" amount="5.2" />
+         <SPECIES_REF id="4" amount="0.022" />
+         <SPECIES_REF id="5" amount="0.0005" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.000105" />
+      </SOLUTION>
+      <SOLUTION name="Cola 6" description="Cola, muestra 6" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.081" />
+         <SPECIES_REF id="5" amount="0.00051" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.000099" />
+      </SOLUTION>
+      <SOLUTION name="Cola 7" description="Cola, muestra 7" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.0805" />
+         <SPECIES_REF id="5" amount="0.00052" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.000103" />
+      </SOLUTION>
+      <SOLUTION name="Cola 8" description="Cola, muestra 8" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.078" />
+         <SPECIES_REF id="5" amount="0.00047" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.00000058" />
+      </SOLUTION>
+      <SOLUTION name="Cola 9" description="Cola, muestra 9" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.083" />
+         <SPECIES_REF id="5" amount="0.0002" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.000098" />
+      </SOLUTION>
+      <SOLUTION name="Cola 10" description="Cola, muestra 10" volume="0.1">
+         <SPECIES_REF id="0" amount="4.5" />
+         <SPECIES_REF id="4" amount="0.0805" />
+         <SPECIES_REF id="5" amount="0.00049" />
+		 <SPECIES_REF id="6" amount="0.0005" />
+		 <SPECIES_REF id="37" amount="0.000108" />
+      </SOLUTION>
+      <FILE href="problem.html" description="Descripción del problema">Descripción del problema</FILE>
+   </DIRECTORY>
+</FILESYSTEM>
+

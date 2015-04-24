@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		
+	
+		<DIRECTORY name="Сильні кислоти">
+			<SOLUTION name="1M HCl" description="Хлоридна кислота, 1 моль/л" volume=".1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF id="1"   amount=".1"/>
+				<SPECIES_REF id="101" amount=".1"/>
+			</SOLUTION>
+	
+			<SOLUTION name="13M HCl" description="Хлоридна кислота, 13 моль/л" volume=".1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF id="1"   amount="1.3"/>
+				<SPECIES_REF id="101" amount="1.3"/>
+			</SOLUTION>
+		</DIRECTORY>
+		
+		<DIRECTORY name="Луги">
+			<SOLUTION name="1M NaOH" description= "Розчин натрій гідроксиду, 1 моль/л" volume=".1">
+				<SPECIES_REF id="0"/>
+				<SPECIES_REF id="2" amount=".1"/>
+				<SPECIES_REF id="100" amount=".1"/>
+			</SOLUTION>
+		</DIRECTORY>	
+	
+		<SOLUTION name="1X10&lt;sup&gt;-3&lt;/sup&gt;M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="Розчин ацетатної кислоти, 1e-3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="211" amount=".0001"/>
+		</SOLUTION>
+	
+		<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="Розчин ацетатної кислоти, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="211" amount=".1"/>
+		</SOLUTION>
+	
+		<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="Розчин ацетатної кислоти, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="211" amount=".3"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="Розчин натрій ацетату, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".1"/>		
+			<SPECIES_REF id="210" amount=".1"/>
+		</SOLUTION>
+	
+		<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="Розчин натрій ацетату, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".3"/>		
+			<SPECIES_REF id="210" amount=".3"/>
+		</SOLUTION>
+	
+		<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH / CH&lt;sub&gt;3&lt;/sub&gt;COONa" description="Ацетатний буферний розчин, 1 моль/л кожного з компонентів" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".1"/>		
+			<SPECIES_REF id="210" amount=".1"/>
+			<SPECIES_REF id="211" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="Розчин ортофосфатної кислоти, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="1"   amount=".1"/>
+			<SPECIES_REF id="202" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="3M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="Розчин ортофосфатної кислоти, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="1"   amount=".3"/>
+			<SPECIES_REF id="202" amount=".3"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="Розчин натрій ортофосфату, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".3"/>
+			<SPECIES_REF id="200" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="3M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="Розчин натрій ортофосфату, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".9"/>
+			<SPECIES_REF id="200" amount=".3"/>
+		</SOLUTION>
+
+		<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;HPO&lt;sub&gt;4&lt;/sub&gt;" description="Розчин натрій гідрогенофртофосфату, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".2"/>
+			<SPECIES_REF id="201" amount=".1"/>
+		</SOLUTION>
+		
+		<SOLUTION name="1M NaH&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="Розчин натрій дигідрогенортофосфату, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".1"/>
+			<SPECIES_REF id="202" amount=".1"/>
+		</SOLUTION>
+	
+		<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;HPO&lt;sub&gt;4&lt;/sub&gt; / 1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="Фосфатний буферний розчин, 1 моль/л кожного з компонентів" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="100" amount=".5"/>
+			<SPECIES_REF id="201" amount=".1"/>
+			<SPECIES_REF id="202" amount=".1"/>
+		</SOLUTION>
+	</DIRECTORY>
+
+	<DIRECTORY name="thermo">
+		<FILE href="thermo.htm" description="Опис додаткового завдання">Опис завдання</FILE>
+
+		<SOLUTION name="0.1 M Реагент A" description="Розчин реечовини А, 0.1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".01"/>
+		</SOLUTION>
+
+		<SOLUTION name="1 M Реагент A" description="Розчин реечовини А, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="0.1 M Реагент B" description="Розчин реечовини В, 0.1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".01"/>
+		</SOLUTION>
+
+		<SOLUTION name="1 M Реагент B" description="Розчин реечовини В, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".1"/>
+		</SOLUTION>
+
+		<SOLUTION name="3 M Реагент A" description="Розчин реечовини А, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".3"/>
+		</SOLUTION>
+
+		<SOLUTION name="3 M Реагент B" description="Розчин реечовини А, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".3"/>
+		</SOLUTION>
+			<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+
+	</DIRECTORY>	
+
+</FILESYSTEM>

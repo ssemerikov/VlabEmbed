@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Água Destilada" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Soluções">
+<SOLUTION name="NaOH 0,2M" description="Hidróxido de Sódio Aproximadamente 0,2 Molar" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.02000"/>
+					<SPECIES_REF id="2" amount="0.02000"/>
+				</SOLUTION>
+
+				<SOLUTION name="KHP 0,2000M" description="Solução de KHP 0,2000 Molar" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.05"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="KHP 0,4000M" description="Solução de KHP 0,4000 Molar" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="KHP 0,6000M" description="Solução de KHP 0,6000 Molar" volume="0.25">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.15"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+
+		<DIRECTORY name="Indicadores">
+
+				<SOLUTION name="Metilorange" description="Solução de Metilorange" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount=".0001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Metila" description="Solução de Vermelho de Metila" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="43" amount=".00015"/>
+				</SOLUTION>
+
+				<SOLUTION name="Vermelho de Cresol" description="Solução de Vermelho de Cresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="45" amount=".0000001"/>
+				</SOLUTION>
+
+				<SOLUTION name="Fenolftaleína" description="Solução de Fenolftaleína" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".00016"/>
+				</SOLUTION>
+
+				<SOLUTION name="Verde de Bromocresol" description="Solução de Verde de Bromocresol" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount=".00006"/>
+					<SPECIES_REF id="50" amount=".00006"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+
+		<FILE href="comquiII.htm" description="Informações adicionais">Descrição do Problema</FILE>
+
+
+     </DIRECTORY>
+
+</FILESYSTEM>

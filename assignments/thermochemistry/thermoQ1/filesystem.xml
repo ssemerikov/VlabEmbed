@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		
+	
+			<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="0.1 M Reagent X" description="0.1 Molar Reagent X" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".01"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="0.1 M Reagent Y" description="0.1 Molar Reagent Y" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".01"/>
+		</SOLUTION>
+
+		<FILE href="camping1.htm" description="Camping 1 Problem Description">Problem Description</FILE>
+
+	</DIRECTORY>	
+
+</FILESYSTEM>

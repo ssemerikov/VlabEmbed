@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Solutions">
+				<SOLUTION name="1M NaOH" description="Approx 1M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.09445"/>
+					<SPECIES_REF id="2" amount="0.09445"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="0.500M KHP" description="0.500 Molar KHP Solution" volume="0.025">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="51" amount="0.01250"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="Phenolphthalein" description="Phenolphthalein Indicator Solution" volume="0.1" vessel="100mlBottle">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="47" amount=".0000002"/>
+				</SOLUTION>
+		</DIRECTORY>
+
+		<FILE href="titration.htm" description="Problem Description">Problem Description</FILE>
+
+
+     </DIRECTORY>
+
+</FILESYSTEM>

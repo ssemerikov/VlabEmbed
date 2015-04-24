@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <!-- Translated by...
+
+-->
+
+<LANG_FILE>
+   <TERM en="Load selected solution" ar="تحميل المحلول المختار" />
+
+   <TERM en="Empty solution test tube" ar="أفرغ أنبوب اختبار المحلول" />
+
+   <TERM en="View inside" ar="عرض بالداخل" />
+
+   <TERM en="UV-VIS Spectrophotometer" ar="UV-VIS مقياس الطيف الضوئي" />
+
+   <TERM en="Windows" ar="إطارات" />
+
+   <TERM en="Spectrophotometer" ar="مقياس الطيف الضوئي" />
+
+   <TERM en="Virtual Lab" ar="المختبر الافتراضي" />
+
+   <TERM en="Arrange both" ar="ترتيب الاثنين" />
+
+   <TERM en="Wavelength control knob" ar="مقبض تحكم طول الموجة" />
+
+   <TERM en="Power switch. Zeroing knob" ar="مفتاح كهربائي. تصفير المقبض" />
+
+   <TERM en="Blanking knob" ar="مقبض الماسح" />
+
+   <TERM en="Spectrum graph options" ar="خيارات مخطط الطيف" />
+
+   <TERM en="No data" ar="‏‏لا توجد أية بيانات" />
+
+   <TERM en="x Axis" ar="x محور" />
+
+   <TERM en="y Axis" ar="y محور" />
+
+   <TERM en="Nanometers" ar="نانوميتر" />
+
+   <TERM en="Absorbance" ar="متماص" />
+
+   <TERM en="Transmittance" ar="امتراق" />
+
+   <TERM en="Color mode" ar="وضع اللون" />
+
+   <TERM en="Colored" ar="ملون" />
+
+   <TERM en="Colorless" ar="عديم اللون" />
+
+   <TERM en="Lines" ar="أسطر" />
+
+   <TERM en="Points" ar="نقاط" />
+
+   <TERM en="Yes" ar="نعم" />
+
+   <TERM en="No" ar="لا" />
+
+   <TERM en="No solution is selected" ar="لم تحدد أية سائل" />
+
+   <TERM en="Error" ar="خطأ" />
+
+   <TERM en="Say: " ar="قل:" />
+
+   <TERM en="has entered the room." ar="قد دخل الغرفة." />
+
+   <TERM en="have entered the room." ar="قد دخل الغرفة." />
+
+   <TERM en="has left the room." ar="قد غادر الغرفة." />
+
+   <TERM en="Cancel" ar="إلغاء الأمر" />
+
+   <TERM en="Ok" ar="موافق" />
+
+   <TERM en="Send Instant Message" ar="إرسال رسالة فورية" />
+
+   <TERM en="To whom would you like to send an instant message?" ar="إلى من تريد إرسال رسالة فورية؟" />
+
+   <TERM en="User:" ar="مستخدم:" />
+
+   <TERM en="Join Channel" ar="انضمام للقناة" />
+
+   <TERM en="Channel Name:" ar="اسم القناة:" />
+
+   <TERM en="Members:" ar="الأعضاء:" />
+
+   <TERM en="Connecting to chat server..." ar="جاري الاتصال بملقم المحادثة..." />
+
+   <TERM en="Error in IRC I/O initialization." ar="IRC I/O خطأ في تهيئة" />
+
+   <TERM en="User logged out." ar="تسجيل خروج المستخدم." />
+
+   <TERM en="Error message: " ar="رسالة خطأ:" />
+
+   <TERM en="Welcome to " ar="مرحبًا بك في" />
+
+<!-- The & character is used to indicate the mnemonic for the menu (&amp; is the XML entity for &)-->
+   <TERM en="&amp;Edit" ar="&amp;تحرير" />
+
+   <TERM en="Undo" ar="تراجع" />
+
+   <TERM en="Redo" ar="إعادة" />
+
+   <TERM en="Redo your last action." ar="أعد الإجراء الأخير" />
+
+   <TERM en="Undo your last action." ar="تراجع عن الإجراء الأخير" />
+
+   <TERM en="&amp;Chat"  ar="&amp;محادثة" />
+
+   <TERM en="Load Homework..." ar="تحميل الوظيفة..." />
+
+   <TERM en="Load a homework problem from the internet." ar="تحميل مشكلة الوظيفة من الانترنت." />
+
+   <TERM en="About..." ar="حول..." />
+
+   <TERM en="About the virtual lab." ar="حول المختبر الافتراضي" />
+
+   <TERM en="Exit" ar="خروج" />
+
+   <TERM en="Exit the Virtual Laboratory." ar="الخروج من المختبر الافتراضي" />
+
+   <TERM en="&amp;File" ar="&amp;ملف" />
+
+   <TERM en="Retrieve" ar="استرداد" />
+
+   <TERM en="Store" ar="المخزن" />
+
+   <TERM en="Workbench" ar="طاولة العمل" />
+
+   <TERM en="Rename Tab..." ar="تبويب إعادة التسمية..." />
+
+   <TERM en="Delete Tab" ar="حذف علامة تبويب" />
+
+   <TERM en="New Workbench" ar="طاولة عمل جديدة" />
+
+   <TERM en="Rename" ar="تسمية" />
+
+   <TERM en="Delete" ar="حذف" />
+
+   <TERM en="Copy" ar="نسخ" />
+
+   <TERM en="Store a copy of the current selection in the clipboard." ar="تخزين نسخة من المختار حالياً في الحافظة." />
+
+   <TERM en="Cut" ar="قص" />
+
+   <TERM en="Remove your current selection and place it in the clipboard." ar="إزالة المحدد حالياً ووضع في الحافظة." />
+
+   <TERM en="Paste" ar="لصق" />
+
+   <TERM en="Place a copy of the clipboard's contents." ar="ضع نسخة لمحتويات الحافظة." />
+
+   <TERM en="Duplicate" ar="تكرار" />
+
+   <TERM en="Delete your current selection." ar="احذف تحديدك الحالي." />
+
+   <TERM en="Create a duplicate of the currently selected solution." ar="إنشاء نسخة من المحلول المحدد حالياً" />
+
+   <TERM en="Workbench Menu" ar="قائمة طاولة العمل" />
+
+   <TERM en="Arrange" ar="ترتيب" />
+
+   <TERM en="by Name" ar="حسب الاسم" />
+
+   <TERM en="by Type" ar="حسب النوع" />
+
+   <TERM en="Auto Arrange" ar="ترتيب تلقائي" />
+
+   <TERM en="Line Up Components" ar="ارتصاف المكونات" />
+
+   <TERM en="Refresh" ar="تحديث" />
+
+   <TERM en="Component Menu" ar="قائمة المكونات" />
+
+   <TERM en="Bunsen Burner" ar="مصباح بنزن" />
+
+   <TERM en="Add a bunsen burner to the workbench." ar="إضافة مصباح بنزن إلى طاولة العمل" />
+
+   <TERM en="Scale" ar="مقياس" />
+
+   <TERM en="Add a weighing scale to the workbench." ar="إضافة مقياس الوزن إلى طاولة العمل" />
+
+   <TERM en="Set as Source" ar="تعيين كمصدر" />
+
+   <TERM en="Specify the currently selected flask as the source of a new transfer." ar="تعيين القارورة المختارة حالياً على أنها المصدر للنقل الجديد." />
+
+   <TERM en="Set as Recipient" ar="تعيين كمستلم" />
+
+   <TERM en="Specify the currently selected flask as the recipient of a new transfer." ar="تعيين القارورة المختارة حالياً على أنها المستقبل للنقل الجديد." />
+
+   <TERM en="Relabel the currently selected flask." ar="أعد تسمية القارورة المختارة حالياً." />
+
+   <TERM en="Detail View" ar="عرض التفاصيل" />
+
+   <TERM en="Display the detail view for the currently selected flask." ar="إعرض العرض المفصل للقارورة المختارة حالياً." />
+
+   <TERM en="Thermal Properties..." ar="خصائص حرارية..." />
+
+   <TERM en="Display the thermal properties for the currently selected flask." ar="اعرض الخصائص الحرارية للقارورة المختارة حالياً." />
+
+   <TERM en="&amp;Help" ar="&amp;تعليمات" />
+
+   <TERM en="Contents..." ar="المحتويات..." />
+
+   <TERM en="&amp;View" ar="&amp;عرض" />
+
+   <TERM en="Themes" ar="السمات" />
+
+   <TERM en="No Tabs" ar="بدون تبويب" />
+
+   <TERM en="&amp;Tools" ar="&amp;الأدوات" />
+
+   <TERM en="Glassware" ar="أداة زجاجية" />
+
+   <TERM en="Instruments" ar="أداوات" />
+
+   <TERM en="Transfer Bar" ar="شريط النقل" />
+
+   <TERM en="Viewers" ar="كواشف" />
+
+   <TERM en="Click to retrieve a solution from the stockroom." ar="انقر لاسترداد المحلول من  المخزن" />
+
+   <TERM en="Click to add your solution to the stockroom." ar="انقر لإضافة محلولك إلى المخزن." />
+
+   <TERM en="Click to select new glassware from the drop-down menu." ar="انقر لاختيار أداة جديدة من القائمة المنسدلة" />
+
+   <TERM en="Click to select tools from the drop-down menu." ar="انقر لاختيار الأدوات من القائمة المنسدلة" />
+
+   <TERM en="Click to remove the currently selected components (solutions) from the workbench." ar="انقر لإزالة المكونات (المحاليل) المحددة حالياً من طاولة العمل" />
+
+   <TERM en="Beakers" ar="كؤوس" />
+
+   <TERM en="Erlenmeyers" ar="إيرلنماير" />
+
+   <TERM en="Graduated Cylinders" ar="أسطوانات مدرجة" />
+
+   <TERM en="Pipets" ar="ممصات" />
+
+   <TERM en="Volumetrics" ar="حجمي" />
+
+   <TERM en="250mL Beaker" ar="كأس 250مل" />
+
+   <TERM en="600mL Beaker" ar="كأس 600مل" />
+
+   <TERM en="50mL Buret" ar="سحاحة 50مل" />
+
+   <TERM en="10mL Graduated Cylinder" ar="أسطوانة مدرجة 10مل" />
+
+   <TERM en="25mL Graduated Cylinder" ar="أسطوانة مدرجة 25مل" />
+
+   <TERM en="50mL Graduated Cylinder" ar="أسطوانة مدرجة 50مل" />
+
+   <TERM en="100mL Volumetric Flask" ar="قارورة حجمية 100 مل" />
+
+   <TERM en="250mL Volumetric Flask" ar="قارورة حجمية 250مل" />
+
+   <TERM en="500mL Volumetric Flask" ar="قارورة حجمية 500مل" />
+
+   <TERM en="1000mL Volumetric Flask" ar="قارورة حجمية 1000 مل" />
+
+   <TERM en="25mL Pipet" ar="ممص 25مل" />
+
+   <TERM en="10mL Pipet" ar="ممص 10مل" />
+
+   <TERM en="5mL Pipet" ar="ممص 5مل" />
+
+   <TERM en="Disposable Pipet" ar="ممص يتلف بعد الاستعمال" />
+
+   <TERM en="100mL Bottle" ar="قنينة 100 مل" />
+
+   <TERM en="Solid Bottle" ar="زجاجة صلب" />
+
+   <TERM en="2500mL Bottle" ar="قنينة 2500مل" />
+
+   <TERM en="250mL Erlenmeyer Flask" ar="حوجلة إيرلنماير 250مل" />
+
+   <TERM en="500mL Erlenmeyer Flask" ar="حوجلة إيرلنماير 500مل" />
+
+   <TERM en="3L Carboy" ar="قطرميز 3ل" />
+
+   <TERM en="Weighing Boat" ar="مركب الوزن" />
+
+   <TERM en="PH Meter" ar="PH مقياس" />
+
+   <TERM en="Click to change units" ar="انقر لتغيير الوحدات" />
+
+   <TERM en="Molarity" ar="المولية" />
+
+   <TERM en="grams" ar="غرامات" />
+
+   <TERM en="moles" ar="مول" />
+
+<!--Short for gas-->
+   <TERM en="g" ar="غ" />
+
+<!--Short for aqueous-->
+   <TERM en="aq" ar="ما" />
+
+<!--Short for solid-->
+   <TERM en="ص" ar="s" />
+
+   <TERM en="Aqueous" ar="مائي" />
+
+   <TERM en="Solid" ar="صلب" />
+
+   <TERM en="Gas" ar="بنزين" />
+
+   <TERM en="Species" ar="الأصناف" />
+
+   <TERM en="Stockroom Explorer..." ar="استعراض المخزن..." />
+
+   <TERM en="Solution Info..." ar="معلومات المحلول:" />
+
+   <TERM en="Name:" ar="الاسم:" />
+
+   <TERM en="Volume:"  ar="الحجم:" />
+
+   <TERM en="from " ar="من" />
+
+   <TERM en="to " ar="إلى" />
+
+   <TERM en="Un-named" ar="غير مسماة" />
+
+   <TERM en="Transfer amount (mL): " ar="مقدار النقل (مل):" />
+
+   <TERM en="Pour" ar="صب" />
+
+   <TERM en="Withdraw" ar="سحب" />
+
+   <TERM en="Transfer amount (g): " ar="مقدار النقل (غ):" />
+
+   <TERM en="Invalid amount!" ar="مقدار غير صحيح!" />
+
+   <TERM en="A pipet can only precisely transfer it's maximum volume, in this case " ar="يمكن للممص أن ينقل فقط بدقة حجمه الأقصى,في هذه الحالة" />
+
+   <TERM en="Watch those significant digits! Perhaps you meant " ar="راقب تلك الأرقام الهامّة! ربما عنيت" />
+
+   <TERM en="Remove the currently selected components." ar="إزالة المكونات المختارة حالياً." />
+
+   <TERM en="Remove" ar="إزالة" />
+
+   <TERM en="Select All" ar="تحديد الكل" />
+
+   <TERM en="Select all of the components." ar="اختيار كل المكونات." />
+
+   <TERM en="&amp;Cancel" ar="&amp;إلغاء الأمر" />
+
+   <TERM en="&amp;Ok" ar="&amp;موافق" />
+
+   <TERM en="&amp;Yes" ar="&amp;نعم" />
+
+   <TERM en="&amp;No" ar="&amp;لا" />
+
+   <TERM en="Connect to Chat Server" ar="الاتصال بملقم المحادثة" />
+
+   <TERM en="Enter a nickname:" ar="أدخل الكنية:" />
+
+   <TERM en="Thermal Properties" ar="خصائص حرارية" />
+
+   <TERM en="Solution:" ar="المحلول:" />
+
+   <TERM en="Temperature:" ar="الحرارة:" />
+
+   <TERM en="Set the temperature to:" ar="تعيين الحرارة إلى:" />
+
+   <TERM en="Insulated from surroundings" ar="عزلت من البيئة المحيطة" />
+
+   <TERM en="Relabel Solution" ar="أعد تسمية المحلول" />
+
+   <TERM en="to: " ar="إلى:" />
+
+   <TERM en="Rename Tab" ar="تبويب إعادة التسمية" />
+
+   <TERM en="Load Homework" ar="تحميل الوظيفة" />
+
+   <TERM en="Metal" ar="معدن" />
+
+   <TERM en="Emerald" ar="زمردي" />
+
+   <TERM en="Neutral" ar="حيادي" />
+
+   <TERM en="Presentation" ar="عرض تقديمي" />
+
+   <TERM en="Local Problems" ar="مشاكل محلية" />
+
+   <TERM en="Author:" ar="المؤلف:" />
+
+   <TERM en="Description:" ar="الوصف:" />
+
+   <TERM en="Contains:" ar="المحتويات:" />
+
+   <TERM en="items" ar="عناصر" />
+
+   <TERM en="item" ar="عنصر" />
+   
+   <TERM en="Folders" ar="المجلدات" />
+   
+   <TERM en="Files" ar="ملفات" />
+   
+   <TERM en="Foam Cup" ar="فنجان شمع" />
+   
+   <TERM en="TARE" ar="TARE" />
+   
+   <TERM en="Filter - Remove solid" ar="مرشح - إزالة الصلب" />
+   
+   <TERM en="Filter - Remove liquid" ar="مرشح - إزالة السائل" />
+   
+   <TERM en="Evaporate to dryness" ar="تبخير حتى الجفاف" />
+
+   <TERM en="Remove the solid fraction from this flask." ar="إزالة الجزء الصلب من هذه القارورة." />
+   
+   <TERM en="Remove the liquid fraction from this flask." ar="إزالة جزء السائل من هذه القارورة." />
+   
+   <TERM en="Evaporates the solvent of this solution to dryness." ar="تبخير مذيب هذا المحلول حتى الجفاف" />
+   
+   <font en="ARIALUNI.TTF" ar="ARIALUNI.TFF"/>
+</LANG_FILE>
+

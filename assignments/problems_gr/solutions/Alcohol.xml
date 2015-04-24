@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Σχέση πυκνότητας και περιεκτικότητας σε αιθανόλη αλκολούχων διαλυμάτων</TITLE>
+
+   <AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+
+   <DESCRIPTION>Determine the concentration from the density of the solution.</DESCRIPTION>
+
+   <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>
+
+   <SOLUTION_VIEWERS>
+      <VIEWER honorSignificantFigures="false" name="Ιδιότητες του διαλύματος" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />
+
+      <!--VIEWER sEnabled="true" aqEnabled="true" name="Ποσοτικά στοιχεία των χημικών ειδών" enabled="true" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" /-->
+
+      <VIEWER name="Θερμόμετρο" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+      <!--VIEWER name="Πεχάμετρο" enabled="true" driver="irydium.vlab.viewer.PhViewer" /-->
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Ακριβής προσθήκη" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <!--MODEL name="Προσθήκη με σημαντικά ψηφία" enabled="false" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" /-->
+
+      <!--MODEL name="Ρεαλιστική προσθήκη" enabled="false" driver="irydium.vlab.transfer.RealisticTransferModel" /-->
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="alcohol/reactions.xml" species="alcohol/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="alcohol" driver="irydium.textRealm.TextRealm" filesystem="alcohol/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="alcohol" path="/Αντιδραστήρια">Αντιδραστήρια</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

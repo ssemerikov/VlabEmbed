@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Περιγραφή εργαστηρίου</title>
+</head>
+
+<body>
+<table width="100%" border="0" cellpadding="3"cellspacing="0">
+  <tr>
+    <td bgcolor="#9F9FCF" align="left">
+      <font face="Arial, Helvetica, Sans-serif">
+        <strong>Περιγραφή εργαστηρίου</strong></font></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CFCFFF" align="left">
+      <font face="Arial, Helvetica, Sans-serif">
+        Ογκομετρικός προσδιορισμός δισθενούς σιδήρου</font></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="3"cellspacing="0">
+  <tr>
+    <td><font face="Arial, Helvetica, Sans-serif">
+      Η εργαστηριακή άσκηση έχει ως σκοπό την τιτλοδότηση ενός προτύπου διαλύματος ΚΜΝΟ<sub>4</sub> και 
+      στη συνέχεια τον ογκομετρικό προσδιορισμό της συγκέντρωσης Fe<sup>2+</sup>. Σε αυτό τον προσδιορισμό 
+      δε χρειάζεται η χρήση δείκτη αφού το διάλυμα του ΚΜΝΟ<sub>4</sub> είναι έγχρωμο 
+      και το ισοδύναμο σημείο ανιχνεύεται κατά τη μετατροπή του άχρωμου διαλύματος Fe<sup>2+</sup> σε έγχρωμο.
+    </font></td>
+  </tr>
+</table>
+</body>
+</html>

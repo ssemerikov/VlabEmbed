@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+
+				<SOLUTION name="CuCl" description="Copper(I) Chloride Solution" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="60" amount="0.075"/>
+				</SOLUTION>
+
+			<FILE href="cuclsolu.htm" description="Problem Description">Problem Description</FILE>
+
+	</DIRECTORY>
+
+</FILESYSTEM>

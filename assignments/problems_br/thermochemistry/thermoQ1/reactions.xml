@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!-- Water reaction. -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="2" coefficient="1"/>
+	</REACTION>
+	
+	<!-- H2PO4- -> HPO4-2 + H+ -->
+	<REACTION>
+		<SPECIES_REF id="202" coefficient="-1"/>
+		<SPECIES_REF id="201" coefficient="1"/>
+		<SPECIES_REF id="1"   coefficient="1"/>
+	</REACTION>
+	
+	<!-- HPO4-2 -> PO4(3-) + H+ -->
+	<REACTION>
+		<SPECIES_REF id="201" coefficient="-1"/>
+		<SPECIES_REF id="200" coefficient="1"/>
+		<SPECIES_REF id="1"   coefficient="1"/>
+	</REACTION>
+	
+	<!-- CH3COOH -> CH3COO- + H+ -->
+	<REACTION>
+		<SPECIES_REF id="211" coefficient="-1"/>
+		<SPECIES_REF id="210" coefficient="1"/>
+		<SPECIES_REF id="1"   coefficient="1"/>
+	</REACTION>
+	<!-- A+B -> C -->
+	<REACTION>
+		<SPECIES_REF id="212" coefficient="-1"/>
+		<SPECIES_REF id="213" coefficient="-1"/>
+		<SPECIES_REF id="214"   coefficient="1"/>
+	</REACTION>
+</REACTIONS>

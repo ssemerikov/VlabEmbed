@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0" name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"
+   					unitActivity="true" 
+					molecularWeight="18.016"/>
+
+	<SPECIES id="1" name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="1.008"/>
+
+	<SPECIES id="2" name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="3" name="NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-205.0"
+					entropy="146.4"
+				      density="2.662"
+					molecularWeight="62.01"/>
+
+	<SPECIES id="4" name="Cl&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-167.16"
+					entropy="56.5"
+					density="3.155"
+					molecularWeight="35.45"/>
+
+	<SPECIES id="5" name="Na&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="-240.12"
+					entropy="59.0"
+				      density="2.662"
+					molecularWeight="22.99"/>
+
+     <SPECIES id="6" name="NaCl"
+					enthalpy="-411.15"
+					entropy="72.13"
+					molecularWeight="58.44"
+					density="2.165"
+					state="s"/>
+
+     <SPECIES id="7" name="AgNO&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-124.39"
+					entropy="72.32"
+					molecularWeight="169.87"
+					density="4.352"
+					state="s"/>
+
+
+	<SPECIES id="8" name="AgCl"
+	                enthalpy="-127.03"
+	                entropy="96.11"
+				    state="s"
+				    hue="180"
+				    saturation="0"
+				    value="85"
+				    colorConcentration=".03"
+		                molecularWeight="143.32"
+					density="5.56"/>
+
+	<SPECIES id="9" name="Ag&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="105.57"
+					entropy="72.68"
+					density="3.02"
+					molecularWeight="107.9"/>
+
+
+
+</SPECIES_LIST>

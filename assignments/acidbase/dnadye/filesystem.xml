@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water" volume="0.1">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+		<DIRECTORY name="Strong-bases">
+				<SOLUTION name="1M NaOH" description="1M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="2" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M NaOH" description="0.1M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.01"/>
+					<SPECIES_REF id="2" amount="0.01"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="3M NaOH" description="3M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.3"/>
+					<SPECIES_REF id="2" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M NaOH" description="10M Sodium Hydroxide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="1.0"/>
+					<SPECIES_REF id="2" amount="1.0"/>
+				</SOLUTION>
+
+
+		</DIRECTORY>
+
+
+
+		<DIRECTORY name="Conjugate-bases">
+				<SOLUTION name="1M NaNCCH&lt;sub&gt;2&lt;/sub&gt;COO" description="1M Sodium Cyanoacetate" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="15" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M Na&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;" description="1M Sodium Carbonate" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="28" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M Na&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1M Sodium Phosphate" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="40" amount="0.1"/>
+				</SOLUTION>
+				
+
+				<SOLUTION name="1M NaCH&lt;sub&gt;3&lt;/sub&gt;COO" description="1M Sodium Acetate" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="23" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaHCO&lt;sub&gt;3&lt;/sub&gt;" description="1M Sodium Hydrogen Carbonate" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="27" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOCl" description="1M Sodium Hypochloride" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="17" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOI" description="1M Sodium Hypoiodide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="21" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaCN" description="1M Sodium Cyanide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="25" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaOBr" description="1M Sodium Hypobromide" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="19" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaF" description="1M Sodium Floride" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="11" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NaCl&lt;sub&gt;2&lt;/sub&gt;CHCOO" description="1M Sodium Dichloroacetate" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="8" amount="0.1"/>
+					<SPECIES_REF id="13" amount="0.1"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Strong-acids">
+				<SOLUTION name="10M HCl" description="10 Molar Hydrochloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HCl" description="3 Molar Hydrochloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.30000000000000004"/>
+					<SPECIES_REF id="1" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="10M HBr" description="10 Molar Hydrobromic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="5" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HBr" description="3 Molar Hydrobromic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="5" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="3M HNO&lt;sub&gt;3&lt;/sub&gt;" description="3 Molar Nitric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="0.30000000000000004"/>
+					<SPECIES_REF id="1" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M HNO&lt;sub&gt;3&lt;/sub&gt;" description="10 Molar Nitric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="3" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="10M HClO&lt;sub&gt;4&lt;/sub&gt;" description="10 Molar Perchloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HClO&lt;sub&gt;4&lt;/sub&gt;" description="3 Molar Perchloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="6" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="10M HI" description="10 Molar Hydriodic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="4" amount="1.0"/>
+					<SPECIES_REF id="1" amount="1.0"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HI" description="3 Molar Hydriodic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="4" amount="0.3"/>
+					<SPECIES_REF id="1" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HCl" description="1 Molar Hydrochloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="1" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="0.1M HCl" description="0.1 Molar Hydrochloric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.01"/>
+					<SPECIES_REF id="1" amount="0.01"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+		<DIRECTORY name="Weak-acids">
+				<SOLUTION name="1M HF" description="1 Molar Hydroflouric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="1 Molar Acetic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="22" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M CH&lt;sub&gt;3&lt;/sub&gt;COOH" description="3 Molar Acetic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="22" amount="0.3"/>
+				</SOLUTION>
+
+
+
+
+				<SOLUTION name="3M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="3 Molar Cyanocetic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="3 Molar Phosphoric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;" description="1 Molar Phosphoric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="37" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="1M NCCH&lt;sub&gt;2&lt;/sub&gt;COOH" description="1 Molar Cyanocetic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="14" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HOI" description="3 Molar Hypoiodous Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="20" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HOCl" description="1 Molar Hypochlorous Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="16" amount="0.1"/>
+				</SOLUTION>
+
+
+				<SOLUTION name="3M HOCl" description="3 Molar Hypochlorous Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="16" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HOI" description="1 Molar Hypoiodous Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="20" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HOBr" description="1 Molar Hypobromous Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="18" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HF" description="3 Molar Hydroflouric Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="10" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="3 Molar Dichloroacetic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="12" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH" description="1 Molar Dichloroacetic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="12" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M HCN" description="1 Molar Hydrocyanic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="24" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M HOBr" description="3 Molar Hypobromous Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="18" amount="0.30000000000000004"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M H&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;" description="1 Molar Carbonic Acid" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="26" amount="0.1"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+			<DIRECTORY name="Weak-bases">
+
+
+				<SOLUTION name="3M NH&lt;sub&gt;3&lt;/sub&gt;" description="3 Molar Ammonia" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M NH&lt;sub&gt;3&lt;/sub&gt;" description="1 Molar Ammonia" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="33" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;2&lt;/sub&gt;" description="1M Aniline" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="31" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;2&lt;/sub&gt;" description="3M Aniline" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="31" amount="0.3"/>
+				</SOLUTION>
+
+
+			</DIRECTORY>
+
+
+			<DIRECTORY name="Conjugate-acids">
+
+				<SOLUTION name="1M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="1 Molar Ammonium Chloride" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="36" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M NH&lt;sub&gt;4&lt;/sub&gt;Cl" description="3 Molar Ammonium Chloride" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.3"/>
+					<SPECIES_REF id="36" amount="0.3"/>
+				</SOLUTION>
+
+				<SOLUTION name="1M C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;3&lt;/sub&gt;Cl" description="1M Aniline Chloride" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.1"/>
+					<SPECIES_REF id="32" amount="0.1"/>
+				</SOLUTION>
+
+				<SOLUTION name="3M C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;3&lt;/sub&gt;Cl" description="3M Aniline Chloride" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="7" amount="0.3"/>
+					<SPECIES_REF id="32" amount="0.3"/>
+				</SOLUTION>
+
+			</DIRECTORY>
+
+
+
+
+
+
+
+	</DIRECTORY>
+
+
+		<DIRECTORY name="dnadye">
+
+			<FILE href="dnadye.htm" description="DNA Dye Handout">Problem Description</FILE>
+
+				<SOLUTION name="0.1M HDye&lt;sub&gt;a&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt;" description="0.1 Molar Molecular Dye" volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="41" amount="0.01"/>
+				</SOLUTION>
+
+				<SOLUTION name="10&lt;sup&gt;-3&lt;/sup&gt;M DNA&lt;sub&gt;a&lt;/sub&gt;" description="10 Micromolar Viral DNA " volume="0.1">
+					<SPECIES_REF id="0"/>
+					<SPECIES_REF id="43" amount="0.0001"/>
+				</SOLUTION>
+
+		</DIRECTORY>
+
+</FILESYSTEM>

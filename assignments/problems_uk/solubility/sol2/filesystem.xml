@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Дистильована H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "AgCl" description="Аргентум хлорид" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="3" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "PbCO&lt;sub&gt;3&lt;/sub&gt;" description="Плюмбум карбонат" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="6" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "PbCl&lt;sub&gt;2&lt;/sub&gt;" description="Плюмбум (ІІ) хлорид" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="9" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Al(OH)&lt;sub&gt;3&lt;/sub&gt;" description="Алюміній гідроксид" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="10" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Ag&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;" description="Аргентум карбонат" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="12" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Ag&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;" description="Аргентум сульфат" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="13" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Ca&lt;sub&gt;3&lt;/sub&gt;(PO&lt;sub&gt;4&lt;/sub&gt;)&lt;sub&gt;2&lt;/sub&gt;" description="Кальцій ортофосфат" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="15" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "SrSO&lt;sub&gt;4&lt;/sub&gt;" description="Стронцій сульфат" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="18" amount="1.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "Sr(IO&lt;sub&gt;3&lt;/sub&gt;)&lt;sub&gt;2&lt;/sub&gt;" description="Стронцій йодат" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="20" amount="1.2"/>
+				</SOLUTION>
+
+				<SOLUTION name = "100 мл дистильованої H&lt;sub&gt;2&lt;/sub&gt;O" description="100 мл дистильованої води"
+						  volume="0.1">
+					<SPECIES_REF id="0"/>
+				</SOLUTION>
+
+		<FILE href="sol2.htm" description="Опис завдання"> Опис завдання </FILE>
+ 
+
+	</DIRECTORY>
+</FILESYSTEM>

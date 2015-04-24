@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<SPECIES_LIST>
+
+	<!-- Water. -->
+	<SPECIES id="0" name="H&lt;sub&gt;2&lt;/sub&gt;O" 
+	                enthalpy="-285.83" 
+	                entropy="69.95" 
+	                state="l" 
+	                molecularWeight="18.02"/>
+	<SPECIES id="1" name="H&lt;sup&gt;+&lt;/sup&gt;"
+	                molecularWeight="1.007"/>
+	<SPECIES id="2" name="OH&lt;sup&gt;-&lt;/sup&gt;"
+	                enthalpy="-229.9" 
+	                entropy="-10.75" 
+	                molecularWeight="17.01"/>
+
+	<!-- Regular Species. -->
+	<SPECIES id="100" name="Na&lt;sup&gt;+&lt;/sup&gt;" 
+	                  enthalpy="-240.12" 
+	                  entropy="59" 
+	                  molecularWeight="22.99"/>
+	<SPECIES id="101" name="Cl&lt;sup&gt;-&lt;/sup&gt;" 
+	                  enthalpy="-167.16" 
+	                  entropy="56.5" 
+	                  molecularWeight="35.45"/>
+	<SPECIES id="200" name="PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;3-&lt;/sup&gt;"
+	                  enthalpy="-1277.4"
+	                  entropy="-222"
+	                  molecularWeight="94.97"/>
+	<SPECIES id="201" name="HPO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;2-&lt;/sup&gt;"
+	                  enthalpy="-1292.14"
+	                  entropy="-33.5"
+	                  molecularWeight="95.98"/>
+	<SPECIES id="202" name="H&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+	                  enthalpy="-1296.29"
+	                  entropy="90.4"
+	                  molecularWeight="96.99"/>
+	<SPECIES id="210" name="CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt;"
+	                  enthalpy="-486.01"
+	                  entropy="86.6"
+	                  molecularWeight="59.05"/>
+	<SPECIES id="211" name="CH&lt;sub&gt;3&lt;/sub&gt;COOH"
+	                  enthalpy="-485.76"
+	                  entropy="178.7"
+	                  molecularWeight="60.06"/>
+	<SPECIES id="212" name="A"
+	                  enthalpy="-50"
+	                  entropy="-300"
+	                  molecularWeight="30"/>
+	<SPECIES id="213" name="B"
+	                  enthalpy="100"
+	                  entropy="-300"
+	                  molecularWeight="90.9"/>
+	<SPECIES id="214" name="C"
+	                  enthalpy="-91.8"
+	                  entropy="886"
+	                  molecularWeight="120.9"/>
+</SPECIES_LIST>

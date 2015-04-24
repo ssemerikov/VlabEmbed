@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Дистильована H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0" amount="166.525"/>
+
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaCl" description="Натрій хлорид" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="6" amount="2.1"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "AgNO&lt;sub&gt;3&lt;/sub&gt;" description="Аргентум нітрат" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="7" amount="1.4"/>
+				</SOLUTION>
+
+				<SOLUTION name = "1.00 г NaCl" description="Розчин 1.00 г натрій хлориду у 100 г води"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="6" amount="0.017111567419575633"/>
+				</SOLUTION>
+
+       			<SOLUTION name = "1.00 г AgNO&lt;sub&gt;3&lt;/sub&gt;" description="Аргентум нітрат масою 1.00 г"  volume="0.0">
+				    <SPECIES_REF id="7" amount="0.0058868547"/>
+				</SOLUTION>
+
+					<SOLUTION name = "Розчин 1" description="2.00 г натрій хлориду розчинені у воді"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="6" amount="0.0342231348"/>
+				</SOLUTION>
+
+				<SOLUTION name = "Розчин 2" description="3.00 г аргентум нітрату розчинені у воді"  volume="0.1">
+			          <SPECIES_REF id="0" amount="5.550833"/>
+				    <SPECIES_REF id="7" amount="0.01766056396067"/>
+				</SOLUTION>
+
+		<FILE href="hslimit1.htm" description="Опис завдання"> Опис завдання	</FILE>
+   
+	</DIRECTORY>
+</FILESYSTEM>

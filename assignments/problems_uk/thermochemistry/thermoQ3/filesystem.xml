@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+		
+	
+			<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O" description="Дистильована вода" volume=".1">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="0.1 M Реагент X" description="Розчин речовини Х, 0.1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".01"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="0.2 M Реагент Y" description="Розчин речовини Y, 0.2 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".02"/>
+		</SOLUTION>
+
+		<SOLUTION name="0.2 M Реагент X" description="Розчин речовини Х, 0.2 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".02"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="0.1 M Реагент Y" description="Розчин речовини Y, 0.1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".01"/>
+		</SOLUTION>
+		<SOLUTION name="1 M Реагент X" description="Розчин речовини Х, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".1"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="1 M Реагент Y" description="Розчин речовини Y, 1 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".1"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="3 M Реагент X" description="Розчин речовини Х, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="212" amount=".3"/>
+		</SOLUTION>
+
+
+		<SOLUTION name="3 M Реагент Y" description="Розчин речовини Y, 3 моль/л" volume=".1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="213" amount=".3"/>
+		</SOLUTION>
+
+		<FILE href="camping3.htm" description="Опис завдання про турпохід 3">Опис завдання</FILE>
+
+
+
+	</DIRECTORY>	
+
+</FILESYSTEM>

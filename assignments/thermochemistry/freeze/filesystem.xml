@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+
+			      <SOLUTION name = "Compound Y" description="Compound Y" volume="0.1">
+				      <SPECIES_REF id="4" amount="1.643"/>
+				</SOLUTION>
+
+		<FILE href="freeze.htm" description="Freeze Problem Description">Problem Description</FILE>
+
+
+
+	</DIRECTORY>
+</FILESYSTEM>

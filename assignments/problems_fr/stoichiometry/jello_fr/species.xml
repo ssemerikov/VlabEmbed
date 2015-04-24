@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0"	name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"/>
+
+	<SPECIES id="1"	name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"/>
+
+	<SPECIES id="2"	name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"/>
+
+	<SPECIES id="3" name="A" 
+	                entropy="-1000"/>
+	
+	<SPECIES id="4" name="B" 
+	                entropy="-1000"/>
+
+	<SPECIES id="5" name="C" 
+	                entropy="1000"
+	                hue="110"
+					saturation="100"
+					value="90"
+			 		colorConcentration=".0000001"/>
+
+	<SPECIES id="6" name="D" 
+	                entropy="-1000"/>
+
+	<SPECIES id="7" name="E" 
+	                entropy="5000"
+	                hue="360"
+					saturation="100"
+					value="90"
+			 		colorConcentration=".0000001"/>
+
+	<SPECIES id="8" name="F" 
+	                entropy="-1000"/>
+
+	<SPECIES id="9" name="G" 
+	                entropy="10000"
+	                hue="210"
+					saturation="100"
+					value="90"
+			 		colorConcentration=".0000001"/>
+
+	<SPECIES id="10" name="H" 
+	                entropy="-1000"/>
+
+	<SPECIES id="11" name="I" 
+	                entropy="50000"
+	                hue="55"
+					saturation="100"
+					value="100"
+			 		colorConcentration=".00015"/>
+
+</SPECIES_LIST>

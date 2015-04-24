@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0"	name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					molecularWeight="18.016"
+					state="l"/>
+
+	<SPECIES id="1"	name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"
+					molecularWeight="1.008"/>
+
+	<SPECIES id="2"	name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"
+					molecularWeight="17.008"/>
+
+	<SPECIES id="3"	name="A"
+					enthalpy="0.0"
+					entropy="-2500.0"
+					molecularWeight="51"/>
+
+	<SPECIES id="4"	name="B"
+					enthalpy="0.0"
+					entropy="5000.0"
+					molecularWeight="26"/>
+
+
+	<SPECIES id="5"	name="C"
+					enthalpy="0.0"
+					entropy="-4250.0"
+					molecularWeight="33"/>
+
+	<SPECIES id="6"	name="D"
+					enthalpy="0.0"
+					entropy="7500.0"
+					molecularWeight="25"/>
+
+
+</SPECIES_LIST>

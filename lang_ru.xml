@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--Translated by...
+	Russian (ru)	Vladimir Kurg
+-->
+
+<LANG_FILE>
+   <TERM en="Load selected solution" ru="Загрузить выбранный solution" />
+
+   <TERM en="Empty solution test tube" ru="Пустая solution пробирка" />
+
+   <TERM en="View inside" ru="Заглянуть" />
+
+   <TERM en="UV-VIS Spectrophotometer" ru="УФ-ВИЗ-спектрофотометр" />
+
+   <TERM en="Windows" ru="Окна" />
+
+   <TERM en="Spectrophotometer" ru="Спектрофотометр" />
+
+   <TERM en="Virtual Lab" ru="Виртуальная лаборатория" />
+
+   <TERM en="Arrange both" ru="Выровнять обе" />
+
+   <TERM en="Wavelength control knob" ru="Выбор длины волны" />
+
+   <TERM en="Power switch. Zeroing knob" ru="Включение питания. Установка нуля" />
+
+   <TERM en="Blanking knob" ru="Сброс" />
+
+   <TERM en="Spectrum graph options" ru="Опции отображения спектра" />
+
+   <TERM en="No data" ru="Данные отсутствуют" />
+
+   <TERM en="x Axis" ru="Ось x" />
+
+   <TERM en="y Axis" ru="Ось y" />
+
+   <TERM en="Nanometers" ru="Нанометры" />
+
+   <TERM en="Absorbance" ru="Поглощение" />
+
+   <TERM en="Transmittance" ru="Пропускание" />
+
+   <TERM en="Color mode" ru="Выбор цвета" />
+
+   <TERM en="Colored" ru="Окрашено" />
+
+   <TERM en="Colorless" ru="Бесцветно" />
+
+   <TERM en="Lines" ru="Линии" />
+
+   <TERM en="Points" ru="Точки" />
+
+   <TERM en="Yes" ru="Да" />
+
+   <TERM en="No" ru="Нет" />
+
+   <TERM en="No solution is selected" ru="Раствор (solution) не выбран" />
+
+   <TERM en="Error" ru="Ошибка" />
+
+   <TERM en="Say: " ru="Говорит: " />
+
+   <TERM en="has entered the room." ru="вошёл (вошла) в комнату" />
+
+   <TERM en="have entered the room." ru="вошли в комнату" />
+
+   <TERM en="has left the room." ru="покинул(а) комнату" />
+
+   <TERM en="Cancel" ru="Отменить"/>
+
+   <TERM en="Ok" ru="Принять" />
+
+   <TERM en="Send Instant Message" ru="Отправить сообщение" />
+
+   <TERM en="To whom would you like to send an instant message?" ru="Кому вы желаете отправить сообщение?" />
+
+   <TERM en="User:" ru="Пользователь" />
+
+   <TERM en="Join Channel" ru="Подключиться к каналу" />
+
+   <TERM en="Channel Name:" ru="Название канала" />
+
+   <TERM en="Members:" ru="Участники" />
+
+   <TERM en="Connecting to chat server..." ru="Выполняется подключение к чат-серверу..." />
+
+   <TERM en="Error in IRC I/O initialization." ru="Ошибка инициализации IRC I/O" />
+
+   <TERM en="User logged out." ru="Пользователь отключился." />
+
+   <TERM en="Error message: " ru="Ошибка: " />
+
+   <TERM en="Welcome to " ru="Добро пожаловать в " />
+
+<!-- The & character is used to indicate the mnemonic for the menu (&amp; is the XML entity for &)-->
+   <TERM en="&amp;Edit" ru="&amp;Правка" />
+
+   <TERM en="Undo" ru="Отмена" />
+
+   <TERM en="Redo" ru="Повторить" />
+
+   <TERM en="Redo your last action." ru="&amp;Повторить последнее действие" />
+
+   <TERM en="Undo your last action." ru="&amp;Отменить последнее действие" />
+
+   <TERM en="&amp;Chat" ru="&amp;Чат" />
+
+   <TERM en="Load Homework..." ru="Загрузить задание..." />
+
+   <TERM en="Load a homework problem from the internet." ru="Загрузить задание через Интернет" />
+
+   <TERM en="About..." ru="О программе" />
+
+   <TERM en="About the virtual lab." ru="О Виртуальной лаборатории." />
+
+   <TERM en="Exit" ru="Выход" />
+
+   <TERM en="Exit the Virtual Laboratory." ru="Выйти из виртуальной даборатории." />
+
+   <TERM en="&amp;File" ru="Файл" />
+
+   <TERM en="Retrieve" ru="Взять" />
+
+   <TERM en="Store" ru="Сохранить" />
+
+   <TERM en="Workbench" ru="Рабочий стол" />
+
+   <TERM en="Rename Tab..." ru="Переименовать закладку..." />
+
+   <TERM en="Delete Tab" ru="Удалить закладку" />
+
+   <TERM en="New Workbench" ru="Новый рабочий стол" />
+
+   <TERM en="Rename" ru="Переименовать" />
+
+   <TERM en="Delete" ru="Удалить" />
+
+   <TERM en="Copy" ru="Копировать" />
+
+   <TERM en="Store a copy of the current selection in the clipboard." ru="Сохранить выбранное в буфере обмена" />
+
+   <TERM en="Cut" ru="Вырезать" />
+
+   <TERM en="Remove your current selection and place it in the clipboard." ru="Вырезать выбранное и поместить в буфер обмена" />
+
+   <TERM en="Paste" ru="Вставить" />
+
+   <TERM en="Place a copy of the clipboard's contents." ru="Вставить содержимое буфера обмена" />
+
+   <TERM en="Duplicate" ru="Дублировать" />
+
+   <TERM en="Delete your current selection." ru="Удалить выбранное" />
+
+   <TERM en="Create a duplicate of the currently selected solution." ru="Создать копию выбранного предмета" />
+
+   <TERM en="Workbench Menu" ru="Меню рабочего стола" />
+
+   <TERM en="Arrange" ru="Упорядочить" />
+
+   <TERM en="by Name" ru="по названию" />
+
+   <TERM en="by Type" ru="по типу" />
+
+   <TERM en="Auto Arrange" ru="Упорядочить автоматически" />
+
+   <TERM en="Line Up Components" ru="Выровнять" />
+
+   <TERM en="Refresh" ru="Обновить" />
+
+   <TERM en="Component Menu" ru="Меню компонента" />
+
+   <TERM en="Bunsen Burner" ru="Горелка Бунзена" />
+
+   <TERM en="Add a bunsen burner to the workbench." ru="Поместить горелку Бунзена на рабочий стол" />
+
+   <TERM en="Scale" ru="Весы" />
+
+   <TERM en="Add a weighing scale to the workbench." ru="Поместить шкалу весов на рабочий стол" />
+
+   <TERM en="Set as Source" ru="Взять отсюда" />
+
+   <TERM en="Specify the currently selected flask as the source of a new transfer." ru="Устанавливает выбранную ёмкость как источник реагента" />
+
+   <TERM en="Set as Recipient" ru="Добавить сюда" />
+
+   <TERM en="Specify the currently selected flask as the recipient of a new transfer." ru="Устанавливает выбранную ёмкость как приёмник реагента" />
+
+   <TERM en="Relabel the currently selected flask." ru="Заменить этикетку выбранной колбы" />
+
+   <TERM en="Detail View" ru="Приблизить шкалу" />
+
+   <TERM en="Display the detail view for the currently selected flask." ru="Показывает увеличенную шкалу выбранной ёмкости." />
+
+   <TERM en="Thermal Properties..." ru="Термические свойства" />
+
+   <TERM en="Display the thermal properties for the currently selected flask." ru="Показывает теримческие свойства выбранного сосуда." />
+
+   <TERM en="&amp;Help" ru="&amp;Справка" />
+
+   <TERM en="Contents..." ru="Содержание..." />
+
+   <TERM ca="&amp;Veure" en="&amp;View" ru="&amp;Вид" />
+
+   <TERM en="Themes" ru="Оформление" />
+
+   <TERM en="No Tabs" ru="Без закладок" />
+
+   <TERM ca="E&amp;Ines" en="&amp;Tools" ru="Инс&amp;трументы" />
+
+   <TERM en="Glassware" ru="Лабораторная посуда" />
+
+   <TERM en="Instruments" ru="Оборудование" />
+
+   <TERM en="Transfer Bar" ru="Режим добавления" />
+
+   <TERM en="Viewers" ru="Информационная панель" />
+
+   <TERM en="Click to retrieve a solution from the stockroom." ru="Щёлкните, чтобы взять реактив из шкафа." />
+
+   <TERM en="Click to add your solution to the stockroom." ru="Щёлкните, чтобы поставить реактив в  шкаф." />
+
+   <TERM en="Click to select new glassware from the drop-down menu." ru="Щёлкните, чтобы выбрать лабораторную посуду из выпадающего меню." />
+
+   <TERM en="Click to select tools from the drop-down menu." ru="Щелкните, чтобы выбрать оборудование из выпадающего меню." />
+
+   <TERM en="Click to remove the currently selected components (solutions) from the workbench." ru="Щёлкните, чтобы удалить выбранное оброудование (реактивы) с рабочего стола." />
+
+   <TERM en="Beakers" ru="Химические стаканы" />
+
+   <TERM en="Erlenmeyers" ru="Колбы Эрленмейера" />
+
+   <TERM en="Graduated Cylinders" ru="Мерные цилиндры" />
+
+   <TERM en="Pipets" ru="Пипетки" />
+
+   <TERM en="Volumetrics" ru="Мерные колбы" />
+
+   <TERM en="250mL Beaker" />
+
+   <TERM en="600mL Beaker" />
+
+   <TERM en="50mL Buret" ru="Бюретка 50 мл" />
+
+   <TERM en="10mL Graduated Cylinder" ru="Мерный цилиндр 10 мл" />
+
+   <TERM en="25mL Graduated Cylinder" ru="Мерный цилиндр 25 мл" />
+
+   <TERM en="50mL Graduated Cylinder" ru="Мерный цилиндр 50 мл" />
+
+   <TERM en="100mL Volumetric Flask" ru="Мерная колба 100 мл" />
+
+   <TERM en="250mL Volumetric Flask" ru="Мерная колба 250 мл" />
+
+   <TERM en="500mL Volumetric Flask" ru="Мерная колба 500 мл" />
+
+   <TERM en="1000mL Volumetric Flask" ru="Мерная колба 1000 мл" />
+
+   <TERM en="25mL Pipet" ru="Пипетка 25 мл" />
+
+   <TERM en="10mL Pipet" ru="Пипетка 10 мл" />
+
+   <TERM en="5mL Pipet" ru="Пипетка 5 мл" />
+
+   <TERM en="Disposable Pipet" ru="Одноразовая пипетка" />
+
+   <TERM en="100mL Bottle" ru="Флакон 100 мл" />
+
+   <TERM en="Solid Bottle" ru="Банка" />
+
+   <TERM en="2500mL Bottle" ru="Бутылка 2500 мл" />
+
+   <TERM en="250mL Erlenmeyer Flask" ru="Колба Эрленмейера 250 мл" />
+
+   <TERM en="500mL Erlenmeyer Flask" ru="Колба Эрленмейера 500 мл" />
+
+   <TERM en="3L Carboy" ru="Бутыль 3 л" />
+
+   <TERM en="Weighing Boat" ru="Лодочка для взвешивания" />
+
+   <TERM en="PH Meter" ru="PH-метр"/>
+
+   <TERM en="Click to change units" ru="Щёлкните, чтобы поменять единицы измерения" />
+
+   <TERM en="Molarity" ru="Молярность" />
+
+   <TERM en="grams" ru="грамм" />
+
+   <TERM en="moles" ru="моль" />
+
+<!--Short for gas-->
+   <TERM en="g" ru="газ" />
+
+<!--Short for aqueous-->
+   <TERM en="aq" ru="водн." />
+
+<!--Short for solid-->
+   <TERM en="s" ru="тв." />
+
+   <TERM en="Aqueous" ru="Водный" />
+
+   <TERM en="Solid" ru="Твёрдый" />
+
+   <TERM en="Gas" ru="Газ" />
+
+   <TERM en="Species" ru="Вещества" />
+
+   <TERM en="Stockroom Explorer..." ru="Склад реактивов" />
+
+   <TERM en="Solution Info..." ru="Свойства раствора..." />
+
+   <TERM en="Name:" ru="Название:" />
+
+   <TERM en="Volume:" ru="Объём:" />
+
+   <TERM en="from " ru="из " />
+
+   <TERM en="to " ru="в " />
+
+   <TERM en="Un-named" ru="Без названия" />
+
+   <TERM en="Transfer amount (mL): " ru="Перенести в количестве (мл): " />
+
+   <TERM en="Pour" ru="Добавить" />
+
+   <TERM en="Withdraw" ru="Изъять" />
+
+   <TERM en="Transfer amount (g): " ru="Перенести в количестве (г): " />
+
+   <TERM en="Invalid amount!" ru="Некорректное количество!" />
+
+   <TERM en="A pipet can only precisely transfer it's maximum volume, in this case " ru="С помощью пипетки в режиме добавления с произвольной точностью можно добавить или отобрать только её максимальный объём, поэтому " />
+
+   <TERM en="Watch those significant digits! Perhaps you meant " ru="Обратите внимание на количество знаков после запятой! Вероятно, вы имели в виду " />
+
+   <TERM en="Remove the currently selected components." ru="Удалить выбранные объекты" />
+
+   <TERM en="Remove" ru="Удалить" />
+
+   <TERM en="Select All" ru="Выбрать всё" />
+
+   <TERM en="Select all of the components." ru="Выбрать все объекты"/>
+
+   <TERM ca="&amp;Cancel.lar" en="&amp;Cancel" ru="&amp;Отменить" />
+
+   <TERM ca="&amp;Acceptar" en="&amp;Ok" ru="&amp;Принять" />
+
+   <TERM ca="&amp;Sн" en="&amp;Yes" ru="&amp;Да" />
+
+   <TERM ca="&amp;No" en="&amp;No" ru="&amp;Нет" />
+
+   <TERM en="Connect to Chat Server" ru="Подсоединиться к чат-серверу" />
+
+   <TERM en="Enter a nickname:" ru="Введите Ваш чат-псевдоним:" />
+
+   <TERM en="Thermal Properties" ru="Термические свойства" />
+
+   <TERM en="Solution:" ru="Раствор:" />
+
+   <TERM en="Temperature:" ru="Температура:" />
+
+   <TERM en="Set the temperature to:" ru="Установить температуру равной:" />
+
+   <TERM en="Insulated from surroundings" ru="Изолировать от окружающей среды" />
+
+   <TERM en="Relabel Solution" ru="Переименовать раствор" />
+
+   <TERM en="to: " ru="в: " />
+
+   <TERM en="Rename Tab" ru="Переименовать закладку" />
+
+   <TERM en="Load Homework" ru="Загрузить задание" />
+
+   <TERM en="Metal" ru="Металл" />
+
+   <TERM en="Emerald" ru="Изумруд" />
+
+   <TERM en="Neutral" ru="Нейтральное" />
+
+   <TERM en="Presentation" ru="Презентация"/>
+
+   <TERM en="Local Problems" ru="Локальные лабораторные работы" />
+
+   <TERM en="Author:" ru="Автор" />
+
+   <TERM en="Description:" ru="Описание:" />
+
+   <TERM en="Contains:" ru="Содержит:" />
+
+   <TERM en="items" ru="элемент" />
+
+   <TERM en="item" ru="элементы" />
+   
+   <TERM en="Folders" ru="Папки" />
+   
+   <TERM en="Files" ru="Файлы" />
+   
+   <TERM en="Foam Cup" ru="Теплоизолирующая чашка" />
+   
+   <TERM en="TARE" ru="ТАРА"/>
+   
+   <TERM en="Filter - Remove solid" ru="Фильтровать - удалить осадок" />
+   
+   <TERM en="Filter - Remove liquid" ru="Фильтровать = удалить раствор" />
+   
+   <TERM en="Evaporate to dryness" ru="Упарить досуха" />
+
+   <TERM en="Remove the solid fraction from this flask." ru="Удалить осадок из колбы" />
+   
+   <TERM en="Remove the liquid fraction from this flask." ru="Удалить раствор из колбы" />
+   
+   <TERM en="Evaporates the solvent of this solution to dryness." ru="Упарить данный раствор досуха" />
+</LANG_FILE>
+

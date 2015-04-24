@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "H&lt;sub&gt;2&lt;/sub&gt;O Destilada" description="Água Destilada"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaCl" description="Cloreto de Sódio" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="8" amount="2.2"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "KCl" description="Cloreto de Potássio" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="3" amount="2.1"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaNO&lt;sub&gt;3&lt;/sub&gt;" description="Nitrato de Sódio" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="10" amount="2.2"/>
+				</SOLUTION>
+
+
+				<SOLUTION name = "CuSO&lt;sub&gt;4&lt;/sub&gt;" description="Sulfato de Cobre (II)" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="20" amount="1.2"/>
+				</SOLUTION>
+
+				<SOLUTION name= "K&lt;sub&gt;2&lt;/sub&gt;Cr&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;" 
+					description="Dicromato de Potássio" volume="0.0" vessel="SolidBottle">
+				   <SPECIES_REF id="18" amount=".6"/>
+				</SOLUTION>
+
+				<SOLUTION name = "KClO&lt;sub&gt;3&lt;/sub&gt;" description="Clorato de Potássio" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="16" amount="1.2"/>
+				</SOLUTION>
+
+				<SOLUTION name="Ce&lt;sub&gt;2&lt;/sub&gt;(SO&lt;sub&gt;4&lt;/sub&gt;)&lt;sub&gt;3&lt;/sub&gt;" 
+					description="Sulfato de Cério" volume="0.0" vessel="SolidBottle">
+					<SPECIES_REF id="11" amount="0.6"/>
+				</SOLUTION>
+
+				<SOLUTION name = "100 ml H&lt;sub&gt;2&lt;/sub&gt;O Destilada" description="100 ml Água Destilada"
+						  volume="0.1">
+					<SPECIES_REF id="0"/>
+				</SOLUTION>
+
+		<FILE href="sol.htm" description="Informações adicionais"> Descrição do Problema	</FILE>
+   
+	</DIRECTORY>
+</FILESYSTEM>

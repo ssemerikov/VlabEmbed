@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!--  H<sub>2</sub>O ->  H<sup>+</sup> +  OH<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="2" coefficient="1"/>
+	</REACTION>
+
+	<!--  MgCl<sub>2</sub> -> 2.0 Cl<sup>-</sup> +  Mg<sup>+2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="8" coefficient="2"/>
+		<SPECIES_REF id="4" coefficient="1"/>
+		<SPECIES_REF id="16" coefficient="-1"/>
+	</REACTION>
+
+	<!--  MgSO<sub>4</sub> -> Mg<sup>+2</sup> + SO<sub>4</sub><sup>-2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="18" coefficient="-1"/>
+		<SPECIES_REF id="4" coefficient="1"/>
+		<SPECIES_REF id="11" coefficient="1"/>
+	</REACTION>
+
+	<!--  Na<sub>2</sub>SO<sub>4</sub> -> 2.0 Na<sup>+</sup> + SO<sub>4</sub><sup>-2</sup>
+	<REACTION>
+		<SPECIES_REF id="17" coefficient="-1"/>
+		<SPECIES_REF id="15" coefficient="2"/>
+		<SPECIES_REF id="11" coefficient="1"/>
+	</REACTION>-->
+
+	<!--  Na<sub>2</sub>SO<sub>4</sub> 10H<sub>2</sub>O -> 2.0 Na<sup>+</sup> + SO<sub>4</sub><sup>-2</sup> + 10 H<sub>2</sub>O -->
+	<REACTION>
+		<SPECIES_REF id="19" coefficient="-1"/>
+		<SPECIES_REF id="15" coefficient="2"/>
+		<SPECIES_REF id="11" coefficient="1"/>
+		<!--<SPECIES_REF id="0" coefficient="10"/>-->
+	</REACTION>
+
+	<!--  NaCl -> Na + + Cl -  -->
+	<REACTION>
+		<SPECIES_REF id="15" coefficient="1"/>
+		<SPECIES_REF id="14" coefficient="-1"/>
+		<SPECIES_REF id="8" coefficient="1"/>
+	</REACTION>
+
+
+</REACTIONS>

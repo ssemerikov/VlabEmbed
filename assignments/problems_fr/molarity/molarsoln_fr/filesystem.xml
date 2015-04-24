@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "H&lt;sub&gt;2&lt;/sub&gt;O Distillée" description="Eau distillée"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0" amount="166.525"/>
+
+				</SOLUTION>
+
+ 				<SOLUTION name = "NaCl" description="Chlorure de sodium" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="14" amount="2.6"/>
+				</SOLUTION>
+
+ 				<SOLUTION name = "MgCl&lt;sub&gt;2&lt;/sub&gt;" description="Chlorure de magnésium" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="16" amount="2.4"/>
+				</SOLUTION>
+
+				<SOLUTION name = "Na&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt; 10H&lt;sub&gt;2&lt;/sub&gt;O" description="Sulfate de sodium décahydraté" volume="0.0" vessel="SolidBottle">
+				    <SPECIES_REF id="19" amount="0.5"/>
+				</SOLUTION>
+
+		<FILE href="sol.htm" description="Description de problème"> Description de problème</FILE>
+   
+	</DIRECTORY>
+</FILESYSTEM>

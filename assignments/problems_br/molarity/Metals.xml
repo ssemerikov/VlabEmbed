@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+
+<VIRTUALLAB version="1.4.8">
+   <TITLE>Composição da Matéria I</TITLE>
+
+   <AUTHOR>Jordi Cuadros (Adaptado por Simone Maria de Rezende)</AUTHOR>
+
+   <DESCRIPTION>Densidade de metais</DESCRIPTION>
+
+<!--  <SOLUTION_MODELLERS>
+      <MODELLER property="waterConcentration" model="waterFinite" />
+
+      <MODELLER property="liquidVolume" model="evaluated" />
+   </SOLUTION_MODELLERS>-->
+   <SOLUTION_VIEWERS>
+<!--<VIEWER honorSignificantFigures="true" name="Propriedades das soluções" enabled="true" driver="irydium.vlab.viewer.PropertiesPanel" />-->
+<!--<VIEWER sEnabled="true" aqEnabled="true" name="Visualizador de espécies" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" />-->
+      <VIEWER name="Termômetro" enabled="true" driver="irydium.vlab.viewer.Thermometer" />
+
+<!--<VIEWER name="PHmetro" enabled="false" driver="irydium.vlab.viewer.PhViewer" />-->
+   </SOLUTION_VIEWERS>
+
+   <TRANSFERBAR>
+      <MODEL name="Transferência realística" enabled="true" driver="irydium.vlab.transfer.RealisticTransferModel" />
+
+      <MODEL name="Transferência precisa" enabled="true" driver="irydium.vlab.transfer.PreciseTransferModel" />
+
+      <MODEL name="Transferência com valores significativos" enabled="true" driver="irydium.vlab.transfer.SignificantFiguresTransferModel" />
+   </TRANSFERBAR>
+
+   <KNOWLEDGEBASE reactions="metals/reactions.xml" species="metals/species.xml" driver="irydium.textRealm.TextKnowledgebase" />
+
+   <REALM name="metals" driver="irydium.textRealm.TextRealm" filesystem="metals/filesystem.xml" />
+
+   <STOCKROOM>
+      <MOUNT realm="metals" path="/Soluções Irydium">Soluções Irydium</MOUNT>
+   </STOCKROOM>
+</VIRTUALLAB>
+

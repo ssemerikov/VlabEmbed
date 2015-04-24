@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!--  H<sub>2</sub>O ->  H<sup>+</sup> +  OH<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="2" coefficient="1"/>
+	</REACTION>
+
+	<!--  AgCl ->  Ag<sup>+</sup> +  Cl<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="4" coefficient="1"/>
+		<SPECIES_REF id="3" coefficient="-1"/>
+		<SPECIES_REF id="5" coefficient="1"/>
+	</REACTION>
+
+	<!--  PbCO<sub>3</sub> ->  CO<sub>3</sub><sup>-2</sup> +  Pb<sup>+2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="8" coefficient="1"/>
+		<SPECIES_REF id="7" coefficient="1"/>
+		<SPECIES_REF id="6" coefficient="-1"/>
+	</REACTION>
+
+	<!--  PbCl<sub>2</sub> -> 2.0 Cl<sup>-</sup> +  Pb<sup>+2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="5" coefficient="2"/>
+		<SPECIES_REF id="7" coefficient="1"/>
+		<SPECIES_REF id="9" coefficient="-1"/>
+	</REACTION>
+
+	<!--  AlOH<sub>3</sub> ->  Al<sup>+3</sup> + 3.0 OH<sup>-</sup> -->
+	<REACTION>
+		<SPECIES_REF id="11" coefficient="1"/>
+		<SPECIES_REF id="10" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="3"/>
+	</REACTION>
+
+	<!--  Ag<sub>2</sub>CO<sub>3</sub> -> 2.0 Ag<sup>+</sup> +  CO<sub>3</sub><sup>-2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="12" coefficient="-1"/>
+		<SPECIES_REF id="4" coefficient="2"/>
+		<SPECIES_REF id="8" coefficient="1"/>
+	</REACTION>
+
+	<!--  Ag<sub>2</sub>SO<sub>4</sub> -> 2.0 Ag<sup>+</sup> +  SO<sub>4</sub><sup>-2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="13" coefficient="-1"/>
+		<SPECIES_REF id="4" coefficient="2"/>
+		<SPECIES_REF id="14" coefficient="1"/>
+	</REACTION>
+
+	<!--  Ca<sub>3</sub>PO<sub>42</sub> -> 3.0 Ca<sup>+2</sup> + 2.0 PO<sub>4</sub><sup>-3</sup> -->
+	<REACTION>
+		<SPECIES_REF id="15" coefficient="-1"/>
+		<SPECIES_REF id="16" coefficient="3"/>
+		<SPECIES_REF id="17" coefficient="2"/>
+	</REACTION>
+
+	<!--  SrSO<sub>4</sub> ->  SO<sub>4</sub><sup>-2</sup> +  Sr<sup>+2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="14" coefficient="1"/>
+		<SPECIES_REF id="19" coefficient="1"/>
+		<SPECIES_REF id="18" coefficient="-1"/>
+	</REACTION>
+
+	<!--  Sr(IO<sub>3</sub>)2 -> 2.0 IO<sub>3</sub><sup>-</sup> +  Sr<sup>+2</sup> -->
+	<REACTION>
+		<SPECIES_REF id="21" coefficient="2"/>
+		<SPECIES_REF id="19" coefficient="1"/>
+		<SPECIES_REF id="20" coefficient="-1"/>
+	</REACTION>
+
+</REACTIONS>

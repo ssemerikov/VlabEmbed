@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+				<SOLUTION name = "Distilled H&lt;sub&gt;2&lt;/sub&gt;O" description="Distilled Water"
+						  volume="3.0" vessel="3lCarboy">
+					<SPECIES_REF id="0"/>
+				</SOLUTION>
+
+	<SOLUTION name="0.20 microM ACAC" description="0.20 micro molar solution of ACAC">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="3" amount="0.000000020"/>
+		</SOLUTION>
+
+	<SOLUTION name="0.30 microM TG" description="0.30 micro molar solution of ACCA">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="4" amount="0.00000003"/>
+		</SOLUTION>
+
+		<FILE href="bind.htm" description="Problem Description">Problem Description</FILE>
+
+
+
+	</DIRECTORY>
+</FILESYSTEM>

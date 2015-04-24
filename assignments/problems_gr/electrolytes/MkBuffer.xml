@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.5.0">
+	<TITLE>Ρυθμιστικά διαλύματα</TITLE>
+	<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+	<DESCRIPTION>Παρασκευή και ιδιότητες ρυθμιστικών διαλυμάτων.</DESCRIPTION>
+	<SOLUTION_VIEWERS>
+		<VIEWER honorSignificantFigures="false" enabled="true" name="Ιδιότητες του διαλύματος" driver="irydium.vlab.viewer.PropertiesPanel"/>
+				<VIEWER sEnabled="true" aqEnabled="true" name="Species Viewer" enabled="false" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" unitsToggleEnabled="true"/>
+		<VIEWER enabled="true" name="Θερμόμετρο" driver="irydium.vlab.viewer.Thermometer"/>
+		<VIEWER enabled="true" name="Πεχάμετρο" driver="irydium.vlab.viewer.PhViewer"/>
+	</SOLUTION_VIEWERS>
+	<TRANSFERBAR>
+		<MODEL enabled="true" name="Ακριβής προσθήκη" driver="irydium.vlab.transfer.PreciseTransferModel"/>
+		<MODEL enabled="false" name="Προσθήκη με σημαντικά ψηφία" driver="irydium.vlab.transfer.SignificantFiguresTransferModel"/>
+		<MODEL enabled="false" name="Ρεαλιστική προσθήκη" driver="irydium.vlab.transfer.RealisticTransferModel"/>
+	</TRANSFERBAR>
+	<KNOWLEDGEBASE reactions="mkbuffer/reactions.xml" species="mkbuffer/species.xml" driver="irydium.textRealm.TextKnowledgebase"/>
+	<REALM name="mkbuffer" driver="irydium.textRealm.TextRealm" filesystem="mkbuffer/filesystem.xml"/>
+	<STOCKROOM>
+		<MOUNT realm="mkbuffer" path="/Αντιδραστήρια">Αντιδραστήρια</MOUNT>
+	</STOCKROOM>
+</VIRTUALLAB>

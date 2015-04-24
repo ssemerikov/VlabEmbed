@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<FILESYSTEM>
+	<DIRECTORY name="stockroom">
+
+		<SOLUTION name="H&lt;sub&gt;2&lt;/sub&gt;O Distillée" description="Eau distillée" 
+		          volume="3.0" vessel="3lCarboy">
+			<SPECIES_REF id="0"/>
+		</SOLUTION>
+
+		<SOLUTION name="Solution A" 
+		          description="1M solution de substance A"
+		          volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="3" amount="0.1"/>
+		</SOLUTION>
+
+		<SOLUTION name="Solution B" 
+		          description="1M solution de substance B"
+		          volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="4" amount="0.1"/>
+		</SOLUTION>
+
+		<SOLUTION name="Solution C" 
+		          description="1M solution de substance C"
+		          volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="5" amount="0.1"/>
+		</SOLUTION>
+
+		<SOLUTION name="Solution D" 
+		          description="1M solution de substance D"
+		          volume="0.1">
+			<SPECIES_REF id="0"/>
+			<SPECIES_REF id="6" amount="0.1"/>
+		</SOLUTION>
+
+		<FILE href="oracle.htm" description="Description de problème">Description de problème</FILE>
+
+
+		     </DIRECTORY>
+</FILESYSTEM>

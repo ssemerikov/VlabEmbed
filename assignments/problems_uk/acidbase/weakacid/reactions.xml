@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<REACTIONS>
+	<!--  H&lt;sup&gt;+&lt;/sup&gt; +  OH&lt;sup&gt;-&lt;/sup&gt; ->  H&lt;sub&gt;2&lt;/sub&gt;O -->
+	<REACTION>
+		<SPECIES_REF id="0" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HF ->  F&lt;sup&gt;-&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="11" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="10" coefficient="-1"/>
+	</REACTION>
+
+	<!--  Cl&lt;sub&gt;2&lt;/sub&gt;CHCOOH ->  Cl&lt;sub&gt;2&lt;/sub&gt;CHCOO&lt;sup&gt;-&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="13" coefficient="1"/>
+		<SPECIES_REF id="12" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  NCCH&lt;sub&gt;2&lt;/sub&gt;COOH ->  H&lt;sup&gt;+&lt;/sup&gt; +  NCCH&lt;sub&gt;2&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="15" coefficient="1"/>
+		<SPECIES_REF id="14" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HOCl ->  H&lt;sup&gt;+&lt;/sup&gt; +  OCl&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="16" coefficient="-1"/>
+		<SPECIES_REF id="17" coefficient="1"/>
+	</REACTION>
+
+	<!--  HOBr ->  H&lt;sup&gt;+&lt;/sup&gt; +  OBr&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="18" coefficient="-1"/>
+		<SPECIES_REF id="19" coefficient="1"/>
+	</REACTION>
+
+	<!--  HOI ->  H&lt;sup&gt;+&lt;/sup&gt; +  OI&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="20" coefficient="-1"/>
+		<SPECIES_REF id="21" coefficient="1"/>
+	</REACTION>
+
+	<!--  CH&lt;sub&gt;3&lt;/sub&gt;COOH ->  CH&lt;sub&gt;3&lt;/sub&gt;COO&lt;sup&gt;-&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="23" coefficient="1"/>
+		<SPECIES_REF id="22" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  HCN ->  CN&lt;sup&gt;-&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="25" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="24" coefficient="-1"/>
+	</REACTION>
+
+	<!--  H&lt;sup&gt;+&lt;/sup&gt; +  HCO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt; ->  H&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt; -->
+	<REACTION>
+		<SPECIES_REF id="26" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="27" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HCO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt; ->  CO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="28" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="27" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HSO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt; ->  SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="30" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="29" coefficient="-1"/>
+	</REACTION>
+
+
+
+
+
+
+
+	<!--  MgOH&lt;sub&gt;2&lt;/sub&gt; ->  Mg&lt;sup&gt;+2&lt;/sup&gt; + 2.0 OH&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="35" coefficient="1"/>
+		<SPECIES_REF id="34" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="2"/>
+	</REACTION>
+
+	<!--  NH&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt; ->  H&lt;sup&gt;+&lt;/sup&gt; +  NH&lt;sub&gt;3&lt;/sub&gt; -->
+	<REACTION>
+		<SPECIES_REF id="33" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="36" coefficient="-1"/>
+	</REACTION>
+
+	<!--  C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;+&lt;/sup&gt; ->  C&lt;sub&gt;6&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sub&gt;2&lt;/sub&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="31" coefficient="1"/>
+		<SPECIES_REF id="32" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+
+	<!--  H&lt;sub&gt;3&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt; ->  H&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="38" coefficient="1"/>
+		<SPECIES_REF id="37" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  H&lt;sup&gt;+&lt;/sup&gt; +  HPO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt; ->  H&lt;sub&gt;2&lt;/sub&gt;PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="38" coefficient="1"/>
+		<SPECIES_REF id="1" coefficient="-1"/>
+		<SPECIES_REF id="39" coefficient="-1"/>
+	</REACTION>
+
+	<!--  HPO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt; ->  H&lt;sup&gt;+&lt;/sup&gt; +  PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-3&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="39" coefficient="-1"/>
+		<SPECIES_REF id="40" coefficient="1"/>
+	</REACTION>
+
+	<!--  MethylOrangeH ->  H&lt;sup&gt;+&lt;/sup&gt; +  MethylOrange&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="42" coefficient="1"/>
+		<SPECIES_REF id="41" coefficient="-1"/>
+	</REACTION>
+
+	<!--  MethylRedH ->  H&lt;sup&gt;+&lt;/sup&gt; +  MethylRed&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="44" coefficient="1"/>
+		<SPECIES_REF id="43" coefficient="-1"/>
+	</REACTION>
+
+
+	<!--  CresolRedH ->  CresolRed&lt;sup&gt;-&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="46" coefficient="1"/>
+		<SPECIES_REF id="45" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  PhenolphthaleinH ->  H&lt;sup&gt;+&lt;/sup&gt; +  Phenolphthalein&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="1" coefficient="1"/>
+		<SPECIES_REF id="48" coefficient="1"/>
+		<SPECIES_REF id="47" coefficient="-1"/>
+	</REACTION>
+
+	<!--  BromocresolGreenH ->  BromocresolGreen&lt;sup&gt;-&lt;/sup&gt; +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="50" coefficient="1"/>
+		<SPECIES_REF id="49" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+	<!--  MgOH&lt;sub&gt;2&lt;/sub&gt; ->  Mg&lt;sup&gt;+2&lt;/sup&gt; + 2.0 OH&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="52" coefficient="1"/>
+		<SPECIES_REF id="51" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="2"/>
+	</REACTION>
+
+	<!--  CaOH&lt;sub&gt;2&lt;/sub&gt; ->  Ca&lt;sup&gt;+2&lt;/sup&gt; + 2.0 OH&lt;sup&gt;-&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="54" coefficient="1"/>
+		<SPECIES_REF id="53" coefficient="-1"/>
+		<SPECIES_REF id="2" coefficient="2"/>
+	</REACTION>
+
+	<!--  C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;NH&lt;sup&gt;+&lt;/sup&gt; ->  C&lt;sub&gt;5&lt;/sub&gt;H&lt;sub&gt;5&lt;/sub&gt;N +  H&lt;sup&gt;+&lt;/sup&gt; -->
+	<REACTION>
+		<SPECIES_REF id="56" coefficient="1"/>
+		<SPECIES_REF id="55" coefficient="-1"/>
+		<SPECIES_REF id="1" coefficient="1"/>
+	</REACTION>
+
+
+
+
+
+</REACTIONS>

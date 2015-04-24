@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPECIES_LIST>
+	<SPECIES id="0"	name="H&lt;sub&gt;2&lt;/sub&gt;O"
+					enthalpy="-285.83"
+					entropy="69.91"
+					state="l"/>
+
+	<SPECIES id="1"	name="H&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="0.0"
+					entropy="0.0"/>
+
+	<SPECIES id="2"	name="OH&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-229.99"
+					entropy="-10.75"/>
+
+	<SPECIES id="3"	name="AgCl"
+					enthalpy="-172.1"
+					entropy="96.2"
+	               		molecularWeight="143.3212"
+					state="s"/>
+
+	<SPECIES id="4"	name="Ag&lt;sup&gt;+&lt;/sup&gt;"
+					enthalpy="105.6"
+					entropy="222.30949695705655"/>
+
+	<SPECIES id="5"	name="Cl&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-167.58999999999997"
+					entropy="56.5"/>
+
+	<SPECIES id="6"	name="PbCO&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-272.1"
+					entropy="96.2"
+	               		molecularWeight="267.2"
+					state="s"/>
+
+	<SPECIES id="7"	name="Pb&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="1.0"
+					entropy="18.0"/>
+
+	<SPECIES id="8"	name="CO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;"
+					enthalpy="-677.0"
+					entropy="-1522.223992598455"/>
+
+	<SPECIES id="9"	name="PbCl&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-272.1"
+					entropy="433.6362649332013"
+	               		molecularWeight="278.106"
+					state="s"/>
+
+	<SPECIES id="10"	name="AlOH&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-272.1"
+					entropy="96.2"
+	               		molecularWeight="78.00 "
+					state="s"/>
+
+	<SPECIES id="11"	name="Al&lt;sup&gt;+3&lt;/sup&gt;"
+					enthalpy="-531.3999999999999"
+					entropy="-3674.56377700301"/>
+
+	<SPECIES id="12"	name="Ag&lt;sub&gt;2&lt;/sub&gt;CO&lt;sub&gt;3&lt;/sub&gt;"
+					enthalpy="-272.1"
+					entropy="-215.93816212655133"
+	               		molecularWeight="275.75"
+			  		hue="75"
+			 		saturation="100"
+			 		value="100"
+			 		colorConcentration=".2"
+					state="s"/>
+
+	<SPECIES id="13"	name="Ag&lt;sub&gt;2&lt;/sub&gt;SO&lt;sub&gt;4&lt;/sub&gt;"
+					enthalpy="-715.9"
+					entropy="497.7844347584604"
+	               		molecularWeight="311.87"
+					state="s"/>
+
+	<SPECIES id="14"	name="SO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-2&lt;/sup&gt;"
+					enthalpy="-909.27"
+					entropy="20.1"/>
+
+	<SPECIES id="15"	name="Ca&lt;sub&gt;3&lt;/sub&gt;(PO&lt;sub&gt;4&lt;/sub&gt;)&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-4137.599999999999"
+					entropy="236.0"
+	               		molecularWeight="308.24"
+					state="s"/>
+
+	<SPECIES id="16"	name="Ca&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-543.0"
+					entropy="-55.2"/>
+
+	<SPECIES id="17"	name="PO&lt;sub&gt;4&lt;/sub&gt;&lt;sup&gt;-3&lt;/sup&gt;"
+					enthalpy="-1277.4"
+					entropy="-189.54347645134808"/>
+
+	<SPECIES id="18"	name="SrSO&lt;sub&gt;4&lt;/sub&gt;"
+					enthalpy="-272.1"
+					entropy="96.2"
+	               		molecularWeight="183.69"
+					state="s"/>
+
+	<SPECIES id="19"	name="Sr&lt;sup&gt;+2&lt;/sup&gt;"
+					enthalpy="-547.0"
+					entropy="-4019.4646158625164"/>
+
+	<SPECIES id="20"	name="Sr(IO&lt;sub&gt;3&lt;/sub&gt;)&lt;sub&gt;2&lt;/sub&gt;"
+					enthalpy="-413.6"
+					entropy="236.0"
+	               		molecularWeight="437.42"
+					state="s"/>
+
+	<SPECIES id="21"	name="IO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;-&lt;/sup&gt;"
+					enthalpy="-221.3"
+					entropy="1099.856087539829"/>
+
+</SPECIES_LIST>
