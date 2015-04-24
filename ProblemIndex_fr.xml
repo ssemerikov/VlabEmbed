@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Local problems.  New entries can be added with the following template:
+	<PROBLEM url="">
+		<TITLE></TITLE>
+        <AUTHOR></AUTHOR>
+        <DESCRIPTION>
+		</DESCRIPTION>        
+	</PROBLEM>
+
+	Additionally, directories can be arbitrarily nested using the form:
+	<DIRECTORY name="">
+		...
+	</DIRECTORY>
+-->
+
+<INDEX>
+	<PROBLEM url="assignments/Default_fr.xml">
+		<TITLE>Réglages par défaut du Laboratoire</TITLE>
+		<AUTHOR>Mike Karabinos, Thierry Salaun</AUTHOR>
+		<DESCRIPTION>
+			Contient les espèces, réactions et solutions utilisées dans la réserve par défaut
+			du Laboratoire Virtuel. 
+		</DESCRIPTION>
+	</PROBLEM>
+	
+			<DIRECTORY name="Concentration molaire">
+
+		<PROBLEM url="assignments/problems_fr/molarity/LiquidDensity_fr.xml">
+		    <TITLE>Problème sur la masse volumique des liquides</TITLE>
+			<AUTHOR>Jordi Cuadros et Thierry Salaun</AUTHOR>
+			<DESCRIPTION>
+				Identifiez un liquide de sa densité.
+			</DESCRIPTION>
+	 	</PROBLEM>
+		
+		<PROBLEM url="assignments/problems_fr/molarity/Dilution_fr.xml">
+		    <TITLE>Problème de dilution</TITLE>
+			<AUTHOR>Mike Karabinos</AUTHOR>
+			<DESCRIPTION>
+				Préparez une solution de glucose.
+			</DESCRIPTION>
+	 	</PROBLEM>
+		
+		<PROBLEM url="assignments/problems_fr/molarity/Metals_fr.xml">
+		    <TITLE>Problème sur la masse volumique d'un métal</TITLE>
+			<AUTHOR>Jordi Cuadros</AUTHOR>
+			<DESCRIPTION>
+				Identifiez les métaux.
+			</DESCRIPTION>
+		</PROBLEM>
+			
+		<PROBLEM url="assignments/problems_fr/molarity/Molarsoln_fr.xml">
+		    <TITLE>Concentration dans les solutions ioniques</TITLE>
+			<AUTHOR>Jordi Cuadros et Mike Karabinos</AUTHOR>
+			<DESCRIPTION>
+				Préparez solutions de diverses concentrations molaires.
+			</DESCRIPTION>
+	 	</PROBLEM>
+		
+		<PROBLEM url="assignments/problems_fr/molarity/Concentration1_fr.xml">
+		    <TITLE>Problème sur le saccharose</TITLE>
+			<AUTHOR>Jordi Cuadros et Tim Palucka</AUTHOR>
+			<DESCRIPTION>
+				Concentration molaire, molalité, pourcentage massique et fraction molaire.
+			</DESCRIPTION>
+	 	</PROBLEM>
+		
+		<PROBLEM url="assignments/problems_fr/molarity/Alcohol_fr.xml">
+		    <TITLE>Problème sur la masse volumique de l'alcool</TITLE>
+			<AUTHOR>Jordi Cuadros</AUTHOR>
+			<DESCRIPTION>
+				Déterminez la concentration en alcool dans les boissons alcoolisées.
+			</DESCRIPTION>
+	 	</PROBLEM>
+		
+	</DIRECTORY>
+	
+	<DIRECTORY name="Analyse quantitative">
+		<PROBLEM url="assignments/problems_fr/quant/Silver_fr.xml">
+		    <TITLE>Solution inconnue d'ions argent</TITLE>
+			<AUTHOR>Mike Karabinos</AUTHOR>
+			<DESCRIPTION>
+				Détermination de la concentration inconnue d'une solution d'ions argent
+			</DESCRIPTION>
+	 	</PROBLEM>	
+		
+		<PROBLEM url="assignments/problems_fr/quant/ArsGrav_fr.xml">
+		    <TITLE>Analyse gravimétrique de l'arsenic</TITLE>
+			<AUTHOR>Jordi Cuadros</AUTHOR>
+			<DESCRIPTION>
+				Déterminez la concentration en arsenic dans deux échantillons de sol contaminé.
+			</DESCRIPTION>
+	 	</PROBLEM>
+	</DIRECTORY>
+	
+		<DIRECTORY name="Stoechiométrie et réactifs limitants">
+			<PROBLEM url="assignments/problems_fr/stoichiometry/Jello_fr.xml">
+		    <TITLE>Problème de Jello</TITLE>
+			<AUTHOR>Donovan Lange</AUTHOR>
+			<DESCRIPTION>
+				Préparation de solution 
+			</DESCRIPTION>
+	 	</PROBLEM>	
+		
+		<PROBLEM url="assignments/problems_fr/stoichiometry/hslimit1_fr.xml">
+		    <TITLE>Réactifs limitants problème 1</TITLE>
+			<AUTHOR>Mike Karabinos</AUTHOR>
+			<DESCRIPTION>
+				Problème sur les réactifs limitants 
+			</DESCRIPTION>
+	 	</PROBLEM>
+		
+		<PROBLEM url="assignments/problems_fr/stoichiometry/Oracle_fr.xml">
+		    <TITLE>Oracle</TITLE>
+			<AUTHOR>Donovan Lange</AUTHOR>
+			<DESCRIPTION>
+				Détermination de nombres stoechiométriques
+			</DESCRIPTION>
+	 	</PROBLEM>	
+	</DIRECTORY>
+	
+	
+	
+	
+</INDEX>

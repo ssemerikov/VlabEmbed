@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VIRTUALLAB version="1.5.0">
+	<TITLE>Лаборатория по умолчанию</TITLE>
+	<AUTHOR>Mike Karabinos, Vladimir Kurg</AUTHOR>
+	<DESCRIPTION>Содержит реактивы и растворы базового комплекта виртуальной лаборатории.</DESCRIPTION>
+	<SOLUTION_VIEWERS>
+		<VIEWER honorSignificantFigures="false" enabled="true" name="Свойства раствора" driver="irydium.vlab.viewer.PropertiesPanel"/>
+		<VIEWER sEnabled="true" aqEnabled="true" enabled="true" name="Свойства реагента" gEnabled="true" driver="irydium.vlab.viewer.SpeciesViewer" unitsToggleEnabled="true"/>
+		<VIEWER enabled="true" name="Термометр" driver="irydium.vlab.viewer.Thermometer"/>
+		<VIEWER enabled="true" name="PH -метр" driver="irydium.vlab.viewer.PhViewer"/>
+	</SOLUTION_VIEWERS>
+	<TRANSFERBAR>
+		<MODEL enabled="true" name="C произвольной точностью" driver="irydium.vlab.transfer.PreciseTransferModel"/>
+		<MODEL enabled="true" name="С точностью до второго знака" driver="irydium.vlab.transfer.SignificantFiguresTransferModel"/>
+		<MODEL enabled="true" name="Реалистично" driver="irydium.vlab.transfer.RealisticTransferModel"/>
+	</TRANSFERBAR>
+	<KNOWLEDGEBASE reactions="default_ru/reactions.xml" species="default_ru/species.xml" driver="irydium.textRealm.TextKnowledgebase"/>
+	<REALM name="default_ru" driver="irydium.textRealm.TextRealm" filesystem="default_ru/filesystem.xml"/>
+	<STOCKROOM>
+		<MOUNT realm="default_ru" path="/Irydium Solutions">Irydium Solutions</MOUNT>
+	</STOCKROOM>
+</VIRTUALLAB>

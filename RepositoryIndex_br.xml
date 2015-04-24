@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Second generation repositories -->
+<REPOSITORY_LIST>
+	<REPOSITORY index="ProblemIndex_br.xml">Problemas locais em Português</REPOSITORY>
+	<REPOSITORY index="ProblemIndex.xml">Local Problems in English</REPOSITORY>
+	<REPOSITORY index="http://iry.chem.cmu.edu/vlabrepository/Repositories2.xml">Online Repositories</REPOSITORY>
+</REPOSITORY_LIST>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Local problems.  New entries can be added with the following template:
+	<PROBLEM url="">
+		<TITLE></TITLE>
+        <AUTHOR></AUTHOR>
+        <DESCRIPTION>
+		</DESCRIPTION>        
+	</PROBLEM>
+
+	Additionally, directories can be arbitrarily nested using the form:
+	<DIRECTORY name="">
+		...
+	</DIRECTORY>
+-->
+
+<INDEX>
+	<PROBLEM url="assignments/Default_gr.xml">
+		<TITLE>Βασικό εργαστήριο</TITLE>
+		<AUTHOR>Mike Karabinos, Jordi Cuadros</AUTHOR>
+		<DESCRIPTION>
+			Περιλαμβάνει τα χημικά είδη, τις αντιδράσεις και τα διαλύματα που 
+			χρησιμοποιούνται από την στάνταρ αποθήκη αντιδραστηρίων του Εικονικού Εργαστηρίου.
+		</DESCRIPTION>
+	</PROBLEM>
+	
+
+		
+		<DIRECTORY name="Διαλύματα">
+			
+			<PROBLEM url="assignments/problems_gr/solutions/Alcohol.xml">
+			    <TITLE>Σχέση πυκνότητας και περιεκτικότητας σε αιθανόλη αλκολούχων διαλυμάτων</TITLE>
+				<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+				<DESCRIPTION>
+				    Προσδιορισμός της συγκέντρωσης από την πυκνότητα του διαλύματος.
+				</DESCRIPTION>
+			</PROBLEM>
+			
+			<PROBLEM url="assignments/problems_gr/solutions/sucrose_solub.xml">
+				<TITLE>Διαλυτότητα της σακχαρόζης στο νερό</TITLE>
+				<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+				<DESCRIPTION>
+				    Επίδραση θερμοκρασίας στη διαλυτότητα της σακχαρόζης στο νερό.
+		    	</DESCRIPTION>
+			</PROBLEM>
+			
+		</DIRECTORY>		
+
+		<DIRECTORY name="Οξέα, βάσεις και άλατα">
+			
+			<PROBLEM url="assignments/problems_gr/electrolytes/MkBuffer.xml">
+			  <TITLE>Ρυθμιστικά διαλύματα</TITLE>
+				<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+				<DESCRIPTION>
+				    Παρασκευή και ιδιότητες ρυθμιστικών διαλυμάτων.
+				</DESCRIPTION>
+			</PROBLEM>
+			
+			<PROBLEM url="assignments/problems_gr/electrolytes/salts.xml">
+				<TITLE>Το pH των αλάτων</TITLE>
+				<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+				<DESCRIPTION>
+				    Παρασκευή και μέτρηση του pH διαλυμάτων αλάτων.
+		    </DESCRIPTION>
+			</PROBLEM>
+			
+			<PROBLEM url="assignments/problems_gr/electrolytes/Titration.xml">
+				<TITLE>Ογκομέτρηση, Οξυμετρία - Αλκαλιμετρία</TITLE>
+				<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+				<DESCRIPTION>
+				    Τιτλοδότηση διαλυμάτων οξέων και βάσεων άγνωστης συγκέντρωσης.
+		    </DESCRIPTION>
+			</PROBLEM>
+			
+			<PROBLEM url="assignments/problems_gr/electrolytes/Dilut.xml">
+				<TITLE>Αραίωση και ανάμιξη διαλυμάτων ισχυρών ηλεκτρολυτών</TITLE>
+				<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+				<DESCRIPTION>
+				    Αραίωση και ανάμιξη διαλυμάτων ισχυρού οξέος ή βάσης.
+		    </DESCRIPTION>
+			</PROBLEM>
+			
+		</DIRECTORY>
+			
+<DIRECTORY name="μείωση-αντίδραση οξείδωση">
+
+			<PROBLEM url="assignments/problems_gr/redox/Fetest.xml">
+				<TITLE>Ογκομετρικός προσδιορισμός δισθενούς σιδήρου</TITLE>
+				<AUTHOR>Μιχάλης Σιγάλας, Κώστας Ναλμπάντης</AUTHOR>
+				<DESCRIPTION>
+				      Η εργαστηριακή άσκηση έχει ως σκοπό την τιτλοδότηση 
+					  ενός προτύπου διαλύματος ΚΜΝΟ4 και στη συνέχεια τον ογκομετρικό 
+					  προσδιορισμό της συγκέντρωσης Fe+2.
+		    </DESCRIPTION>
+			</PROBLEM>
+			
+		</DIRECTORY>
+
+
+
+</INDEX>

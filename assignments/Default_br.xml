@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Translated by Geiza Esperandio de Oliveira; Fernando Gomes de Souza Jr. e Ricardo Cunha Michel
+             Laboratório de Pesquisa e Desenvolvimento em Ensino de Matemática e da Ciências - LIMC / UFRJ -->
+<VIRTUALLAB>
+	<TITLE>Reagentes do Virtual Lab</TITLE>
+ 	<AUTHOR>Mike Karabinos </AUTHOR>
+        <!-- Translated by Geiza Esperandio de Oliveira; Fernando Gomes de Souza Jr. e Ricardo Cunha Michel
+             Laboratório de Pesquisa e Desenvolvimento em Ensino de Matemática e da Ciências - LIMC / UFRJ -->
+	<DESCRIPTION>
+		Contém as espécies, reações e soluções disponíveis no armário de 
+		reagentes do Virtual Lab.
+	</DESCRIPTION>
+	
+	<!-- An arbitrary number of realms can be specified here as the data
+	  providers of the virtual lab.  Each realm must be given a name and also
+	  have a valid driver file.  Other properties are specific to a realm's
+	  implementation, and for more information you should see the realm's 
+	  documentation. -->
+	<REALM name="default" driver="irydium.textRealm.TextRealm"
+		filesystem="default_br/filesystem.xml"/>
+	
+	<!-- For now, only one knowledgebase can be present.  The only required
+	  field is the driver property, which should refer to a valid Knowlegdebase
+	  class.  However, similar to a Realm, each Knowledgebase can have it's own
+	  specific properties which should be documented by that Knowledgebase's 
+	  documentation. -->
+	<KNOWLEDGEBASE driver="irydium.textRealm.TextKnowledgebase"
+		species="default_br/species.xml" 
+		reactions="default_br/reactions.xml"
+                spectra="default_br/spectra.xml"/>
+	
+	<!-- Assuming that all of the realms specified were indeed loaded, this
+	  tag allows you to arbitrarilly mount realm paths into the stockroom
+	  view. -->
+	<STOCKROOM>
+		<MOUNT realm="default" path="/stockroom">Soluções IrYdium</MOUNT>
+	</STOCKROOM>
+	
+	<!-- Loads the specified viewers.  The Driver property is required of each
+	  viewer, and should specify a valid Viewer class to load.  A name for the
+	  viewer must also be provided.  One can optionally set the enabled state of
+	  the viewer by using the enabled property with a boolean value
+	  (default==true). In addition, any other xml parameters specified will be
+	  passed into the viewer as well, so each viewer may define additional
+	  behaviour on an individual basis. -->
+	<SOLUTION_VIEWERS>
+		<VIEWER name="Propriedades das soluções "
+			driver="irydium.vlab.viewer.PropertiesPanel"
+			honorSignificantFigures="false"/>
+		<VIEWER name="Visualizador de espécies "
+			driver="irydium.vlab.viewer.SpeciesViewer"
+			aqEnabled="true" sEnabled="true" gEnabled="true" 
+			unitsToggleEnabled="true"/>
+			<!-- Specify whether the user is able to change
+			  the units displayed in the concentration viewer
+                          by clicking on the table header. 
+			  Use parameter : unitsToggleEnabled="true" -->
+			<!-- Specify different units for the concentration
+			  viewer when displaying aqueous species by adding parameter : 
+			  aqUnits="grams" or aqUnits="moles" 
+			  (default is molarity). 
+			  Solids will still be displayed in grams and gases
+			  in atms. -->
+		<VIEWER name="Termômetro"
+			driver="irydium.vlab.viewer.Thermometer"/>
+		<VIEWER name="PHmetro"
+			driver="irydium.vlab.viewer.PhViewer"/>
+	</SOLUTION_VIEWERS>
+	
+	<!-- Specifies the available transfer models for use by the transfer bar.
+	  Each model should provide a valid driver to load as well as a String 
+	  representation of the transfer model.  In addition, each transfer model
+	  supports an optional enabled value (default==true). -->
+	<TRANSFERBAR>
+		<MODEL name="Transferência precisa" 
+			driver="irydium.vlab.transfer.PreciseTransferModel"/>
+		<MODEL name="Transferência com valores significativos"
+			driver="irydium.vlab.transfer.SignificantFiguresTransferModel"/>
+		<MODEL name="Transferência realística" 
+			driver="irydium.vlab.transfer.RealisticTransferModel"/>
+	</TRANSFERBAR>
+</VIRTUALLAB>

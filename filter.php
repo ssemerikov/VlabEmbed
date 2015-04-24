@@ -55,9 +55,7 @@ class filter_vlabembed extends moodle_text_filter {
 
         $newtext = $text; // fullclone is slow and not needed here
 
-        //$search = '/\[vlab\][^\[]+?\[\/vlab\]/is'; 
-	//$search = '/<a.*?href="([^<]+\.xml)"[^>]*>.*?<\/a>/is';
-        $search = '/\[vlab\][^\[]+\[\/vlab\]/is';
+        $search = '/\[vlab](.+?)\[\/vlab]/is';
 	$newtext = preg_replace_callback($search, 'filter_vlabembed_callback', $newtext);
 
         if (is_null($newtext) or $newtext === $text) {
@@ -99,31 +97,32 @@ function filter_vlabembed_callback($link) {
 	
     return $output;
 */
-    $temp = substr(strstr($link[0],']'),1);
-    $temp = substr($temp, 0, strpos($temp,'[/vlab]'));
-    $temp = strstr($temp,'http'); 
-    if (strpos($temp, '"') !== false)
-    {
-      $temp = substr($temp, 0, strpos($temp, '"'));
-    }
-    if (strpos($temp, '>') !== false)
-    {
-      $temp = substr($temp, 0, strpos($temp, '>'));
-    }
 
-    $output = 
+    $output=substr($link[0], strlen("[vlab]"), strlen($link)-strlen("[/vlab]"));
+
+    $temp = strstr($output,'http'); 
+    if($temp!==false)
+    {
+      if (strpos($temp, '"') !== false)
+      {
+        $temp = substr($temp, 0, strpos($temp, '"'));
+      }
+      if (strpos($temp, '>') !== false)
+      {
+        $temp = substr($temp, 0, strpos($temp, '>'));
+      }
+      $output = 
 	'<applet code="irydium.vlab.VLApplet.class" codebase="' . $CFG->wwwroot . '/filter/vlabembed/" ' .
 	'archive="vlab.jar, logclient.jar, junit.jar" height="' . $height . '" width="' . $width . '">' .
 	'<param name="language" value="' . $lang . '">' .
 	'<param name="permissions" value="sandbox">' .
 	'<param name="properties" value="' . $temp . '">' .
 	'</applet>' ;
-    
-    //echo "<script>alert('$output');</script>";
-    //echo "<script>alert('$temp');</script>";
-    //return $temp;
-    return $output;
-
+      
+      return $output;
+    }
+    else
+      return $link[0];
 }
 
 ?>

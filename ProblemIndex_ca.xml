@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- Local problems.  New entries can be added with the following template:
+	<PROBLEM url="">
+		<TITLE></TITLE>
+        <AUTHOR></AUTHOR>
+        <DESCRIPTION>
+		</DESCRIPTION>        
+	</PROBLEM>
+
+	Additionally, directories can be arbitrarily nested using the form:
+	<DIRECTORY name="">
+		...
+	</DIRECTORY>
+-->
+
+<INDEX>
+	<PROBLEM url="assignments/Default_ca.xml">
+		<TITLE>Laboratori bàsic</TITLE>
+		<AUTHOR>Mike Karabinos, Jordi Cuadros</AUTHOR>
+		<DESCRIPTION>
+			Conté les espècies, reaccions i solucions disponibles pel magatzem bàsic del
+			Laboratori Virtual.
+		</DESCRIPTION>
+	</PROBLEM>
+
+	<DIRECTORY name="Àcids i bases">
+		<PROBLEM url="assignments/acidbase/Aspirina_ca.xml">
+			<TITLE>Aspirina</TITLE>
+			<AUTHOR>Jordi Cuadros, Maria Reyes Puñet</AUTHOR>
+			<DESCRIPTION>
+				Determinació de la concentració d'àcid acetilsalicílic d'una aspirina.
+			</DESCRIPTION>
+		</PROBLEM>
+	</DIRECTORY>
+</INDEX>

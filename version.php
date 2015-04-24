@@ -18,7 +18,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2015041700;
-$plugin->release   = 1.01;
+$plugin->version   = 2015042400;
+$plugin->release   = 1.02;
 $plugin->requires  = 2010112400;   
 $plugin->component = 'filter_vlabembed'; 
