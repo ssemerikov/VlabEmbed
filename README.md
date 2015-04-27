@@ -19,8 +19,9 @@ To install (on Moodle 2):
 1. Un-compress the Zip/Gzip archive, and copy the folder renamed 'vlabembed' to your moodle/filter/ directory.
 2. Log in to Moodle as admininstrator, go to Site Administration | Plugins | Filters | Manage Filters.
 3. Choose 'On' or 'Off but available' in the drop-down menu next to 'VlabEmbed'.
-4. Configure plugin width, height and language (available codes: BR - Brasilian Portugese, CA - Català,
-   DE - Deutsch, ES - Español , FR - Français, GR - Greek, RU - Russian, UK - Ukrainian)
+4. Configure plugin width, height and language (available codes: EN - English, AR - Arabic, CA - Català,
+   ES - Español, GL - Galician, LT - Lithuanian, BR - Portuguese (Brasil), ZH - Chinese, DE - Deutsch, 
+   FR - Français, GR - Greek, RU - Russian, UK - Ukrainian)
 
 Usage
 -----
