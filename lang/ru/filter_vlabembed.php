@@ -20,5 +20,18 @@ $string['vlabembed_width'] = 'Ширина окна апплета Vlab';
 $string['vlabembed_height'] = 'Высота окна апплета Vlab';
 $string['vlabembed_lang'] = 'Язык локализации апплета Vlab';
 $string['vlab_copyright'] = 'IrYdium Project Virtual Lab - проект Chemistry Collective в университете Carnegie Mellon';
+$string['vlabembed_langcode_EN'] = 'Английский';                         
+$string['vlabembed_langcode_AR'] = 'Арабский';                   
+$string['vlabembed_langcode_CA'] = 'Каталонский';                
+$string['vlabembed_langcode_ES'] = 'Испанский';                  
+$string['vlabembed_langcode_GL'] = 'Галисийский';                
+$string['vlabembed_langcode_LT'] = 'Литовский';                  
+$string['vlabembed_langcode_BR'] = 'Португальский (Бразилия)';   
+$string['vlabembed_langcode_ZH'] = 'Китайский';                  
+$string['vlabembed_langcode_DE'] = 'Немецкий';                   
+$string['vlabembed_langcode_FR'] = 'Французский';                
+$string['vlabembed_langcode_GR'] = 'Греческий';                  
+$string['vlabembed_langcode_RU'] = 'Русский';                    
+$string['vlabembed_langcode_UK'] = 'Украинский';                 
 
 ?>
