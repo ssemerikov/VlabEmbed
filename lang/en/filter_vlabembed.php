@@ -20,5 +20,17 @@ $string['vlabembed_width'] = 'Vlab applet width';
 $string['vlabembed_height'] = 'Vlab applet height';
 $string['vlabembed_lang'] = 'Vlab applet language';
 $string['vlab_copyright'] = 'IrYdium Project\'s Virtual Lab is a project of the Chemistry Collective at the Carnegie Mellon';
-
+$string['vlabembed_langcode_EN'] = 'English';
+$string['vlabembed_langcode_AR'] = 'Arabic';
+$string['vlabembed_langcode_CA'] = 'Catalan';
+$string['vlabembed_langcode_ES'] = 'Spanish';
+$string['vlabembed_langcode_GL'] = 'Galician';
+$string['vlabembed_langcode_LT'] = 'Lithuanian';
+$string['vlabembed_langcode_BR'] = 'Portuguese (Brasil)';
+$string['vlabembed_langcode_ZH'] = 'Chinese';
+$string['vlabembed_langcode_DE'] = 'German';
+$string['vlabembed_langcode_FR'] = 'French';
+$string['vlabembed_langcode_GR'] = 'Greek';
+$string['vlabembed_langcode_RU'] = 'Russian';
+$string['vlabembed_langcode_UK'] = 'Ukrainian';
 ?>
