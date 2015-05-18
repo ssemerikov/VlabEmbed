@@ -11,7 +11,6 @@ NOTICE: this software is in no way endorsed by or affiliated with the official C
 
 
 
-
 Installation
 ------------
 To install (on Moodle 2):
@@ -19,9 +18,12 @@ To install (on Moodle 2):
 1. Un-compress the Zip/Gzip archive, and copy the folder renamed 'vlabembed' to your moodle/filter/ directory.
 2. Log in to Moodle as admininstrator, go to Site Administration | Plugins | Filters | Manage Filters.
 3. Choose 'On' or 'Off but available' in the drop-down menu next to 'VlabEmbed'.
-4. Configure plugin width, height and language (available codes: EN - English, AR - Arabic, CA - Català,
+4. Configure plugin width, height, language (available codes: EN - English, AR - Arabic, CA - Català,
    ES - Español, GL - Galician, LT - Lithuanian, BR - Portuguese (Brasil), ZH - Chinese, DE - Deutsch, 
-   FR - Français, GR - Greek, RU - Russian, UK - Ukrainian)
+   FR - Français, GR - Greek, RU - Russian, UK - Ukrainian) and vlab.jar codebase 
+   (http://chemcollective.org/assets/modules/activities/vlab/ by default, 
+    http://ict-chem.ccjournals.eu/vlab/ for Ukrainian only and
+    http://collective.chem.cmu.edu/vlab/ for old version).
 
 Usage
 -----
@@ -48,7 +50,3 @@ Notices
 VlabEmbed plugin, Copyright © 2015 2015 Pavlo Nechipurenko, Sergey Semerikov.
 
 * License: <http://www.gnu.org/copyleft/gpl.html> GNU GPL v3 or later.
-
-The Chemistry Collective project Virtual Lab 1.6.4, Copyright (c) 1999-2010 Dave Yaron
-
-* License: <http://chemcollective.org/help/copyright>

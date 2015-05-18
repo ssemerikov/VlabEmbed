@@ -1,21 +1,34 @@
-<?php 
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-/*
- * __________________________________________________________________________
- *
+/**
  * ChemCollective Virtual Lab filter for Moodle 2.0
  *
- * Strings for component 'filter_vlabembed', language 'uk', branch 'MOODLE_20_STABLE'
+ *  This filter will replace links to a Vlab file (.xml) in [vlab]...[/vlab] block 
+ *  with a java applet that plays that ChemCollective Virtual Lab inline
  *
- * @package    filter
- * @subpackage vlabembed
- * @copyright  2015 Pavlo Nechipurenko  {@link http://ict-chem.ccjournals.eu/}, Sergey Semerikov {@link http://ccjournals.eu/}
+ * @package    filter_vlabembed
+ * @copyright  2015 Pavlo Nechipurenko, Sergey Semerikov
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  * __________________________________________________________________________
  */
 
 $string['filtername'] = 'VlabEmbed';
+$string['vlabembed_flagauto'] = 'Автоматично завантажувати файли аплету Vlab';
 $string['vlabembed_width'] = 'Ширина вікна аплета Vlab';
 $string['vlabembed_height'] = 'Висота вікна аплета Vlab';
 $string['vlabembed_lang'] = 'Мова локалізації аплета Vlab';
@@ -33,5 +46,3 @@ $string['vlabembed_langcode_FR'] = 'Французька';
 $string['vlabembed_langcode_GR'] = 'Грецька';
 $string['vlabembed_langcode_RU'] = 'Російська';
 $string['vlabembed_langcode_UK'] = 'Українська';
-
-?>
