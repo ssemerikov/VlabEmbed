@@ -46,3 +46,5 @@ $string['vlabembed_langcode_FR'] = 'Французька';
 $string['vlabembed_langcode_GR'] = 'Грецька';
 $string['vlabembed_langcode_RU'] = 'Російська';
 $string['vlabembed_langcode_UK'] = 'Українська';
+$string['vlabembed_err_enableautoload'] = 'Файли аплету не завантажені. Зверніться до адміністратору для активації режиму автозавантаження у налаштуваннях фільтру.';
+$string['vlabembed_err_enablemanualload'] = 'Файли аплету не завантажені. Зверніться до адміністратору для їх завантаження з сайту ChemCollective.';

@@ -46,3 +46,5 @@ $string['vlabembed_langcode_FR'] = 'French';
 $string['vlabembed_langcode_GR'] = 'Greek';
 $string['vlabembed_langcode_RU'] = 'Russian';
 $string['vlabembed_langcode_UK'] = 'Ukrainian';
+$string['vlabembed_err_enableautoload'] = 'Applet files are not loaded.  Contact your system administrator to activate autoload in the filter settings.';
+$string['vlabembed_err_enablemanualload'] = 'Applet files are not loaded. Contact your administrator to download them from the site ChemCollective.';
