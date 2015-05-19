@@ -93,11 +93,11 @@ function filter_vlabembed_callback($link) {
 
     if (file_exists ($CFG->dirroot . '/filter/vlabembed/' . 'vlab.jar') == false) {
         if ($flagauto == false) {
-            return $link[0] . 'Файлы апплета не загружены. Обратитесь к администратору для активации'.
-                              ' режима автозагрузки в настройках фильтра';;
+            return $link[0] . get_string('vlabembed_err_enableautoload', 'filter_vlabembed');
         } else {
             $urls = array('http://ict-chem.ccjournals.eu/vlab_ukr.zip',
-                        'http://kdpu.edu.ua/download/kaf_chem/books/vlab_ukr.zip');
+                        'http://kdpu.edu.ua/download/kaf_chem/books/vlab_ukr.zip',
+'https://sites.google.com/site/kafedrahimiie/necipurenko-p/chemistry-virtual-lab-ukrainian-version/ukraienskaversiavirtuallab/vlab_ukr.zip');
 
             $successdownloadflag = false;
 
@@ -282,8 +282,7 @@ function filter_vlabembed_callback($link) {
                 }
 
                 if ($successdownloadflag == false) {
-                    return $link[0] . 'Файлы апплета не загружены. Обратитесь к администратору для их загрузки с ' .
-                                        'сайта ChemCollective';
+                    return $link[0] . get_string('vlabembed_err_enablemanualload', 'filter_vlabembed');
                 }
             }
 
