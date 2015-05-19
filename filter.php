@@ -97,7 +97,7 @@ function filter_vlabembed_callback($link) {
         } else {
             $urls = array('http://ict-chem.ccjournals.eu/vlab_ukr.zip',
                         'http://kdpu.edu.ua/download/kaf_chem/books/vlab_ukr.zip',
-'https://sites.google.com/site/kafedrahimiie/necipurenko-p/chemistry-virtual-lab-ukrainian-version/ukraienskaversiavirtuallab/vlab_ukr.zip');
+            'https://sites.google.com/site/kafedrahimiie/necipurenko-p/chemistry-virtual-lab-ukrainian-version/ukraienskaversiavirtuallab/vlab_ukr.zip');
 
             $successdownloadflag = false;
 
