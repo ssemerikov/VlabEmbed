@@ -27,28 +27,33 @@
 defined('MOODLE_INTERNAL') || die;
 
 if ($ADMIN->fulltree) {
+    // Try to automatically download Vlab applet files from external sources ('Yes' by default).
     $settings->add(new admin_setting_configcheckbox('filter_vlabembed_flagauto',
-                    get_string('vlabembed_flagauto', 'filter_vlabembed'), '', 1));
+                    get_string('vlabembed_flagauto', 'filter_vlabembed'),
+                    get_string('vlabembed_flagauto_comment', 'filter_vlabembed'), 1));
+    // Vlab applet width (800 by default).
     $settings->add(new admin_setting_configtext('filter_vlabembed_width',
                     get_string('vlabembed_width', 'filter_vlabembed'), '', '800', PARAM_TEXT));
+    // Vlab applet height (600 by default).
     $settings->add(new admin_setting_configtext('filter_vlabembed_height',
                     get_string('vlabembed_height', 'filter_vlabembed'), '', '600', PARAM_TEXT));
+    // List of available languages for Virtual Lab.
     $languages = array(
-                        'EN' => get_string('vlabembed_langcode_EN', 'filter_vlabembed'),
-                        'AR' => get_string('vlabembed_langcode_AR', 'filter_vlabembed'),
-                        'CA' => get_string('vlabembed_langcode_CA', 'filter_vlabembed'),
-                        'ES' => get_string('vlabembed_langcode_ES', 'filter_vlabembed'),
-                        'GL' => get_string('vlabembed_langcode_GL', 'filter_vlabembed'),
-                        'LT' => get_string('vlabembed_langcode_LT', 'filter_vlabembed'),
-                        'BR' => get_string('vlabembed_langcode_BR', 'filter_vlabembed'),
-                        'ZH' => get_string('vlabembed_langcode_ZH', 'filter_vlabembed'),
-                        'DE' => get_string('vlabembed_langcode_DE', 'filter_vlabembed'),
-                        'FR' => get_string('vlabembed_langcode_FR', 'filter_vlabembed'),
-                        'GR' => get_string('vlabembed_langcode_GR', 'filter_vlabembed'),
-                        'RU' => get_string('vlabembed_langcode_RU', 'filter_vlabembed'),
-                        'UK' => get_string('vlabembed_langcode_UK', 'filter_vlabembed')
+                        'EN' => get_string('vlabembed_langcode_EN', 'filter_vlabembed'), // English.
+                        'AR' => get_string('vlabembed_langcode_AR', 'filter_vlabembed'), // Arabic.
+                        'CA' => get_string('vlabembed_langcode_CA', 'filter_vlabembed'), // Catalan.
+                        'ES' => get_string('vlabembed_langcode_ES', 'filter_vlabembed'), // Spanish.
+                        'GL' => get_string('vlabembed_langcode_GL', 'filter_vlabembed'), // Galician.
+                        'LT' => get_string('vlabembed_langcode_LT', 'filter_vlabembed'), // Lithuanian.
+                        'BR' => get_string('vlabembed_langcode_BR', 'filter_vlabembed'), // Portuguese (Brasil).
+                        'ZH' => get_string('vlabembed_langcode_ZH', 'filter_vlabembed'), // Chinese.
+                        'DE' => get_string('vlabembed_langcode_DE', 'filter_vlabembed'), // German.
+                        'FR' => get_string('vlabembed_langcode_FR', 'filter_vlabembed'), // French.
+                        'GR' => get_string('vlabembed_langcode_GR', 'filter_vlabembed'), // Greek.
+                        'RU' => get_string('vlabembed_langcode_RU', 'filter_vlabembed'), // Russian.
+                        'UK' => get_string('vlabembed_langcode_UK', 'filter_vlabembed')  // Ukrainian.
                         );
-
+    // Vlab applet language (English by default).
     $settings->add(new admin_setting_configselect('filter_vlabembed_lang',
                         get_string('vlabembed_lang', 'filter_vlabembed'), '', 'EN', $languages));
 }

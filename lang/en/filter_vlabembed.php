@@ -29,6 +29,7 @@
 
 $string['filtername'] = 'VlabEmbed';
 $string['vlabembed_flagauto'] = 'Automatically download Vlab applet files';
+$string['vlabembed_flagauto_comment'] = 'Try to automatically download Vlab applet files from external sources (ChemCollective site etc.)';
 $string['vlabembed_width'] = 'Vlab applet width';
 $string['vlabembed_height'] = 'Vlab applet height';
 $string['vlabembed_lang'] = 'Vlab applet language';

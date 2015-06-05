@@ -29,6 +29,7 @@
 
 $string['filtername'] = 'VlabEmbed';
 $string['vlabembed_flagauto'] = 'Автоматически загружать файлы апплета Vlab';
+$string['vlabembed_flagauto_comment'] = 'Попробовать автоматически загрузить файлы апплета Vlab из внешних источников (сайта ChemCollective и т. д.)';
 $string['vlabembed_width'] = 'Ширина окна апплета Vlab';
 $string['vlabembed_height'] = 'Высота окна апплета Vlab';
 $string['vlabembed_lang'] = 'Язык локализации апплета Vlab';

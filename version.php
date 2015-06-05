@@ -26,7 +26,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2015051900;        // The current plugin version (Date: YYYYMMDDXX).
-$plugin->release   = 1.05;
+$plugin->version   = 2015053103;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->release   = 1.05;              // Plugin version.
 $plugin->requires  = 2010112400;        // Requires Moodle 2.0
 $plugin->component = 'filter_vlabembed';// Full name of the plugin (used for diagnostics).
