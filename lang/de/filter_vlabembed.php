@@ -28,8 +28,8 @@
  */
 
 $string['filtername'] = 'VlabEmbed';
-$string['vlabembed_flagauto'] = 'Automatisch herunterladen VLab Applet-Dateien';
-$string['vlabembed_flagauto_comment'] = 'Versuchen Sie automatisch herunterladen VLab Applet-Dateien aus externen Quellen (ChemCollective Website etc.)';
+$string['vlabembed_extsrc'] = 'Wie man hochladen VLab Applet-Dateien';
+$string['vlabembed_extsrc_comment'] = 'Versuchen Sie automatisch herunterladen VLab Applet-Dateien aus externen Quellen oder ChemCollective Website';
 $string['vlabembed_width'] = 'Die Weite des Applets VLab';
 $string['vlabembed_height'] = 'Die Höhe des Applets VLab';
 $string['vlabembed_lang'] = 'Sprache Applet Vlab';
@@ -47,5 +47,18 @@ $string['vlabembed_langcode_FR'] = 'Französisch';
 $string['vlabembed_langcode_GR'] = 'Griechisch';
 $string['vlabembed_langcode_RU'] = 'Russisch';
 $string['vlabembed_langcode_UK'] = 'Ukrainisch';
-$string['vlabembed_err_enableautoload'] = 'Applet-Dateien werden nicht geladen. Kontaktieren Sie Ihren Systemadministrator, um die Filtereinstellungen des Autoload zu aktivieren.';
-$string['vlabembed_err_enablemanualload'] = 'Applet-Dateien werden nicht geladen. Kontaktieren Sie Ihren Administrator, um sie von der Website ChemCollective herunterladen.';
+$string['vlabembed_err_enableautoload'] = 'Kontaktieren Sie Ihren Systemadministrator, um die Filtereinstellungen des Autoload zu aktivieren.';
+$string['vlabembed_err_load'] = 'Applet-Dateien werden nicht geladen:';
+$string['vlabembed_info_ictchem'] = 'Der Versuch, die Datei-Archiv an erhalten';
+$string['vlabembed_info_write'] = 'Aufzeichnung der heruntergeladenen Datei';
+$string['vlabembed_info_open'] = 'Öffnungs ZIP-Datei';
+$string['vlabembed_info_with'] = '-';
+$string['vlabembed_info_files'] = 'Dateien';
+$string['vlabembed_info_extract'] = 'Dateien extrahieren...';
+$string['vlabembed_info_remove'] = 'Löschen Sie die heruntergeladene Archiv';
+$string['vlabembed_info_chemcoll'] = 'Der Versuch, die einen minimalen Satz von Virtual Lab-Applet-Dateien aus ChemCollective Website zu erhalten';
+$string['vlabembed_info_download'] = 'Laden';
+$string['vlabembed_info_bytes'] = 'Byte';
+$string['vlabembed_info_integrity'] = 'Integritätsprüfung ...';
+$string['vlabembed_info_success'] = 'erfolgreich';
+$string['vlabembed_info_failed'] = 'gescheitert';

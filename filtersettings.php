@@ -27,10 +27,16 @@
 defined('MOODLE_INTERNAL') || die;
 
 if ($ADMIN->fulltree) {
-    // Try to automatically download Vlab applet files from external sources ('Yes' by default).
-    $settings->add(new admin_setting_configcheckbox('filter_vlabembed_flagauto',
-                    get_string('vlabembed_flagauto', 'filter_vlabembed'),
-                    get_string('vlabembed_flagauto_comment', 'filter_vlabembed'), 1));
+    // Paths to download Vlab applet files from external sources.
+    $settings->add(new admin_setting_configtextarea('filter_vlabembed_extsrc',
+                    get_string('vlabembed_extsrc', 'filter_vlabembed'),
+                    // Link to vlabinstaller.php (site admins only).
+                    '<a href=' . $CFG->wwwroot . '/filter/vlabembed/vlabinstaller.php  target=\"_blank\">' .
+                    get_string('vlabembed_extsrc_comment', 'filter_vlabembed') . '</a>',
+                    "http://ict-chem.ccjournals.eu/vlab_ukr.zip\nhttp://kdpu.edu.ua/download/kaf_chem/books/vlab_ukr.zip\n" .
+                    "https://sites.google.com/site/kafedrahimiie/necipurenko-p/" .
+                    "chemistry-virtual-lab-ukrainian-version/ukraienskaversiavirtuallab/vlab_ukr.zip\n"));
+
     // Vlab applet width (800 by default).
     $settings->add(new admin_setting_configtext('filter_vlabembed_width',
                     get_string('vlabembed_width', 'filter_vlabembed'), '', '800', PARAM_TEXT));

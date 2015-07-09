@@ -28,8 +28,8 @@
  */
 
 $string['filtername'] = 'VlabEmbed';
-$string['vlabembed_flagauto'] = 'Автоматически загружать файлы апплета Vlab';
-$string['vlabembed_flagauto_comment'] = 'Попробовать автоматически загрузить файлы апплета Vlab из внешних источников (сайта ChemCollective и т. д.)';
+$string['vlabembed_extsrc'] = 'Откуда загружать файлы апплета Vlab';
+$string['vlabembed_extsrc_comment'] = 'Попробовать автоматически загрузить файлы апплета Vlab из указанных источников или сайта ChemCollective';
 $string['vlabembed_width'] = 'Ширина окна апплета Vlab';
 $string['vlabembed_height'] = 'Высота окна апплета Vlab';
 $string['vlabembed_lang'] = 'Язык локализации апплета Vlab';
@@ -47,5 +47,18 @@ $string['vlabembed_langcode_FR'] = 'Французский';
 $string['vlabembed_langcode_GR'] = 'Греческий';
 $string['vlabembed_langcode_RU'] = 'Русский';
 $string['vlabembed_langcode_UK'] = 'Украинский';
-$string['vlabembed_err_enableautoload'] = 'Файлы апплета не загружены. Обратитесь к администратору для активации режима автозагрузки в настройках фильтра.';
-$string['vlabembed_err_enablemanualload'] = 'Файлы апплета не загружены. Обратитесь к администратору для их загрузки с сайта ChemCollective.';
+$string['vlabembed_err_enableautoload'] = 'Обратитесь к администратору для активации режима автозагрузки в настройках фильтра.';
+$string['vlabembed_err_load'] = 'Файлы апплета не загружены:';
+$string['vlabembed_info_ictchem'] = 'Попытка получения файла архива по адресу';
+$string['vlabembed_info_write'] = 'Запись загруженных данных в файл vlab.zip по пути';
+$string['vlabembed_info_open'] = 'Открытие ZIP-архива';
+$string['vlabembed_info_with'] = 'со';
+$string['vlabembed_info_files'] = 'файлами';
+$string['vlabembed_info_extract'] = 'Извлечение файлов...';
+$string['vlabembed_info_remove'] = 'Удаление загруженного архива по пути';
+$string['vlabembed_info_chemcoll'] = 'Попытка получения минимального набора файлов апплета Virtual Lab с сайта ChemCollective';
+$string['vlabembed_info_download'] = 'Загружаю';
+$string['vlabembed_info_bytes'] = 'байт';
+$string['vlabembed_info_integrity'] = 'Проверка целостности ...';
+$string['vlabembed_info_success'] = 'успешно';
+$string['vlabembed_info_failed'] = 'неудача';

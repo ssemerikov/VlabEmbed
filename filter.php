@@ -30,7 +30,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 require_once($CFG->libdir.'/filelib.php');
-require_once($CFG->dirroot.'/filter/vlabembed/javaappletinstaller.php');
 
 /**
  * Automatic Vlab embedding filter class.
@@ -87,31 +86,102 @@ function filter_vlabembed_callback($link) {
 
     global $CFG;
 
-    // Get configuration data - Vlab applet width, height, language and autodownload flag.
+    // Get configuration data - Vlab applet width, height, language and externals paths.
     $width = $CFG->filter_vlabembed_width;
     $height = $CFG->filter_vlabembed_height;
     $lang = $CFG->filter_vlabembed_lang;
     $copyright = get_string('vlab_copyright', 'filter_vlabembed');
-    $flagauto = $CFG->filter_vlabembed_flagauto;
+    $extsrc = $CFG->filter_vlabembed_extsrc;
+
+    // Minimal set of Virtual Lab applet files.
+    $vlabminimalset = array(
+             // First of all, 3 Java archives.
+                  $CFG->dirroot . '/filter/vlabembed/' . 'vlab.jar',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'junit.jar',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'logclient.jar',
+            // Next - language files.
+                  $CFG->dirroot . '/filter/vlabembed/' . 'lang.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'lang_ar.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'lang_ru.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'language.xml',
+            // Default assignment No 1 - Default.
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/Default.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/default/filesystem.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/default/reactions.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/default/species.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/default/spectra.xml',
+            // Default assignment No 2 - Walkthrough.
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/Walkthrough.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/walkthrough/filesystem.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/walkthrough/reactions.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/walkthrough/species.xml',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'assignments/walkthrough/titration.htm',
+            // Font file.
+                  $CFG->dirroot . '/filter/vlabembed/' . 'fonts/ARIALUNI.TTF',
+            // Interface images (tubes, flasks, buttons, etc.).
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/about.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/back.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/bottle100mLSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/bottle2500mLSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/buretSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/cabinetOpenEmptySR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/cabinetOpenSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/cabinetSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/carboySR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/closeMinor.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/closeMinorPressed.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/doorOpenSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/doorSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/erlenmeyerFlaskSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/fileSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/folder.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/forward.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/glassware.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/home.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/homeworkProblem.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/icon.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/icon.ico',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/icon32.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/icon32.ico',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/irLogo_B_LG.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/irLogo_B_W.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/irLogo_W_DG.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/irLogoRotating_W_DG.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/phMeter.jpg',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/pour.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/refresh.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/remove.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/removeDisabled.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/repositoryGroup.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/repositoryHeader.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/repositoryLocal.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/repositoryRemote.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/retrieve.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/retrieveDisabled.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/solidbottleSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/splash.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/store.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/storeDisabled.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/tab.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/tab_hover.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/tab_selected.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/thermal.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/tools.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/volumetricSR.gif',
+                  $CFG->dirroot . '/filter/vlabembed/' . 'images/withdraw.gif');
 
     // Check for needfull Java archives and data files.
-    if (file_exists ($CFG->dirroot . '/filter/vlabembed/' . 'vlab.jar') == false) {
-        // When vlab.jar is not exists in VlabEmbed filter directory, try to download it or to inform about impossibility.
-        if ($flagauto == false) {
-            // When autodownload forbidden, inform user about inability to use Virtual Lab.
-            return $link[0] . get_string('vlabembed_err_enableautoload', 'filter_vlabembed');
-        } else {
-            // Check for VlabEmbed filter directory writeability.
-            if (is_writable($CFG->dirroot . '/filter/vlabembed/')) {
-                if (filter_vlabembed_javaappletinstaller() === false) {
-                    // Return diagnostic message if all attempts to download Virtual Lab applet files are unhappy.
-                    return $link[0] . get_string('vlabembed_err_enablemanualload', 'filter_vlabembed');
-                }
-            } else {
-                // Cann't download applet files due to VlabEmbed filter directory writeinability.
-                return $link[0] . get_string('vlabembed_err_enablemanualload', 'filter_vlabembed');
-            }
+    $temp2 = '';
+    foreach ($vlabminimalset as $path) {
+        if (!file_exists ($path)) {
+            $temp2 = $temp2 . '<br>' . $path;
         }
+    }
+
+    if (strlen($temp2) > 0) {
+        // If any files is absent, return error message.
+        return $link[0] . '<br>' . get_string('vlabembed_err_load', 'filter_vlabembed') . $temp2 . '<br>' .
+               get_string('vlabembed_err_enableautoload', 'filter_vlabembed');
     }
 
     // Cut Virtual Lab data initial URL from [vlab]...[/vlab].

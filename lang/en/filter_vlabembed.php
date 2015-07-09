@@ -28,8 +28,8 @@
  */
 
 $string['filtername'] = 'VlabEmbed';
-$string['vlabembed_flagauto'] = 'Automatically download Vlab applet files';
-$string['vlabembed_flagauto_comment'] = 'Try to automatically download Vlab applet files from external sources (ChemCollective site etc.)';
+$string['vlabembed_extsrc'] = 'Paths to download Vlab applet files';
+$string['vlabembed_extsrc_comment'] = 'Try to automatically download Vlab applet files from external sources or ChemCollective site';
 $string['vlabembed_width'] = 'Vlab applet width';
 $string['vlabembed_height'] = 'Vlab applet height';
 $string['vlabembed_lang'] = 'Vlab applet language';
@@ -47,5 +47,18 @@ $string['vlabembed_langcode_FR'] = 'French';
 $string['vlabembed_langcode_GR'] = 'Greek';
 $string['vlabembed_langcode_RU'] = 'Russian';
 $string['vlabembed_langcode_UK'] = 'Ukrainian';
-$string['vlabembed_err_enableautoload'] = 'Applet files are not loaded.  Contact your system administrator to activate autoload in the filter settings.';
-$string['vlabembed_err_enablemanualload'] = 'Applet files are not loaded. Contact your administrator to download them from the site ChemCollective.';
+$string['vlabembed_err_enableautoload'] = 'Contact your system administrator to activate autoload in the filter settings.';
+$string['vlabembed_err_load'] = 'Applet files are not loaded:';
+$string['vlabembed_info_ictchem'] = 'Try to get archive file from';
+$string['vlabembed_info_write'] = 'Write downloaded data to vlab.zip in';
+$string['vlabembed_info_open'] = 'Opening ZIP archive';
+$string['vlabembed_info_with'] = 'with';
+$string['vlabembed_info_files'] = 'files';
+$string['vlabembed_info_extract'] = 'Extracting files...';
+$string['vlabembed_info_remove'] = 'Remove downloaded archive at';
+$string['vlabembed_info_chemcoll'] = 'Try to get a minimal set of Virtual Lab applet files from ChemCollective site';
+$string['vlabembed_info_download'] = 'Downloading';
+$string['vlabembed_info_bytes'] = 'bytes';
+$string['vlabembed_info_integrity'] = 'Testing integrity ...';
+$string['vlabembed_info_success'] = 'success';
+$string['vlabembed_info_failed'] = 'failed';
