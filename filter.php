@@ -198,13 +198,15 @@ function filter_vlabembed_callback($link) {
             $temp = substr($temp, 0, strpos($temp, '>'));
         }
         $output =
-                '<applet code="irydium.vlab.VLApplet.class" codebase="' . $CFG->wwwroot . '/filter/vlabembed/" ' .
-                'archive="vlab.jar, logclient.jar, junit.jar" height="' . $height . '" width="' . $width . '">' .
-                '<param name="language" value="' . $lang . '">' .
-                '<param name="permissions" value="sandbox">' .
-                '<param name="properties" value="' . $temp . '">' .
-                '</applet>';
-
+                '<script src="http://java.com/js/deployJava.js"></script><div class="applet"><script>' .
+                'var attributes = { code:"irydium.vlab.VLApplet.class", codebase: "' . $CFG->wwwroot . '/filter/vlabembed/", ' .
+                'archive:"vlab.jar, logclient.jar, junit.jar", height:"' . $height . '", width:"' . $width . '",};' .
+                'var parameters = { language : "' . $lang . '", ' .
+                'redirect : "script1.php?url=", permissions : "sandbox", classloader_cache : "false",' .
+                'properties : "' . $temp . '", };' .
+                'var version = "1.3";' .
+                'deployJava.runApplet(attributes, parameters, version);' .
+                '</script></div>';
         return $output; // Return filtered text.
     } else {
         // Return source text in case of not-HTTP link.
