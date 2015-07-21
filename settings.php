@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die;
 
 if ($ADMIN->fulltree) {
     // Paths to download Vlab applet files from external sources.
-    $settings->add(new admin_setting_configtextarea('filter_vlabembed_extsrc',
+    $settings->add(new admin_setting_configtextarea('filter_vlabembed/extsrc',
                     get_string('vlabembed_extsrc', 'filter_vlabembed'),
                     // Link to vlabinstaller.php (site admins only).
                     '<a href=' . $CFG->wwwroot . '/filter/vlabembed/vlabinstaller.php  target=\"_blank\">' .
@@ -38,10 +38,10 @@ if ($ADMIN->fulltree) {
                     "chemistry-virtual-lab-ukrainian-version/ukraienskaversiavirtuallab/vlab_ukr.zip\n"));
 
     // Vlab applet width (800 by default).
-    $settings->add(new admin_setting_configtext('filter_vlabembed_width',
+    $settings->add(new admin_setting_configtext('filter_vlabembed/width',
                     get_string('vlabembed_width', 'filter_vlabembed'), '', '800', PARAM_TEXT));
     // Vlab applet height (600 by default).
-    $settings->add(new admin_setting_configtext('filter_vlabembed_height',
+    $settings->add(new admin_setting_configtext('filter_vlabembed/height',
                     get_string('vlabembed_height', 'filter_vlabembed'), '', '600', PARAM_TEXT));
     // List of available languages for Virtual Lab.
     $languages = array(
@@ -60,6 +60,6 @@ if ($ADMIN->fulltree) {
                         'UK' => get_string('vlabembed_langcode_UK', 'filter_vlabembed')  // Ukrainian.
                         );
     // Vlab applet language (English by default).
-    $settings->add(new admin_setting_configselect('filter_vlabembed_lang',
+    $settings->add(new admin_setting_configselect('filter_vlabembed/lang',
                         get_string('vlabembed_lang', 'filter_vlabembed'), '', 'EN', $languages));
 }

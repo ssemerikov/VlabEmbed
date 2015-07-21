@@ -87,11 +87,11 @@ function filter_vlabembed_callback($link) {
     global $CFG;
 
     // Get configuration data - Vlab applet width, height, language and externals paths.
-    $width = $CFG->filter_vlabembed_width;
-    $height = $CFG->filter_vlabembed_height;
-    $lang = $CFG->filter_vlabembed_lang;
+    $width = get_config('filter_vlabembed', 'width');
+    $height = get_config('filter_vlabembed', 'height');
+    $lang = get_config('filter_vlabembed', 'lang');
     $copyright = get_string('vlab_copyright', 'filter_vlabembed');
-    $extsrc = $CFG->filter_vlabembed_extsrc;
+    $extsrc = get_config('filter_vlabembed', 'extsrc');
 
     // Minimal set of Virtual Lab applet files.
     $vlabminimalset = array(

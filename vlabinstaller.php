@@ -52,7 +52,7 @@ function filter_vlabembed_javaappletinstaller() {
     global $CFG;
 
     // Try to download archived Virtual Lab files from external sources.
-    $extsrc = $CFG->filter_vlabembed_extsrc;
+    $extsrc = get_config('filter_vlabembed', 'extsrc');
 
     // Convert string with URLs into array.
     $urls = explode("\n", $extsrc);
