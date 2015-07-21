@@ -184,8 +184,8 @@ function filter_vlabembed_callback($link) {
                get_string('vlabembed_err_enableautoload', 'filter_vlabembed');
     }
 
-    // Cut Virtual Lab data initial URL from [vlab]...[/vlab].
-    $output = substr($link[0], strlen("[vlab]"), strlen($link) - strlen("[/vlab]"));
+    // Virtual Lab data initial URL from [vlab]...[/vlab].
+    $output = $link[1];
 
     $temp = strstr($output, 'http'); // Check for http-based URL.
     if ($temp !== false) {
